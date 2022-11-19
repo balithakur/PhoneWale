@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.section_style(@width,@height,@position,@top,@left){
+    width:@width;
+    height:@height;
+    position: @position;
+    top:@top;
+    left:@left;
+}
+.img_style(@width,@height,@position,@top,@left){
+    width:@width;
+    height:@height;
+    position: @position;
+    top:@top;
+    left:@left;
+}
+.navbar_section{
+    .section_style(100vw, 15vh, absolute, 0px, 0px);
+    border-bottom:5px solid black;
+    & img{
+        .img_style(200px, 200px, absolute, -8vh, 2.5vw)
+    }
+}

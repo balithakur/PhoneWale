@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar_section {
+  width: 100vw;
+  height: 15vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-bottom: 5px solid black;
+}
+.navbar_section img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -8vh;
+  left: 2.5vw;
+}
