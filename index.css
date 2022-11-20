@@ -1,10 +1,10 @@
-* {
+body {
   margin: 0px;
   padding: 0px;
 }
 .navbar_section {
-  width: 100vw;
-  height: 15vh;
+  width: 100%;
+  height: 100px;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -14,6 +14,22 @@
   width: 200px;
   height: 200px;
   position: absolute;
-  top: -8vh;
+  top: -40px;
   left: 2.5vw;
+}
+.hero_section {
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+.hero_section img {
+  width: 70vw;
+  height: auto;
+  position: absolute;
+  top: 25px;
+  left: 15vw;
 }

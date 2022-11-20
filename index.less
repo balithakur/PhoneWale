@@ -1,4 +1,4 @@
-*{
+body{
     margin:0px;
     padding:0px;
 }
@@ -16,10 +16,23 @@
     top:@top;
     left:@left;
 }
+// Navbar section css
+
 .navbar_section{
-    .section_style(100vw, 15vh, absolute, 0px, 0px);
+    .section_style(100%, 100px, absolute, 0px, 0px);
     border-bottom:5px solid black;
     & img{
-        .img_style(200px, 200px, absolute, -8vh, 2.5vw)
+        .img_style(200px, 200px, absolute, -40px, 2.5vw)
+    }
+}
+
+// Hero Section Css
+
+.hero_section{
+    .section_style(100%, 900px, absolute, 100px, 0px);
+    border-bottom:1px solid black;
+    display: inline-block;
+    & img{
+        .img_style(70vw, auto, absolute, 25px, 15vw)
     }
 }
