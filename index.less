@@ -4,12 +4,12 @@ body{
 }
 .background {
     position: absolute;
-    top: 100%;
+    top: 0;
     bottom: 0;
     right: 0;
     left: 0;
     width: 100%;
-    height: 70%;
+    height: 95%;
     //background: linear-gradient(to right, #FFFFFF, #ECE9E6);
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
     z-index: 0;
@@ -61,27 +61,55 @@ body{
 }
 
 
-//Hero Section Css
-
-.hero_section{
-    .section_style(100%, 100%, absolute, 0px, 0px);
-    background-color: black;
-}
-
 
 // phonewale Section Css
 
-.phonewale_section{
-    .section_style(100%, 900px, absolute, 100%, 0px);
+.hero_section{
+    .section_style(100%, 500px, absolute, 10%, 0px);
+    & h1{
+        .font_css(40px);
+        .position_css(absolute, 80px, 30%)
+    }
+    .h4_div{
+        .section_style(60vw, 200px, absolute, 150px, 20vw);
+        text-align: center;
+        & h4{
+            .font_css(20px);
+        }
+    }
+    .search_div{
+        .section_style(55vw, 200px, absolute, 260px, 21.5vw);
+        text-align:center;
+        & input{
+            .font_css(16px);
+            height:40px;
+            width:40vw;
+            outline:none;
+            border:1px solid black;
+        }
+        & button{
+            .button(50px, 10vw, 0px, red,5px);
+            .position_css(absolute, -5px, 40vw); 
+            border:1px solid red;
+            color:white;
+            .font_css(20px);
+            font-weight: 600;
+        }
+    }
+}
+.second_hero_section{
+    .section_style(100%, 600px, absolute, 100%, 0px);
     border-bottom:1px solid black;
+    background-color: aquamarine;
     display: inline-block;
     & img{
-        .img_style(50vw, auto, absolute, 25px, 47vw);
+        .img_style(50vw, auto, absolute, 40px, 47vw);
     }
     & div{
-        .section_style(50vw, auto, absolute, 30px, 5vw);
+        .section_style(50vw, auto, absolute, 55px, 5vw);
         & p{
             .font_css(40px);
         }
     }
+    
 }
