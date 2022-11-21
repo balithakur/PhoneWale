@@ -2,6 +2,19 @@ body{
     margin:0px;
     padding:0px;
 }
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 130%;
+    background: #2c3e50;
+    z-index: 0;
+    transform: skewY(6deg);
+    transform-origin: top right;
+  }
 .section_style(@width,@height,@position,@top,@left){
     width:@width;
     height:@height;
@@ -42,18 +55,6 @@ body{
     border-bottom:1px solid black;
     display: inline-block;
     .m{
-        .img_style(70vw, auto, absolute, 25px, 15vw)
-    }
-    .e{
-        visibility: hidden;
-    }
-}
-@media screen and (min-width:300px) and (max-width:600px){
-    .m{
-        visibility: hidden;
-    }
-    .e{
-        visibility: visible;
         .img_style(70vw, auto, absolute, 25px, 15vw)
     }
 }
