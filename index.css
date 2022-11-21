@@ -4,12 +4,12 @@ body {
 }
 .background {
   position: absolute;
-  top: 0;
+  top: 100%;
   bottom: 0;
   right: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 70%;
   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
   z-index: 0;
   transform: skewY(6deg);
@@ -35,17 +35,36 @@ body {
 }
 .hero_section {
   width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+}
+.phonewale_section {
+  width: 100%;
   height: 900px;
   position: absolute;
-  top: 100px;
+  top: 100%;
   left: 0px;
   border-bottom: 1px solid black;
   display: inline-block;
 }
-.hero_section img {
+.phonewale_section img {
   width: 50vw;
   height: auto;
   position: absolute;
   top: 25px;
   left: 47vw;
+}
+.phonewale_section div {
+  width: 50vw;
+  height: auto;
+  position: absolute;
+  top: 30px;
+  left: 5vw;
+}
+.phonewale_section div p {
+  font-size: 40px;
+  font-family: sans-serif;
 }
