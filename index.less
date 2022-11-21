@@ -41,32 +41,19 @@ body{
     .section_style(100%, 900px, absolute, 100px, 0px);
     border-bottom:1px solid black;
     display: inline-block;
-    & img{
+    .m{
         .img_style(70vw, auto, absolute, 25px, 15vw)
     }
-    & h1{
-        .position_css(absolute, 30vh, 37vw);
-        .font_css(32px);
+    .e{
+        visibility: hidden;
     }
-    & h3{
-        .position_css(absolute, 40vh, 31vw);
-        .font_css(16px)
+}
+@media screen and (min-width:300px) and (max-width:600px){
+    .m{
+        visibility: hidden;
     }
-    & input{
-        min-height: 3vh;
-        min-width:30vw;
-        outline: none;
-        .position_css(absolute,59vh,32vw);
-        padding:8px;
-        margin:5px;
-        .font_css(16px);
-        border-radius: 5px;
-        border:1px solid black;
-    }
-    & button{
-        .position_css(absolute,59.2vh,62vw);
-        min-height:7vh;
-        min-width:8vw;
-        .font_css(16px)
+    .e{
+        visibility: visible;
+        .img_style(70vw, auto, absolute, 25px, 15vw)
     }
 }
