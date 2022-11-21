@@ -33,3 +33,40 @@ body {
   top: 25px;
   left: 15vw;
 }
+.hero_section h1 {
+  position: absolute;
+  top: 30vh;
+  left: 37vw;
+  font-size: 32px;
+  font-family: sans-serif;
+}
+.hero_section h3 {
+  position: absolute;
+  top: 40vh;
+  left: 31vw;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.hero_section input {
+  min-height: 3vh;
+  min-width: 30vw;
+  outline: none;
+  position: absolute;
+  top: 59vh;
+  left: 32vw;
+  padding: 8px;
+  margin: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.hero_section button {
+  position: absolute;
+  top: 59.2vh;
+  left: 62vw;
+  min-height: 7vh;
+  min-width: 8vw;
+  font-size: 16px;
+  font-family: sans-serif;
+}
