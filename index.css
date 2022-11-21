@@ -10,19 +10,21 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
   z-index: 0;
   transform: skewY(6deg);
   transform-origin: top right;
   z-index: -10;
 }
 .navbar_section {
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  z-index: 999;
   width: 100%;
   height: 100px;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
-  border-bottom: 5px solid black;
+  border-bottom: 0px solid black;
 }
 .navbar_section img {
   width: 200px;
@@ -40,10 +42,10 @@ body {
   border-bottom: 1px solid black;
   display: inline-block;
 }
-.hero_section .m {
-  width: 70vw;
+.hero_section img {
+  width: 50vw;
   height: auto;
   position: absolute;
   top: 25px;
-  left: 15vw;
+  left: 47vw;
 }

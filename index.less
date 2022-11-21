@@ -10,7 +10,8 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(90deg, #A100FFFF 0%, #71C4FFFF 100%);
+    //background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
     z-index: 0;
     transform: skewY(6deg);
     transform-origin: top right;
@@ -42,8 +43,10 @@ body{
 // Navbar section css
 
 .navbar_section{
-    .section_style(100%, 100px, absolute, 0px, 0px);
-    border-bottom:5px solid black;
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    z-index: 999;
+    .section_style(100%, 100px, fixed, 0px, 0px);
+    border-bottom:0px solid black;
     & img{
         .img_style(200px, 200px, absolute, -40px, 2.5vw)
     }
@@ -55,7 +58,7 @@ body{
     .section_style(100%, 900px, absolute, 100px, 0px);
     border-bottom:1px solid black;
     display: inline-block;
-    .m{
-        .img_style(70vw, auto, absolute, 25px, 15vw)
+    & img{
+        .img_style(50vw, auto, absolute, 25px, 47vw)
     }
 }
