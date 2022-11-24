@@ -2,21 +2,22 @@ body{
     margin:0px;
     padding:0px;
 }
-.background {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 95%;
-    //background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
-    z-index: 0;
-    transform: skewY(6deg);
-    transform-origin: top right;
-    z-index: -10;
-  }
+//.background {
+//    position: absolute;
+//    top: 0;
+//    bottom: 0;
+//    right: 0;
+ //   left: 0;
+ //   width: 100%;
+ //   height: 100%;
+ //   background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+ //   //background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(0,212,255,1) 100%);
+ //   background-color: #8EC5FC;
+      //z-index: 0;
+ //   transform: skewY(6deg);
+ //   transform-origin: top right;
+ //   z-index: -10;
+ // }
 .section_style(@width,@height,@position,@top,@left){
     width:@width;
     height:@height;
@@ -52,6 +53,7 @@ body{
 
 .navbar_section{
     background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    //background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(0,212,255,1) 100%);
     z-index: 999;
     .section_style(100%, 100px, fixed, 0px, 0px);
     border-bottom:0px solid black;
@@ -60,12 +62,18 @@ body{
     }
 }
 
+// navbar phone css
+
+@media only screen and (min-width:250px) and (max-width:500px){
+
+}
 
 
-// phonewale Section Css
+//hero section css
 
 .hero_section{
-    .section_style(100%, 500px, absolute, 10%, 0px);
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    .section_style(100%, 600px, absolute, 10%, 0px);
     & h1{
         .font_css(40px);
         .position_css(absolute, 80px, 30%)
@@ -97,19 +105,88 @@ body{
         }
     }
 }
+
+// phone hero section css
+
+@media only screen and (min-width:250px) and (max-width:500px){
+    .hero_section{
+        & h1{
+            .font_css(6vw);
+            left:14.7%;
+        }
+        .h4_div{
+            .section_style(90vw, 200px, absolute, 150px, 5vw);
+            & h4{
+                .font_css(4vw);
+            }
+        }
+        .search_div{
+            .section_style(90vw, 100px, absolute, 300px, 5vw);
+            & input{
+                .font_css(2.7vw);
+                width:60vw;
+                .position_css(absolute, 0px, 0px)
+            }
+            & button{
+                .position_css(absolute, -5px, 60vw);
+                width:30vw;
+                .font_css(4vw)
+            }
+        }
+    }
+}
+
+
+// second hero section css
+
+
 .second_hero_section{
-    .section_style(100%, 600px, absolute, 100%, 0px);
-    border-bottom:1px solid black;
-    background-color: aquamarine;
+    .section_style(100%, 500px, absolute, 100%, 0px);
+    //background-color:black;
+    //background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(0,212,255,1) 100%);
+    //background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+ 
     display: inline-block;
     & img{
-        .img_style(50vw, auto, absolute, 40px, 47vw);
+        .img_style(50vw, auto, absolute, 20px, 47vw);
     }
     & div{
-        .section_style(50vw, auto, absolute, 55px, 5vw);
+        .section_style(50vw, auto, absolute, 80px, 5vw);
         & p{
             .font_css(40px);
+            color:black;
+            font-weight: 700
         }
     }
     
+}
+
+// phone second hero section  css
+
+@media only screen and (min-width:250px) and (max-width:500px){
+    .second_hero_section{
+        & div{
+            .section_style(85vw, auto, absolute, 30px, 8vw);
+            & p{
+                .font_css(5vw)
+            }
+        }
+        & img{
+            .img_style(90vw, auto, absolute, 190px, 5vw)
+        }
+    }
+}
+
+//browse phone Css
+
+.browse_phones{
+    .section_style(100%, 1000px, absolute, 1100px, 0px);
+    background-color: white;
+    & h1{
+        width:30vw;
+        border-bottom: 4px solid black;
+        text-align: center;
+        .font_css(32px);
+    }
 }
