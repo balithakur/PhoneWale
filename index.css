@@ -80,6 +80,7 @@ body {
 }
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .hero_section {
+    top: 5.5%;
     height: 700px;
   }
   .hero_section h1 {
@@ -154,14 +155,14 @@ body {
 }
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .second_hero_section {
-    top: 55%;
+    top: 360px;
     height: 500px;
   }
   .second_hero_section div {
     width: 85vw;
     height: auto;
     position: absolute;
-    top: 30px;
+    top: 28px;
     left: 8vw;
   }
   .second_hero_section div p {
@@ -172,7 +173,7 @@ body {
     width: 90vw;
     height: auto;
     position: absolute;
-    top: 190px;
+    top: 136px;
     left: 5vw;
   }
 }
