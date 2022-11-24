@@ -85,13 +85,14 @@ body {
   .hero_section h1 {
     font-size: 6vw;
     font-family: sans-serif;
+    top: 40px;
     left: 14.7%;
   }
   .hero_section .h4_div {
     width: 90vw;
     height: 200px;
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 5vw;
   }
   .hero_section .h4_div h4 {
@@ -102,7 +103,7 @@ body {
     width: 90vw;
     height: 100px;
     position: absolute;
-    top: 300px;
+    top: 230px;
     left: 5vw;
   }
   .hero_section .search_div input {
@@ -153,7 +154,7 @@ body {
 }
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .second_hero_section {
-    top: 80%;
+    top: 45%;
     height: 700px;
   }
   .second_hero_section div {
