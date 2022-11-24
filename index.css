@@ -153,6 +153,7 @@ body {
 }
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .second_hero_section {
+    top: 85%;
     height: 700px;
   }
   .second_hero_section div {
