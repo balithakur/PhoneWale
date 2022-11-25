@@ -189,6 +189,9 @@ body {
     top: 136px;
     left: 5vw;
   }
+  .skewed {
+    transform: skewY(6deg);
+  }
 }
 .browse_phones {
   width: 100%;
