@@ -136,14 +136,14 @@ body{
  
     display: inline-block;
     & img{
-        .img_style(50vw, auto, absolute, 20px, 47vw);
+        .img_style(45vw, auto, absolute, 20px, 47vw);
     }
     & div{
-        .section_style(50vw, auto, absolute, 80px, 5vw);
+        .section_style(42vw, auto, absolute, 150px, 3vw);
         & p{
-            .font_css(40px);
+            .font_css(2.5vw);
             color:black;
-            font-weight: 700
+            font-weight: 500
         }
     }
     
@@ -155,7 +155,7 @@ body{
 @media only screen and (min-width:250px) and (max-width:500px){
     .second_hero_section{
         top:360px;
-        
+        height:535px;
         & div{
             .section_style(85vw, auto, absolute, 28px, 8vw);
             & p{
@@ -172,5 +172,50 @@ body{
 //browse phone Css
 
 .browse_phones{
-    .section_style(100%, 700px, absolute, 800px, 0px)
+    .section_style(100%, 700px, absolute, 1100px, 0px);
+    background: linear-gradient(to right, #ffffff, #ECE9E6);
+    & h1{
+        .position_css(absolute, 20px, 35vw);
+        .font_css(3.5vw);
+        font-weight: 500;
+    }
+    .browse_div{
+        .section_style(90vw, 500px, absolute, 150px, 5vw);
+        border:0px solid black;
+        background-color: #FFFFFF;
+        box-shadow: 0 0 2px 0 whitesmoke;
+        & ul{
+            & li{
+                display:inline-block;
+                & button{
+                    .button(60px, 21.7vw, -2px, white, 0px);
+                    .position_css(relative, -10px, -1.7vw);
+                    .font_css(22px);
+                    border:0px solid black;
+                    border-bottom: 1px solid rgb(22, 21, 21);
+                }
+            }
+        }
+    }
+    .brand_div{
+        .section_style(88vw, 400px, absolute, 220px, 6vw);
+        border:1px solid black;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+        flex-wrap: wrap;
+        & div{
+            width:15vw;
+            .position_css(relative, 10px, 0vw);
+            margin: 5px;
+            & img{
+                width:8vw;
+                height: 4vh;
+            }
+            & h2{
+                .font_css(1.5vw);
+                .position_css(relative, 0px, 20px)
+            }
+        }
+    }
 }

@@ -134,28 +134,29 @@ body {
   display: inline-block;
 }
 .second_hero_section img {
-  width: 50vw;
+  width: 45vw;
   height: auto;
   position: absolute;
   top: 20px;
   left: 47vw;
 }
 .second_hero_section div {
-  width: 50vw;
+  width: 42vw;
   height: auto;
   position: absolute;
-  top: 80px;
-  left: 5vw;
+  top: 150px;
+  left: 3vw;
 }
 .second_hero_section div p {
-  font-size: 40px;
+  font-size: 2.5vw;
   font-family: sans-serif;
   color: black;
-  font-weight: 700;
+  font-weight: 500;
 }
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .second_hero_section {
     top: 360px;
+    height: 535px;
   }
   .second_hero_section div {
     width: 85vw;
@@ -180,6 +181,73 @@ body {
   width: 100%;
   height: 700px;
   position: absolute;
-  top: 800px;
+  top: 1100px;
   left: 0px;
+  background: linear-gradient(to right, #ffffff, #ECE9E6);
+}
+.browse_phones h1 {
+  position: absolute;
+  top: 20px;
+  left: 35vw;
+  font-size: 3.5vw;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.browse_phones .browse_div {
+  width: 90vw;
+  height: 500px;
+  position: absolute;
+  top: 150px;
+  left: 5vw;
+  border: 0px solid black;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 2px 0 whitesmoke;
+}
+.browse_phones .browse_div ul li {
+  display: inline-block;
+}
+.browse_phones .browse_div ul li button {
+  height: 60px;
+  width: 21.7vw;
+  border-radius: 0px;
+  border: 1px solid black;
+  margin: -2px;
+  background-color: white;
+  position: relative;
+  top: -10px;
+  left: -1.7vw;
+  font-size: 22px;
+  font-family: sans-serif;
+  border: 0px solid black;
+  border-bottom: 1px solid #161515;
+}
+.browse_phones .brand_div {
+  width: 88vw;
+  height: 400px;
+  position: absolute;
+  top: 220px;
+  left: 6vw;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.browse_phones .brand_div div {
+  width: 15vw;
+  position: relative;
+  top: 10px;
+  left: 0vw;
+  margin: 5px;
+}
+.browse_phones .brand_div div img {
+  width: 8vw;
+  height: 4vh;
+}
+.browse_phones .brand_div div h2 {
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  position: relative;
+  top: 0px;
+  left: 20px;
 }

@@ -37,7 +37,95 @@
 
     <!-- Browse phones Section Start-->
     <section class="browse_phones">
-
+        <h1>Browse Phones By</h1>
+        <div class="browse_div">
+            <div class="browse_btn">
+                <ul>
+                    <li><button class="brandbtn" id="brandbtn">Brand</button></li>
+                    <li><button class="budgetbtn" id="budgetbtn">Budget</button></li>
+                    <li><button class="rambtn" id="rambtn" >Ram</button></li>
+                    <li><button class="camerabtn" id="camerabtn">Camera</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="brand_div">
+            <div class="apple">
+                <img src="apple-logo.png" alt="apple logo image" class="apple">
+                <h2 class="apple_h">Apple</h2>
+            </div>
+            <div class="samsung">
+                <img src="samsung_logo.webp" alt="samsung logo image">
+                <h2 class="samsung_h">Samsung</h2>
+            </div>
+            <div class="asus">
+                <img src="asus_logo.webp" alt="asus logo image">
+                <h2>Asus</h2>
+            </div>
+            <div class="micromax">
+                <img src="micromax_logo.png" alt="micromax logo image">
+                <h2 class="micromax_h">Micromax</h2>
+            </div>
+            <div class="nokia">
+                <img src="nokia_logo.webp" alt="nokia logo image">
+                <h2>Nokia</h2>
+            </div>
+            <div class="oppo">
+                <img src="oppo_logo.jpg" alt="oppo logo image">
+                <h2>Oppo</h2>
+            </div>
+            <div class="oneplus">
+                <img src="oneplus_logo.webp" alt="oneplus logo image">
+                <h2>Oneplus</h2>
+            </div>
+            <div class="vivo">
+                <img src="vivo_logo.webp" alt="vivo logo image">
+                <h2>Vivo</h2>
+            </div>
+            <div class="xiaomi">
+                <img src="xiaomi.webp" alt="mi logo image">
+                <h2>xiaomi</h2>
+            </div>
+            <div class="realme">
+                <img src="realme_logo.webp" alt="realme logo image">
+                <h2>Realme</h2>
+            </div> 
+            <button>View More Brands</button>              
+        </div>
     </section>
+    <script>
+        let brandbtn=document.getElementById("brandbtn");
+        let budgetbtn = document.getElementById("budgetbtn")
+        let rambtn = document.getElementById("rambtn")
+        let camerabtn = document.getElementById("camerabtn")
+
+        brandbtn.style.borderBottom = "5px solid red"
+        brandbtn.onclick = () => {
+            brandbtn.style.borderBottom = "5px solid red"
+            rambtn.style.borderBottom = "1px solid black"
+            budgetbtn.style.borderBottom = "1px solid black"
+            camerabtn.style.borderBottom = "1px solid black"
+        }
+
+        budgetbtn.onclick = () =>{
+            budgetbtn.style.borderBottom = "5px solid red"
+            brandbtn.style.borderBottom = "1px solid black"
+            rambtn.style.borderBottom = "1px solid black"
+            camerabtn.style.borderBottom = "1px solid black"
+        }
+
+        rambtn.onclick = () => {
+            brandbtn.style.borderBottom = "1px solid black"
+            rambtn.style.borderBottom = "5px solid red"
+            budgetbtn.style.borderBottom = "1px solid black"
+            camerabtn.style.borderBottom = "1px solid black"
+        }
+
+        camerabtn.onclick = () => {
+            brandbtn.style.borderBottom = "1px solid black"
+            rambtn.style.borderBottom = "1px solid black"
+            budgetbtn.style.borderBottom = "1px solid black"
+            camerabtn.style.borderBottom = "5px solid red"
+        }
+    </script>
 </body>
 </html>
