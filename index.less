@@ -199,23 +199,103 @@ body{
     }
     .brand_div{
         .section_style(88vw, 400px, absolute, 220px, 6vw);
-        border:1px solid black;
-        display:flex;
-        align-items: center;
+        border:0px solid black;
+        text-align: center;
         justify-content:center;
         flex-wrap: wrap;
         & div{
+            display: inline-block;
             width:15vw;
-            .position_css(relative, 10px, 0vw);
-            margin: 5px;
+            height: 100px;
+            .position_css(relative, 50px, 0vw);
+            margin-left: 10px;
+            margin-bottom: 30px;
+            margin-right: 10px;
+            & img{
+                width:8vw;
+                height: 50px;
+            }
+            & h2{
+                .font_css(1.5vw);
+            }
+        }
+        & button{
+            .button(50px, 20vw, 1px, white, 1px);
+            .font_css(1.5vw);
+            .position_css(absolute, 320px, 34.5vw)
+        }
+    }
+    .view_more_brand_div{
+        visibility: hidden;
+        .section_style(90vw, 0px, absolute, 523px, 5vw);
+        background-color: white;
+        border-bottom: 0px solid black;
+        border-right: 0px;
+        border-left: 0px;
+        overflow: hidden;
+        text-align: center;
+        & div{
+            display:inline-block;
+            text-align: center;
+            width:15vw;
+            .position_css(relative, 40px, 0vw);
+            margin-bottom: 60px;
+            margin-left: 10px;
+            margin-right: 10px;
             & img{
                 width:8vw;
                 height: 4vh;
             }
             & h2{
                 .font_css(1.5vw);
-                .position_css(relative, 0px, 20px)
             }
         }
+        & button{
+            .button(50px, 20vw, 1px, white, 1px);
+            .font_css(1.5vw);
+            .position_css(absolute, 310px, 35.5vw)
+        }
     }
+}
+
+// browse phone phonescreen css
+
+@media only screen and (min-width:250px) and (max-width:500px){
+    .browse_phones{
+        .section_style(100%, 700px, absolute, 880px, 0px);
+        & h1{
+            .font_css(5vw);
+            .position_css(absolute, 30px, 30vw)
+        }
+        .browse_div{
+            & ul{
+                & li{
+                    .position_css(relative, 10px, 1vw);
+                    & button{
+                        .button(60px, 19.1vw, -2px, white, 0px);
+                        border:0px solid black;
+                        border-bottom: 1px solid black;
+                        .font_css(3.5vw)
+                    }
+                }
+            }
+        }
+        .brand_div{
+            & div{
+                height: 70px;
+                & img{
+                    width:14vw;
+                    height:20px;
+                }
+                & h2{
+                    .font_css(2.8vw)
+                }
+            }
+            & button{
+                .button(40px, 30vw, 1px, white, 1px);
+                .font_css(3vw);
+                .position_css(absolute, 350px, 28vw)
+            }
+        }
+    }  
 }

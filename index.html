@@ -36,7 +36,7 @@
 
 
     <!-- Browse phones Section Start-->
-    <section class="browse_phones">
+    <section class="browse_phones" id="browse_phones">
         <h1>Browse Phones By</h1>
         <div class="browse_div">
             <div class="browse_btn">
@@ -83,27 +83,67 @@
             </div>
             <div class="xiaomi">
                 <img src="xiaomi.webp" alt="mi logo image">
-                <h2>xiaomi</h2>
+                <h2>Xiaomi</h2>
             </div>
             <div class="realme">
                 <img src="realme_logo.webp" alt="realme logo image">
                 <h2>Realme</h2>
             </div> 
-            <button>View More Brands</button>              
+            <button id="view_more_brandname">View More Brands</button>              
+        </div>
+        <div id="view_more_brand_div" class="view_more_brand_div">
+                <div class="google">
+                    <img src="brand_logo/google logo.png" alt="google brand logo image">
+                    <h2>Google</h2>
+                </div>
+                <div class="infinix">
+                    <img src="brand_logo/infinix-logo.png" alt="infinix brand logo image">
+                    <h2>Infinix</h2>
+                </div>
+                <div class="iqoo">
+                    <img src="brand_logo/iqoo-removebg-preview.png" alt="iqoo brand logo image">
+                    <h2>Iqoo</h2>
+                </div>
+                <div class="lava">
+                    <img src="brand_logo/lava-logo-png-6.png" alt="lava brand logo image">
+                    <h2>Lava</h2>
+                </div>
+                <div class="motorola">
+                    <img src="brand_logo/Motorola-Logo.png" alt="motorola brand logo image">
+                    <h2>Motorola</h2>
+                </div>
+                <div class="nothing">
+                    <img src="brand_logo/nothing_logo_2020.png" alt="nothing brand logo image">
+                    <h2>Nothing</h2>
+                </div>
+                <div class="poco">
+                    <img src="brand_logo/poco-logo.png" alt="poco brand logo image">
+                    <h2>Poco</h2>
+                </div>
+                <div class="sony">
+                    <img src="brand_logo/sony-2-logo-png-transparent.png" alt="sony brand logo image">
+                    <h2>Sony</h2>
+                </div>
+                <div class="techno">
+                    <img src="brand_logo/techno logo.png" alt="techno brand logo image">
+                    <h2>Techno</h2>
+                </div>
+            <button class="view_less_brands" id="view_less_brands">View less brands</button>
         </div>
     </section>
     <script>
+       // browse phones button javascript strt
         let brandbtn=document.getElementById("brandbtn");
         let budgetbtn = document.getElementById("budgetbtn")
         let rambtn = document.getElementById("rambtn")
         let camerabtn = document.getElementById("camerabtn")
-
         brandbtn.style.borderBottom = "5px solid red"
         brandbtn.onclick = () => {
             brandbtn.style.borderBottom = "5px solid red"
             rambtn.style.borderBottom = "1px solid black"
             budgetbtn.style.borderBottom = "1px solid black"
             camerabtn.style.borderBottom = "1px solid black"
+            viewmore_btn.style.visibility = "visible"
         }
 
         budgetbtn.onclick = () =>{
@@ -125,6 +165,36 @@
             rambtn.style.borderBottom = "1px solid black"
             budgetbtn.style.borderBottom = "1px solid black"
             camerabtn.style.borderBottom = "5px solid red"
+        }
+        // Browse phones button javascript end
+
+
+        // browse phone view more brand section javascript strt
+
+        let viewmore_brand_div = document.getElementById("view_more_brand_div")
+        let viewmore_btn = document.getElementById("view_more_brandname")
+        let view_less_brand_btn = document.getElementById("view_less_brands")
+        let browse_phones = document.getElementById("browse_phones")
+
+        viewmore_btn.onclick = () => {
+            viewmore_brand_div.style.transition = "height 2s"
+            viewmore_brand_div.style.height = "430px"
+            viewmore_btn.style.visibility = "hidden"
+            viewmore_brand_div.style.visibility = "visible"
+            view_less_brand_btn.style.visibility = "visible"
+            viewmore_brand_div.style.borderTop = "1px solid black"
+            browse_phones.style.transition = "height 2s"
+            browse_phones.style.height = "1000px"
+        }
+
+        view_less_brand_btn.onclick = () => {
+            viewmore_brand_div.style.transition = "height 2s"
+            viewmore_brand_div.style.height = "0px"
+            viewmore_brand_div.style.borderTop = "0px"
+            viewmore_btn.style.visibility = "visible"
+            view_less_brand_btn.style.visibility = "hidden"
+            browse_phones.style.transition = "height 2s"
+            browse_phones.style.height = "700px"
         }
     </script>
 </body>

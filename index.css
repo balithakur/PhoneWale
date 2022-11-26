@@ -227,27 +227,143 @@ body {
   position: absolute;
   top: 220px;
   left: 6vw;
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
+  border: 0px solid black;
+  text-align: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 .browse_phones .brand_div div {
+  display: inline-block;
   width: 15vw;
+  height: 100px;
   position: relative;
-  top: 10px;
+  top: 50px;
   left: 0vw;
-  margin: 5px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  margin-right: 10px;
 }
 .browse_phones .brand_div div img {
   width: 8vw;
-  height: 4vh;
+  height: 50px;
 }
 .browse_phones .brand_div div h2 {
   font-size: 1.5vw;
   font-family: sans-serif;
+}
+.browse_phones .brand_div button {
+  height: 50px;
+  width: 20vw;
+  border-radius: 1px;
+  border: 1px solid black;
+  margin: 1px;
+  background-color: white;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  position: absolute;
+  top: 320px;
+  left: 34.5vw;
+}
+.browse_phones .view_more_brand_div {
+  visibility: hidden;
+  width: 90vw;
+  height: 0px;
+  position: absolute;
+  top: 523px;
+  left: 5vw;
+  background-color: white;
+  border-bottom: 0px solid black;
+  border-right: 0px;
+  border-left: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+.browse_phones .view_more_brand_div div {
+  display: inline-block;
+  text-align: center;
+  width: 15vw;
   position: relative;
-  top: 0px;
-  left: 20px;
+  top: 40px;
+  left: 0vw;
+  margin-bottom: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.browse_phones .view_more_brand_div div img {
+  width: 8vw;
+  height: 4vh;
+}
+.browse_phones .view_more_brand_div div h2 {
+  font-size: 1.5vw;
+  font-family: sans-serif;
+}
+.browse_phones .view_more_brand_div button {
+  height: 50px;
+  width: 20vw;
+  border-radius: 1px;
+  border: 1px solid black;
+  margin: 1px;
+  background-color: white;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  position: absolute;
+  top: 310px;
+  left: 35.5vw;
+}
+@media only screen and (min-width: 250px) and (max-width: 500px) {
+  .browse_phones {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 880px;
+    left: 0px;
+  }
+  .browse_phones h1 {
+    font-size: 5vw;
+    font-family: sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 30vw;
+  }
+  .browse_phones .browse_div ul li {
+    position: relative;
+    top: 10px;
+    left: 1vw;
+  }
+  .browse_phones .browse_div ul li button {
+    height: 60px;
+    width: 19.1vw;
+    border-radius: 0px;
+    border: 1px solid black;
+    margin: -2px;
+    background-color: white;
+    border: 0px solid black;
+    border-bottom: 1px solid black;
+    font-size: 3.5vw;
+    font-family: sans-serif;
+  }
+  .browse_phones .brand_div div {
+    height: 70px;
+  }
+  .browse_phones .brand_div div img {
+    width: 14vw;
+    height: 20px;
+  }
+  .browse_phones .brand_div div h2 {
+    font-size: 2.8vw;
+    font-family: sans-serif;
+  }
+  .browse_phones .brand_div button {
+    height: 40px;
+    width: 30vw;
+    border-radius: 1px;
+    border: 1px solid black;
+    margin: 1px;
+    background-color: white;
+    font-size: 3vw;
+    font-family: sans-serif;
+    position: absolute;
+    top: 350px;
+    left: 28vw;
+  }
 }
