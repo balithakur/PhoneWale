@@ -319,11 +319,11 @@ body {
     left: 0px;
   }
   .browse_phones h1 {
-    font-size: 5vw;
+    font-size: 6vw;
     font-family: sans-serif;
     position: absolute;
     top: 30px;
-    left: 30vw;
+    left: 25vw;
   }
   .browse_phones .browse_div ul li {
     position: relative;
@@ -339,7 +339,7 @@ body {
     background-color: white;
     border: 0px solid black;
     border-bottom: 1px solid black;
-    font-size: 3.5vw;
+    font-size: 4vw;
     font-family: sans-serif;
   }
   .browse_phones .brand_div div {
@@ -350,7 +350,7 @@ body {
     height: 20px;
   }
   .browse_phones .brand_div div h2 {
-    font-size: 2.8vw;
+    font-size: 3.2vw;
     font-family: sans-serif;
   }
   .browse_phones .brand_div button {
