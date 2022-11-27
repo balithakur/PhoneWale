@@ -332,6 +332,7 @@ body {
   margin: 12px;
   background-color: red;
   margin-bottom: 30px;
+  border: 1px solid red;
   color: white;
   font-weight: 700;
   position: relative;
@@ -361,6 +362,7 @@ body {
   border: 1px solid black;
   margin: 12px;
   background-color: red;
+  border: 1px solid red;
   margin-bottom: 30px;
   color: white;
   font-weight: 700;
