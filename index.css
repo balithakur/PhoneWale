@@ -245,7 +245,7 @@ body {
 }
 .browse_phones .brand_div div img {
   width: 8vw;
-  height: 50px;
+  height: 25px;
 }
 .browse_phones .brand_div div h2 {
   font-size: 1.5vw;
@@ -310,6 +310,36 @@ body {
   top: 310px;
   left: 35.5vw;
 }
+.browse_phones .budget_div {
+  visibility: hidden;
+  width: 88vw;
+  height: 400px;
+  position: absolute;
+  top: 220px;
+  left: 6vw;
+}
+.browse_phones .budget_div ul {
+  text-align: center;
+}
+.browse_phones .budget_div ul li {
+  display: inline-block;
+}
+.browse_phones .budget_div ul li button {
+  height: 65px;
+  width: 19vw;
+  border-radius: 1px;
+  border: 1px solid black;
+  margin: 12px;
+  background-color: red;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 700;
+  position: relative;
+  top: 10px;
+  left: -1.6vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+}
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .browse_phones {
     width: 100%;
@@ -335,7 +365,7 @@ body {
   .browse_phones .browse_div ul li {
     position: relative;
     top: 10px;
-    left: 1vw;
+    left: 2.5vw;
   }
   .browse_phones .browse_div ul li button {
     height: 60px;
@@ -400,5 +430,18 @@ body {
     position: absolute;
     top: 375px;
     left: 30.5vw;
+  }
+  .browse_phones .budget_div ul li button {
+    height: 50px;
+    width: 34vw;
+    border-radius: 1px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: red;
+    position: relative;
+    top: 10px;
+    left: -4.7vw;
+    font-size: 3vw;
+    font-family: sans-serif;
   }
 }

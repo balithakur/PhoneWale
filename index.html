@@ -48,7 +48,7 @@
                 </ul>
             </div>
         </div>
-        <div class="brand_div">
+        <div class="brand_div" id="brand_div">
             <div class="apple">
                 <img src="apple-logo.png" alt="apple logo image" class="apple">
                 <h2 class="apple_h">Apple</h2>
@@ -130,6 +130,21 @@
                 </div>
             <button class="view_less_brands" id="view_less_brands">View less brands</button>
         </div>
+        <div class="budget_div" id="budget_div">
+            <ul>
+                <li><button>Under 10,000</button></li>
+                <li><button>10,000 - 15,000</button></li>
+                <li><button>15,000 - 20,000</button></li>
+                <li><button>20,000 - 25,000</button></li>
+                <li><button>25,000 - 30,000</button></li>
+                <li><button>30,000 - 40,000</button></li>
+                <li><button>40,000 - 50,000</button></li>
+                <li><button>50,000 - 60,000</button></li>
+                <li><button>60,000 - 1,00,000</button></li>
+                <li><button>Above 1,00,000</button></li>
+
+            </ul>
+        </div>
     </section>
     <script>
        // browse phones button javascript strt
@@ -137,13 +152,22 @@
         let budgetbtn = document.getElementById("budgetbtn")
         let rambtn = document.getElementById("rambtn")
         let camerabtn = document.getElementById("camerabtn")
+        let brand_div = document.getElementById("brand_div")
+        let budget_div = document.getElementById("budget_div")
+        let viewmore_brand_div = document.getElementById("view_more_brand_div")
+        let view_less_brand_btn = document.getElementById("view_less_brands")
+
         brandbtn.style.borderBottom = "5px solid red"
+        brand_div.style.visibility = "visible"
+
         brandbtn.onclick = () => {
             brandbtn.style.borderBottom = "5px solid red"
             rambtn.style.borderBottom = "1px solid black"
             budgetbtn.style.borderBottom = "1px solid black"
             camerabtn.style.borderBottom = "1px solid black"
             viewmore_btn.style.visibility = "visible"
+            brand_div.style.visibility = "visible"
+            budget_div.style.visibility = "hidden"
         }
 
         budgetbtn.onclick = () =>{
@@ -151,6 +175,11 @@
             brandbtn.style.borderBottom = "1px solid black"
             rambtn.style.borderBottom = "1px solid black"
             camerabtn.style.borderBottom = "1px solid black"
+            brand_div.style.visibility = "hidden"
+            viewmore_btn.style.visibility = "hidden"
+            viewmore_brand_div.style.visibility = "hidden"
+            view_less_brand_btn.style.visibility = "hidden"
+            budget_div.style.visibility = "visible"
         }
 
         rambtn.onclick = () => {
@@ -158,6 +187,11 @@
             rambtn.style.borderBottom = "5px solid red"
             budgetbtn.style.borderBottom = "1px solid black"
             camerabtn.style.borderBottom = "1px solid black"
+            brand_div.style.visibility = "hidden"
+            viewmore_btn.style.visibility = "hidden"
+            viewmore_brand_div.style.visibility = "hidden"
+            view_less_brand_btn.style.visibility = "hidden"
+            budget_div.style.visibility = "hidden"
         }
 
         camerabtn.onclick = () => {
@@ -165,15 +199,18 @@
             rambtn.style.borderBottom = "1px solid black"
             budgetbtn.style.borderBottom = "1px solid black"
             camerabtn.style.borderBottom = "5px solid red"
+            brand_div.style.visibility = "hidden"
+            viewmore_btn.style.visibility = "hidden"
+            view_less_brand_btn.style.visibility = "hidden"
+            viewmore_brand_div.style.visibility = "hidden"
+            budget_div.style.visibility = "hidden"
         }
         // Browse phones button javascript end
 
 
         // browse phone view more brand section javascript strt
 
-        let viewmore_brand_div = document.getElementById("view_more_brand_div")
         let viewmore_btn = document.getElementById("view_more_brandname")
-        let view_less_brand_btn = document.getElementById("view_less_brands")
         let browse_phones = document.getElementById("browse_phones")
 
         viewmore_btn.onclick = () => {

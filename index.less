@@ -213,7 +213,7 @@ body{
             margin-right: 10px;
             & img{
                 width:8vw;
-                height: 50px;
+                height: 25px;
             }
             & h2{
                 .font_css(1.5vw);
@@ -256,6 +256,25 @@ body{
             .position_css(absolute, 310px, 35.5vw)
         }
     }
+    // budget div css start
+    .budget_div{
+        visibility: hidden;
+        .section_style(88vw, 400px, absolute, 220px, 6vw);
+        & ul{
+            text-align: center;
+            & li{
+                display: inline-block;
+                & button{
+                    .button(65px, 19vw, 12px, red, 1px);
+                    margin-bottom: 30px;
+                    color:white;
+                    font-weight: 700;
+                    .position_css(relative, 10px, -1.6vw);
+                    .font_css(2vw)
+                }
+            }
+        }
+    }
 }
 
 // browse phone phonescreen css
@@ -271,7 +290,7 @@ body{
             .section_style(99vw, 500px, absolute, 150px, -2vw);
             & ul{
                 & li{
-                    .position_css(relative, 10px, 1vw);
+                    .position_css(relative, 10px, 2.5vw);
                     & button{
                         .button(60px, 21.5vw, -2px, white, 0px);
                         border:0px solid black;
@@ -313,6 +332,17 @@ body{
                 .button(40px, 30vw, 1px, white, 1px);
                 .font_css(3vw);
                 .position_css(absolute, 375px, 30.5vw)
+            }
+        }
+        .budget_div{
+            & ul{
+                & li{
+                    & button{
+                        .button(50px, 34vw, 10px, red, 1px);
+                        .position_css(relative, 10px, -4.7vw);
+                        .font_css(3vw)
+                    }
+                }
             }
         }
     }  
