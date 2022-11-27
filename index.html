@@ -156,6 +156,9 @@
             </ul>
         </div>
     </section>
+    <section class="browse_phones_byfeature" id="browse_phones_byfeature">
+        <h1>Browse Phones By Features</h1>
+    </section>
     <script>
        // browse phones button javascript strt
         let brandbtn=document.getElementById("brandbtn");
@@ -227,6 +230,7 @@
 
         let viewmore_btn = document.getElementById("view_more_brandname")
         let browse_phones = document.getElementById("browse_phones")
+        let browsebyfeature = document.getElementById("browse_phones_byfeature")
 
         viewmore_btn.onclick = () => {
             viewmore_brand_div.style.transition = "height 2s"
@@ -237,6 +241,8 @@
             viewmore_brand_div.style.borderTop = "1px solid black"
             browse_phones.style.transition = "height 2s"
             browse_phones.style.height = "1000px"
+            browsebyfeature.style.transition = "top 2s"
+            browsebyfeature.style.top = "2000px"
         }
 
         view_less_brand_btn.onclick = () => {
@@ -247,6 +253,8 @@
             view_less_brand_btn.style.visibility = "hidden"
             browse_phones.style.transition = "height 2s"
             browse_phones.style.height = "700px"
+            browsebyfeature.style.transition = "top 2s"
+            browsebyfeature.style.top = "1600px"
         }
     </script>
 </body>

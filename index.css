@@ -490,3 +490,14 @@ body {
     font-family: sans-serif;
   }
 }
+.browse_phones_byfeature {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  top: 1600px;
+  left: 0px;
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  transform: skewY(3deg);
+  z-index: -99;
+}
