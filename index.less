@@ -275,6 +275,25 @@ body{
             }
         }
     }
+    // ram div start
+    .ram_div{
+        visibility: hidden;
+        .section_style(88vw, 400px, absolute, 220px, 6vw);
+        & ul{
+            text-align: center;
+            & li{
+                display: inline-block;
+                & button{
+                    .button(65px, 22vw, 12px, red, 1px);
+                    margin-bottom: 30px;
+                    color:white;
+                    font-weight: 700;
+                    .position_css(relative, 50px, -2.7vw);
+                    .font_css(2vw)
+                }
+            }
+        }
+    }
 }
 
 // browse phone phonescreen css
@@ -335,6 +354,17 @@ body{
             }
         }
         .budget_div{
+            & ul{
+                & li{
+                    & button{
+                        .button(50px, 29vw, 10px, red, 1px);
+                        .position_css(relative, 10px, -4.7vw);
+                        .font_css(3vw)
+                    }
+                }
+            }
+        }
+        .ram_div{
             & ul{
                 & li{
                     & button{

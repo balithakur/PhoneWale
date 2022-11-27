@@ -145,6 +145,16 @@
 
             </ul>
         </div>
+        <div class="ram_div" id="ram_div">
+            <ul>
+                <li><button> 2 GB RAM</button></li>
+                <li><button> 3 GB RAM</button></li>
+                <li><button> 4 GB RAM</button></li>
+                <li><button> 6 GB RAM</button></li>
+                <li><button> 8 GB RAM</button></li>
+                <li><button> 12 GB RAM</button></li>
+            </ul>
+        </div>
     </section>
     <script>
        // browse phones button javascript strt
@@ -154,6 +164,7 @@
         let camerabtn = document.getElementById("camerabtn")
         let brand_div = document.getElementById("brand_div")
         let budget_div = document.getElementById("budget_div")
+        let ram_div = document.getElementById("ram_div")
         let viewmore_brand_div = document.getElementById("view_more_brand_div")
         let view_less_brand_btn = document.getElementById("view_less_brands")
 
@@ -168,6 +179,7 @@
             viewmore_btn.style.visibility = "visible"
             brand_div.style.visibility = "visible"
             budget_div.style.visibility = "hidden"
+            ram_div.style.visibility = "hidden"
         }
 
         budgetbtn.onclick = () =>{
@@ -180,6 +192,7 @@
             viewmore_brand_div.style.visibility = "hidden"
             view_less_brand_btn.style.visibility = "hidden"
             budget_div.style.visibility = "visible"
+            ram_div.style.visibility = "hidden"
         }
 
         rambtn.onclick = () => {
@@ -192,6 +205,7 @@
             viewmore_brand_div.style.visibility = "hidden"
             view_less_brand_btn.style.visibility = "hidden"
             budget_div.style.visibility = "hidden"
+            ram_div.style.visibility = "visible"
         }
 
         camerabtn.onclick = () => {
@@ -204,6 +218,7 @@
             view_less_brand_btn.style.visibility = "hidden"
             viewmore_brand_div.style.visibility = "hidden"
             budget_div.style.visibility = "hidden"
+            ram_div.style.visibility = "hidden"
         }
         // Browse phones button javascript end
 

@@ -340,6 +340,36 @@ body {
   font-size: 2vw;
   font-family: sans-serif;
 }
+.browse_phones .ram_div {
+  visibility: hidden;
+  width: 88vw;
+  height: 400px;
+  position: absolute;
+  top: 220px;
+  left: 6vw;
+}
+.browse_phones .ram_div ul {
+  text-align: center;
+}
+.browse_phones .ram_div ul li {
+  display: inline-block;
+}
+.browse_phones .ram_div ul li button {
+  height: 65px;
+  width: 22vw;
+  border-radius: 1px;
+  border: 1px solid black;
+  margin: 12px;
+  background-color: red;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: 700;
+  position: relative;
+  top: 50px;
+  left: -2.7vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+}
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .browse_phones {
     width: 100%;
@@ -432,6 +462,19 @@ body {
     left: 30.5vw;
   }
   .browse_phones .budget_div ul li button {
+    height: 50px;
+    width: 29vw;
+    border-radius: 1px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: red;
+    position: relative;
+    top: 10px;
+    left: -4.7vw;
+    font-size: 3vw;
+    font-family: sans-serif;
+  }
+  .browse_phones .ram_div ul li button {
     height: 50px;
     width: 29vw;
     border-radius: 1px;
