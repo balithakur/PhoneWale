@@ -550,6 +550,33 @@ body {
   color: white;
   font-weight: 600;
 }
+.browse_phones_byfeature .fiveg_mobile {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  top: 750px;
+  left: 0px;
+}
+.browse_phones_byfeature .fiveg_mobile h2 {
+  position: absolute;
+  top: 50px;
+  left: 15vw;
+}
+.browse_phones_byfeature .fiveg_mobile p {
+  position: absolute;
+  top: 150px;
+  left: 4vw;
+}
+.browse_phones_byfeature .fiveg_mobile img {
+  position: absolute;
+  top: 100px;
+  left: 48vw;
+}
+.browse_phones_byfeature .fiveg_mobile button {
+  position: absolute;
+  top: 590px;
+  left: 40vw;
+}
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .browse_phones_byfeature {
     width: 100%;
