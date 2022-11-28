@@ -257,7 +257,9 @@ body {
   border-radius: 1px;
   border: 1px solid black;
   margin: 1px;
-  background-color: white;
+  background-color: red;
+  border: 1px solid red;
+  color: #FFFFFF;
   font-size: 1.5vw;
   font-family: sans-serif;
   position: absolute;
@@ -303,7 +305,9 @@ body {
   border-radius: 1px;
   border: 1px solid black;
   margin: 1px;
-  background-color: white;
+  background-color: red;
+  border: 1px solid red;
+  color: white;
   font-size: 1.5vw;
   font-family: sans-serif;
   position: absolute;
@@ -492,12 +496,57 @@ body {
 }
 .browse_phones_byfeature {
   width: 100%;
-  height: 700px;
+  height: 800px;
   position: absolute;
-  top: 1600px;
+  top: 1800px;
   left: 0px;
-  background-color: #8EC5FC;
-  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-  transform: skewY(3deg);
+  background: linear-gradient(to right, #ffffff, #ECE9E6);
   z-index: -99;
+}
+.browse_phones_byfeature h1 {
+  position: absolute;
+  top: 20px;
+  left: 31vw;
+  font-size: 3vw;
+  font-family: sans-serif;
+}
+.browse_phones_byfeature h2 {
+  position: absolute;
+  top: 150px;
+  left: 62vw;
+  font-size: 2.5vw;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.browse_phones_byfeature img {
+  width: 50vw;
+  height: auto;
+  position: absolute;
+  top: 200px;
+  left: 2vw;
+}
+.browse_phones_byfeature p {
+  width: 45vw;
+  position: absolute;
+  top: 250px;
+  left: 48vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+}
+.browse_phones_byfeature button {
+  height: 70px;
+  width: 25vw;
+  border-radius: 1px;
+  border: 1px solid black;
+  margin: 0px;
+  background-color: red;
+  position: absolute;
+  top: 650px;
+  left: 42vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+  border: 1px solid red;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
 }

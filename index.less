@@ -220,7 +220,9 @@ body{
             }
         }
         & button{
-            .button(50px, 20vw, 1px, white, 1px);
+            .button(50px, 20vw, 1px, red, 1px);
+            border:1px solid red;
+            color:#FFFFFF;
             .font_css(1.5vw);
             .position_css(absolute, 320px, 34.5vw)
         }
@@ -251,7 +253,9 @@ body{
             }
         }
         & button{
-            .button(50px, 20vw, 1px, white, 1px);
+            .button(50px, 20vw, 1px, red, 1px);
+            border:1px solid red;
+            color:white;
             .font_css(1.5vw);
             .position_css(absolute, 310px, 35.5vw)
         }
@@ -385,11 +389,34 @@ body{
 
 
 .browse_phones_byfeature{
-    .section_style(100%, 700px, absolute, 1600px, 0px);
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
-    transform: skewY(3deg);
+    .section_style(100%, 800px, absolute, 1800px, 0px);
+    background: linear-gradient(to right, #ffffff, #ECE9E6);
     z-index: -99;
-
+    & h1{
+        .position_css(absolute, 20px, 31vw);
+        .font_css(3vw)
+    }
+    & h2{
+        .position_css(absolute, 150px, 62vw);
+        .font_css(2.5vw);
+        font-weight: 600;
+    }
+    & img{
+        .img_style(50vw, auto, absolute, 200px, 2vw)
+    }
+    & p{
+        width:45vw;
+        .position_css(absolute, 250px, 48vw);
+        .font_css(2vw)
+    }
+    & button{
+        .button(70px, 25vw, 0px, red, 1px);
+        .position_css(absolute, 650px, 42vw);
+        .font_css(2vw);
+        border:1px solid red;
+        border-radius: 5px;
+        color:white;
+        font-weight: 600;
+    }
 }
 
