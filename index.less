@@ -423,31 +423,33 @@ body{
 
 // browse phone by features phone css
 
-.browse_phones_byfeature{
-    .section_style(100%, 1600px, absolute, 1600px, 0px);
-    & h1{
-        .position_css(absolute, 10px, 10vw);
-        .font_css(6vw)
-    }
-    & h2{
-        .position_css(absolute, 80px, 40vw);
-        .font_css(6vw);
-    }
-    & img{
-        .img_style(70vw, auto, absolute, 360px, 25vw)
-    }
-    & p{
-        width:90vw;
-        .position_css(absolute, 150px, 5vw);
-        .font_css(4vw)
-    }
-    & button{
-        .button(60px, 60vw, 0px, red, 1px);
-        .position_css(absolute, 600px, 20vw);
-        .font_css(5vw);
-        border:1px solid red;
-        border-radius: 5px;
-        color:white;
-        font-weight: 600;
+@media only screen and (min-width:250px) and (max-width:500px){
+    .browse_phones_byfeature{
+        .section_style(100%, 1600px, absolute, 1600px, 0px);
+        & h1{
+            .position_css(absolute, 10px, 10vw);
+            .font_css(6vw)
+        }
+        & h2{
+            .position_css(absolute, 80px, 40vw);
+            .font_css(6vw);
+        }
+        & img{
+            .img_style(70vw, auto, absolute, 360px, 25vw)
+        }
+        & p{
+            width:90vw;
+            .position_css(absolute, 150px, 5vw);
+            .font_css(4vw)
+        }
+        & button{
+            .button(60px, 60vw, 0px, red, 1px);
+            .position_css(absolute, 600px, 20vw);
+            .font_css(5vw);
+            border:1px solid red;
+            border-radius: 5px;
+            color:white;
+            font-weight: 600;
+        }
     }
 }
