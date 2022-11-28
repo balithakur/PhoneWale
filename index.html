@@ -243,60 +243,58 @@
         function myFunction(x) {
             if (x.matches) { // If media query matches
                 viewmore_btn.onclick = () => {
-            viewmore_brand_div.style.transition = "height 2s"
-            viewmore_brand_div.style.height = "430px"
-            viewmore_btn.style.visibility = "hidden"
-            viewmore_brand_div.style.visibility = "visible"
-            view_less_brand_btn.style.visibility = "visible"
-            viewmore_brand_div.style.borderTop = "1px solid black"
-            browse_phones.style.transition = "height 2s"
-            browse_phones.style.height = "1050px"
-            browsebyfeature.style.transition = "top 2s"
-            browsebyfeature.style.top = "1950px"
-        }
+                    viewmore_brand_div.style.transition = "height 2s"
+                    viewmore_brand_div.style.height = "430px"
+                    viewmore_btn.style.visibility = "hidden"
+                    viewmore_brand_div.style.visibility = "visible"
+                    view_less_brand_btn.style.visibility = "visible"
+                    viewmore_brand_div.style.borderTop = "1px solid black"
+                    browse_phones.style.transition = "height 2s"
+                    browse_phones.style.height = "1050px"
+                    browsebyfeature.style.transition = "top 2s"
+                    browsebyfeature.style.top = "1950px"
+                }
 
-        view_less_brand_btn.onclick = () => {
-            viewmore_brand_div.style.transition = "height 2s"
-            viewmore_brand_div.style.height = "0px"
-            viewmore_brand_div.style.borderTop = "0px"
-            viewmore_btn.style.visibility = "visible"
-            view_less_brand_btn.style.visibility = "hidden"
-            browse_phones.style.transition = "height 2s"
-            browse_phones.style.height = "700px"
-            browsebyfeature.style.transition = "top 2s"
-            browsebyfeature.style.top = "1600px"
-        }
-
-                document.body.style.backgroundColor = "yellow";
+                view_less_brand_btn.onclick = () => {
+                    viewmore_brand_div.style.transition = "height 2s"
+                    viewmore_brand_div.style.height = "0px"
+                    viewmore_brand_div.style.borderTop = "0px"
+                    viewmore_btn.style.visibility = "visible"
+                    view_less_brand_btn.style.visibility = "hidden"
+                    browse_phones.style.transition = "height 2s"
+                    browse_phones.style.height = "700px"
+                    browsebyfeature.style.transition = "top 2s"
+                    browsebyfeature.style.top = "1600px"
+                }
             } else {
                 viewmore_btn.onclick = () => {
-            viewmore_brand_div.style.transition = "height 2s"
-            viewmore_brand_div.style.height = "430px"
-            viewmore_btn.style.visibility = "hidden"
-            viewmore_brand_div.style.visibility = "visible"
-            view_less_brand_btn.style.visibility = "visible"
-            viewmore_brand_div.style.borderTop = "1px solid black"
-            browse_phones.style.transition = "height 2s"
-            browse_phones.style.height = "1050px"
-            browsebyfeature.style.transition = "top 2s"
-            browsebyfeature.style.top = "2150px"
-        }
+                viewmore_brand_div.style.transition = "height 2s"
+                viewmore_brand_div.style.height = "430px"
+                viewmore_btn.style.visibility = "hidden"
+                viewmore_brand_div.style.visibility = "visible"
+                view_less_brand_btn.style.visibility = "visible"
+                viewmore_brand_div.style.borderTop = "1px solid black"
+                browse_phones.style.transition = "height 2s"
+                browse_phones.style.height = "1050px"
+                browsebyfeature.style.transition = "top 2s"
+                browsebyfeature.style.top = "2150px"
+            }
 
-        view_less_brand_btn.onclick = () => {
-            viewmore_brand_div.style.transition = "height 2s"
-            viewmore_brand_div.style.height = "0px"
-            viewmore_brand_div.style.borderTop = "0px"
-            viewmore_btn.style.visibility = "visible"
-            view_less_brand_btn.style.visibility = "hidden"
-            browse_phones.style.transition = "height 2s"
-            browse_phones.style.height = "700px"
-            browsebyfeature.style.transition = "top 2s"
-            browsebyfeature.style.top = "1800px"
-        }
+            view_less_brand_btn.onclick = () => {
+                viewmore_brand_div.style.transition = "height 2s"
+                viewmore_brand_div.style.height = "0px"
+                viewmore_brand_div.style.borderTop = "0px"
+                viewmore_btn.style.visibility = "visible"
+                view_less_brand_btn.style.visibility = "hidden"
+                browse_phones.style.transition = "height 2s"
+                browse_phones.style.height = "700px"
+                browsebyfeature.style.transition = "top 2s"
+                browsebyfeature.style.top = "1800px"
+            }
             }
         }
 
-        var x = window.matchMedia("(max-width: 700px)")
+        var x = window.matchMedia("(max-width: 500px)")
         myFunction(x) // Call listener function at run time
         x.addListener(myFunction) // Attach listener function on state changes
     </script>
