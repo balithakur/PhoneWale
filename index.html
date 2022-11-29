@@ -23,8 +23,8 @@
             <h4>Get all information about Smartphones and also get infromation about price on different website like Flipkart and Amazon etc.</h4>
         </div>
         <div class="search_div">
-            <input type="text" placeholder="Search Your Phone, e.g. Samsung Galaxy M52">
-            <button class="search_btn">Search</button>
+            <input type="text" placeholder="Search Your Phone, e.g. Samsung Galaxy M52" id="search_txt">
+            <button class="search_btn" id="search_btn">Search</button>
         </div>
     </section>
     <section class="second_hero_section">
@@ -172,8 +172,35 @@
             </p>
             <button>Best 5G Phones</button>
         </div>
+        <div class="gaming_phones">
+            <h2>Best Gaming Phones</h2>
+            <img src="undraw_gaming_re_cma2.svg" alt="gaming on mobile image">
+            <p>Introducing the best gaming phones! This sleek and stylish device is perfect for those who love to play the games.If game quality is something you prioritize, then you will want to take note of the different options available to you. There are some phones that have better gaming experience than others, which means that there are certain models that will suit your needs better than others. 
+                That’s why we’ve created this section. </p>
+            <button>Best Gaming Phones</button>
+        </div>
     </section>
     <script>
+
+        //search javascript for mobile screen and laptop both
+
+        let search_txt = document.getElementById("search_txt")
+        let search_btn = document.getElementById("search_btn")
+
+        function searchFunction(x) {
+            if (x.matches) { // If media query matches
+             document.body.style.backgroundColor = "yellow";
+            } else {
+             document.body.style.backgroundColor = "pink";
+            }
+        }
+
+        var x = window.matchMedia("(max-width: 800px)")
+        searchFunction(x) // Call listener function at run time
+        x.addListener(searchFunction) // Attach listener function on state changes
+
+
+
        // browse phones button javascript strt
         let brandbtn=document.getElementById("brandbtn");
         let budgetbtn = document.getElementById("budgetbtn")
@@ -272,7 +299,7 @@
                     browse_phones.style.transition = "height 2s"
                     browse_phones.style.height = "700px"
                     browsebyfeature.style.transition = "top 2s"
-                    browsebyfeature.style.top = "1600px"
+                    browsebyfeature.style.top = "1580px"
                 }
             } else {
                 viewmore_btn.onclick = () => {

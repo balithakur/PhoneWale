@@ -577,12 +577,39 @@ body {
   top: 590px;
   left: 40vw;
 }
+.browse_phones_byfeature .gaming_phones {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 1450px;
+  left: 0px;
+}
+.browse_phones_byfeature .gaming_phones h2 {
+  position: absolute;
+  top: 50px;
+  left: 60vw;
+}
+.browse_phones_byfeature .gaming_phones p {
+  position: absolute;
+  top: 150px;
+  left: 51vw;
+}
+.browse_phones_byfeature .gaming_phones img {
+  position: absolute;
+  top: 70px;
+  left: 0vw;
+}
+.browse_phones_byfeature .gaming_phones button {
+  position: absolute;
+  top: 570px;
+  left: 40vw;
+}
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .browse_phones_byfeature {
     width: 100%;
-    height: 1600px;
+    height: 2400px;
     position: absolute;
-    top: 1600px;
+    top: 1580px;
     left: 0px;
   }
   .browse_phones_byfeature h1 {
@@ -603,7 +630,7 @@ body {
     width: 70vw;
     height: auto;
     position: absolute;
-    top: 360px;
+    top: 420px;
     left: 25vw;
   }
   .browse_phones_byfeature p {
@@ -622,7 +649,7 @@ body {
     margin: 0px;
     background-color: red;
     position: absolute;
-    top: 600px;
+    top: 690px;
     left: 20vw;
     font-size: 5vw;
     font-family: sans-serif;
@@ -635,27 +662,54 @@ body {
     width: 100%;
     height: 700px;
     position: absolute;
-    top: 655px;
+    top: 730px;
     left: 0px;
   }
   .browse_phones_byfeature .fiveg_mobile h2 {
     position: absolute;
     top: 50px;
-    left: 39vw;
+    left: 35vw;
   }
   .browse_phones_byfeature .fiveg_mobile p {
     position: absolute;
-    top: 100px;
+    top: 140px;
     left: 5vw;
   }
   .browse_phones_byfeature .fiveg_mobile img {
     position: absolute;
-    top: 320px;
+    top: 420px;
     left: 16vw;
   }
   .browse_phones_byfeature .fiveg_mobile button {
     position: absolute;
-    top: 530px;
+    top: 710px;
+    left: 20vw;
+  }
+  .browse_phones_byfeature .gaming_phones {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 1485px;
+    left: 0px;
+  }
+  .browse_phones_byfeature .gaming_phones h2 {
+    position: absolute;
+    top: 50px;
+    left: 20vw;
+  }
+  .browse_phones_byfeature .gaming_phones p {
+    position: absolute;
+    top: 150px;
+    left: 5vw;
+  }
+  .browse_phones_byfeature .gaming_phones img {
+    position: absolute;
+    top: 450px;
+    left: 14vw;
+  }
+  .browse_phones_byfeature .gaming_phones button {
+    position: absolute;
+    top: 770px;
     left: 20vw;
   }
 }
