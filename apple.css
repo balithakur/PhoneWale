@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.apple_phones {
+  width: 100%;
+  height: 2000vh;
+  position: absolute;
+  top: 15vh;
+  left: 0px;
+}
+.apple_phones div {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 19vh;
+  left: 0px;
+}
+.apple_phones div h2 {
+  text-align: center;
+  font-size: 4vw;
+  font-family: sans-serif;
+  background: linear-gradient(90deg, #833ab4 20%, #fd1d1d 50%, #fcb045 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 10px;
+  left: 0vw;
+  border-bottom: 1px solid black;
+  height: 12vh;
+  width: 100%;
+}
+.apple_phones div img {
+  width: 20vw;
+  height: auto;
+  position: absolute;
+  top: 20vh;
+  left: 5vw;
+}
+.apple_phones div ul li {
+  position: relative;
+  top: 30vh;
+  left: 32vw;
+  width: 44vw;
+  margin-bottom: 15px;
+}
+.apple_phones div ul li h3 {
+  column-gap: 2vh;
+  font-size: 2vw;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.apple_phones div .all_website_btn {
+  width: 20vw;
+  height: 30vh;
+  position: absolute;
+  top: 28vh;
+  left: 75vw;
+  border-top: 0px;
+}
+.apple_phones div .all_website_btn ul li {
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  top: 1vh;
+  left: 1vw;
+  width: 20vw;
+  margin-bottom: 15px;
+}
+.apple_phones div .all_website_btn ul li button {
+  height: 7vh;
+  width: 19vw;
+  border-radius: 2px;
+  border: 1px solid black;
+  margin: 2px;
+  background-color: red;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  color: white;
+  font-weight: 700;
+  border: 1px solid red;
+}
+.apple_phones .iphone_14 {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 110vh;
+  left: 0px;
+}

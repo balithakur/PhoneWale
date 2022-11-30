@@ -1,0 +1,94 @@
+*{
+    margin:0px; 
+    padding:0px;
+}
+.section_style(@width,@height,@position,@top,@left){
+    width:@width;
+    height:@height;
+    position: @position;
+    top:@top;
+    left:@left;
+}
+.img_style(@width,@height,@position,@top,@left){
+    width:@width;
+    height:@height;
+    position: @position;
+    top:@top;
+    left:@left;
+}
+.position_css(@position, @top, @left){
+    position: @position;
+    top:@top;
+    left:@left;
+}
+.font_css(@font){
+    font-size: @font;
+    font-family: sans-serif;
+}
+.button(@height, @width, @margin, @background, @radius,){
+    height:@height;
+    width:@width;
+    border-radius:@radius;
+    border:1px solid black;
+    margin:@margin;
+    background-color: @background;
+}
+
+// apple section css
+
+.apple_phones{
+    .section_style(100%, 2000vh, absolute, 15vh, 0px);
+    & div{
+        .section_style(100%, 400px, absolute, 19vh, 0px);       
+        & h2{
+            text-align: center;
+            .font_css(4vw);
+            background: linear-gradient(90deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 90%);;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            .position_css(absolute, 10px, 0vw);
+            border-bottom: 1px solid black;
+            height:12vh;
+            width:100%;
+        }
+        & img{
+            .img_style(20vw, auto, absolute, 20vh, 5vw);
+        }
+        & ul{
+            & li{
+                .position_css(relative, 30vh, 32vw);
+                width:44vw;
+                margin-bottom: 15px;
+                & h3{
+                    column-gap: 2vh;
+                    .font_css(2vw);
+                    font-weight: 500;
+                }
+            }
+        }
+        .all_website_btn{
+            .section_style(20vw, 30vh, absolute, 28vh, 75vw);
+            border-top: 0px;
+            & ul{
+                & li{
+                    list-style: none;
+                    text-decoration: none;
+                    .position_css(relative, 1vh, 1vw);
+                    width:20vw;
+                    margin-bottom: 15px;
+                    & button{
+                        .button(7vh, 19vw, 2px, red, 2px);
+                        .font_css(1.5vw);
+                        color: white;
+                        font-weight: 700;
+                        border:1px solid red;
+                    }
+                }
+            }
+        }
+    }
+    .iphone_14{
+        .section_style(100%, 400px, absolute, 110vh, 0px);
+    }
+}

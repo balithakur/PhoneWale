@@ -25,6 +25,9 @@
         <div class="search_div">
             <input type="text" placeholder="Search Your Phone, e.g. Samsung Galaxy M52" id="search_txt">
             <button class="search_btn" id="search_btn">Search</button>
+            <div class="for_desktop_search" id="for_desktop_search">
+
+            </div>
         </div>
     </section>
     <section class="second_hero_section">
@@ -184,14 +187,26 @@
 
         //search javascript for mobile screen and laptop both
 
+        let desktop_search = document.getElementById("for_desktop_search")
         let search_txt = document.getElementById("search_txt")
         let search_btn = document.getElementById("search_btn")
 
         function searchFunction(x) {
             if (x.matches) { // If media query matches
-             document.body.style.backgroundColor = "yellow";
+                search_txt.onclick = () =>{
+                    desktop_search.style.visibility = "hidden"
+                }
             } else {
-             document.body.style.backgroundColor = "pink";
+                search_txt.onclick = () =>{
+                    window.addEventListener('click', (e) =>{
+                        if (search_txt.contains(e.target)){
+                            desktop_search.style.visibility = "visible"
+                            // Clicked in box
+                        } else{
+                            desktop_search.style.visibility = "hidden"
+                        }
+                        });
+                }
             }
         }
 
