@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.section_style(@width,@height,@position,@top,@left){
+    width:@width;
+    height:@height;
+    position: @position;
+    top:@top;
+    left:@left;
+}
+.img_style(@width,@height,@position,@top,@left){
+    width:@width;
+    height:@height;
+    position: @position;
+    top:@top;
+    left:@left;
+}
+.position_css(@position, @top, @left){
+    position: @position;
+    top:@top;
+    left:@left;
+}
+.font_css(@font){
+    font-size: @font;
+    font-family: sans-serif;
+}
+.button(@height, @width, @margin, @background, @radius,){
+    height:@height;
+    width:@width;
+    border-radius:@radius;
+    border:1px solid black;
+    margin:@margin;
+    background-color: @background;
+}
+// apple iphone 14 pro max section css strt
+
+.apple_iphone_14promax{
+    .section_style(100%, 500px, absolute, 100px, 0vw);
+    background-color: aquamarine;
+    .choose_color{
+        .section_style(30vw, auto, absolute, 50px, 5vw);
+        border:1px solid black;
+        & h4{
+            .font_css(2vw)
+        }
+        .black{
+            .section_style(8vw, 80px, relative, 0px, 5vw);
+            background-color: black;
+        }
+        .silver{
+            .section_style(8vw, 80px, relative, 0px, 5vw);
+            background-color:silver;
+        }
+        .gold{
+            .section_style(8vw, 80px, relative, 0px, 5vw);
+            background-color: gold;
+        }
+        & model-viewer{
+            height: auto;
+            width: 30vw;
+        }
+    }
+}

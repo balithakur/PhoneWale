@@ -39,25 +39,34 @@
 .apple_phones{
     .section_style(100%, 2000vh, absolute, 15vh, 0px);
     & div{
-        .section_style(100%, 400px, absolute, 19vh, 0px);       
+        .section_style(100%, 500px, absolute, 200px, 0px); 
+        border-top:1px solid rgb(67, 63, 63) ;
+        border-bottom: 1px solid rgb(66, 63, 63);
+        cursor: pointer;
         & h2{
             text-align: center;
             .font_css(4vw);
-            background: linear-gradient(90deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 90%);;
+            background: linear-gradient(90deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 90%);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
             .position_css(absolute, 10px, 0vw);
-            border-bottom: 1px solid black;
             height:12vh;
             width:100%;
+        }
+        & a{
+            .font_css(2vw);
+            .position_css(absolute, 140px, 31vw);
+            text-decoration: none;
+            font-weight: 600;
+            color:black;
         }
         & img{
             .img_style(20vw, auto, absolute, 20vh, 5vw);
         }
         & ul{
             & li{
-                .position_css(relative, 30vh, 32vw);
+                .position_css(relative, 200px, 32vw);
                 width:44vw;
                 margin-bottom: 15px;
                 & h3{
@@ -67,7 +76,16 @@
                 }
             }
         }
+        #see_full_details{
+            .button(50px, 20vw, 0px, red, 5px);
+            .font_css(1.5vw);
+            color: white;
+            font-weight: 700;
+            border:1px solid red;
+            .position_css(absolute, 400px, 40vw)
+        }
         .all_website_btn{
+            border-bottom: 0px;
             .section_style(20vw, 30vh, absolute, 28vh, 75vw);
             border-top: 0px;
             & ul{
@@ -88,7 +106,72 @@
             }
         }
     }
-    .iphone_14{
-        .section_style(100%, 400px, absolute, 110vh, 0px);
+    & div{
+        & a:hover{
+            color:dodgerblue
+        } 
+     }
+    .iphone_14_pro_max_512gb{
+        .section_style(100%, 500px, absolute, 800px, 0vw);
+    }
+    .iphone_14_pro_max_256gb{
+        .section_style(100%, 500px, absolute, 1400px, 0vw);
+    }
+    .iphone_14_pro_max_128gb{
+        .section_style(100%, 500px, absolute, 2000px, 0vw);
+    }
+}
+//apple phone css for phone
+@media only screen and(min-width:250px) and(max-width:500px){
+    .apple_phones{
+        .section_style(100%, 2000vh, absolute, 15vh, 0px);
+        & div{
+            .section_style(100%, 1050px, absolute, 200px, 0px);
+            & h2{
+                font-size: 7vw;
+                height: 50px;
+            }
+            & a{
+                .font_css(4.5vw);
+                .position_css(absolute, 70px, 6vw);
+            }
+            & img{
+                .img_style(60vw, auto, absolute, 120px, 20vw);
+            }
+            & ul{
+                & li{
+                    width:70vw;
+                    .position_css(relative, 520px, 10vw);
+                    & h3{
+                        .font_css(3vw)
+                    }
+                }
+            }
+            #see_full_details{
+                .button(50px, 40vw, 0px, red, 5px);
+                .font_css(4vw);
+                border: 1px solid red;
+                .position_css(absolute, 695px, 30vw)
+            }
+            .all_website_btn{
+                border-bottom: 0px;
+                .section_style(20vw, 200px, absolute, 800px, 25vw);
+                border-top: 0px;
+                & ul{
+                    & li{
+                        list-style: none;
+                        text-decoration: none;
+                        .position_css(relative, 1vh, -5vw);
+                        width:20vw;
+                        margin-bottom: 15px;
+                        & button{
+                            .button(50px, 60vw, 2px, red, 2px);
+                            .font_css(4.5vw);
+                            border:1px solid red;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
