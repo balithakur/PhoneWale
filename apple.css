@@ -220,4 +220,25 @@
     font-family: sans-serif;
     border: 1px solid red;
   }
+  .apple_phones .iphone_14_pro_max_512gb {
+    width: 100%;
+    height: 10500px;
+    position: absolute;
+    top: 1251px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_256gb {
+    width: 100%;
+    height: 10500px;
+    position: absolute;
+    top: 2300px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_128gb {
+    width: 100%;
+    height: 10500px;
+    position: absolute;
+    top: 3350px;
+    left: 0vw;
+  }
 }
