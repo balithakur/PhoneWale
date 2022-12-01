@@ -4,22 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple Mobile</title>
+    <title>Document</title>
     <link rel="stylesheet" href="a.css">
-        
 </head>
 <body>
-    <section class="apple_iphone_14promax">
+    <section class="apple">
         <div class="choose_color">
-            <h4>Choose your iphone colour</h4>
-            <div class="black"></div>
-            <div class="silver"></div>
-            <div class="gold"></div>
+            <div class="space_black" id="space_black"></div>
+            <div class="silver" id="silver"></div>
+            <div class="gold" id="gold"></div>
+            <div class="deep_purple" id="deep_purple"></div>
         </div>
-        <iframe src='https://my.spline.design/iphone13copy-c445ae41cd267d873f6b0f8fc6128bcd/' frameborder='0' width='100%' height='100%'></iframe>
-        
+        <div class="color" id="color">
+
+        </div>
     </section>
     <script>
+        let spaceblack = document.getElementById("space_black")
+        let silver = document.getElementById("silver")
+        let gold = document.getElementById("gold")
+        let purple = document.getElementById("deep_purple")
+        let color = document.getElementById("color")
+
+        spaceblack.onclick = ()=>{
+            color.style.backgroundColor = "black"
+        }
+        silver.onclick = ()=>{
+            color.style.backgroundColor = "silver"
+        }
+        gold.onclick = ()=>{
+            color.style.backgroundColor = "gold"
+        }
+        purple.onclick = ()=>{
+            color.style.backgroundColor = "purple"
+        }
+
     </script>
 </body>
 </html>

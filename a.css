@@ -2,51 +2,58 @@
   margin: 0px;
   padding: 0px;
 }
-.apple_iphone_14promax {
+.apple {
   width: 100%;
-  height: 500px;
+  height: 800px;
   position: absolute;
-  top: 100px;
-  left: 0vw;
-  background-color: aquamarine;
+  top: 30px;
+  left: 0px;
+  background-color: cadetblue;
 }
-.apple_iphone_14promax .choose_color {
-  width: 30vw;
-  height: auto;
-  position: absolute;
-  top: 50px;
-  left: 5vw;
-  border: 1px solid black;
-}
-.apple_iphone_14promax .choose_color h4 {
-  font-size: 2vw;
-  font-family: sans-serif;
-}
-.apple_iphone_14promax .choose_color .black {
-  width: 8vw;
-  height: 80px;
+.apple .choose_color {
+  width: 35vw;
+  height: 600px;
   position: relative;
-  top: 0px;
+  top: 50px;
+  left: 60vw;
+  background-color: antiquewhite;
+}
+.apple .choose_color .space_black {
+  width: 15vw;
+  height: 50px;
+  position: relative;
+  top: 10px;
   left: 5vw;
   background-color: black;
 }
-.apple_iphone_14promax .choose_color .silver {
-  width: 8vw;
-  height: 80px;
+.apple .choose_color .silver {
+  width: 15vw;
+  height: 50px;
   position: relative;
-  top: 0px;
+  top: 60px;
   left: 5vw;
   background-color: silver;
 }
-.apple_iphone_14promax .choose_color .gold {
-  width: 8vw;
-  height: 80px;
+.apple .choose_color .gold {
+  width: 15vw;
+  height: 50px;
   position: relative;
-  top: 0px;
+  top: 150px;
   left: 5vw;
   background-color: gold;
 }
-.apple_iphone_14promax .choose_color model-viewer {
-  height: auto;
-  width: 30vw;
+.apple .choose_color .deep_purple {
+  width: 15vw;
+  height: 50px;
+  position: relative;
+  top: 200px;
+  left: 5vw;
+  background-color: purple;
+}
+.apple .color {
+  width: 50vw;
+  height: 600px;
+  position: absolute;
+  top: 50px;
+  left: 5vw;
 }
