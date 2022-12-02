@@ -56,12 +56,11 @@
   top: 80px;
   left: 20vw;
   margin-bottom: 15px;
-  border: 1px solid black;
 }
 .apple_phones div ul li span {
   font-size: 1.2vw;
   font-family: sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 .apple_phones div #see_full_details {
   height: 50px;
@@ -78,37 +77,6 @@
   position: absolute;
   top: 220px;
   left: 20vw;
-}
-.apple_phones div .all_website_btn {
-  border-bottom: 0px;
-  width: 20vw;
-  height: 30vh;
-  position: absolute;
-  top: 28vh;
-  left: 75vw;
-  border-top: 0px;
-}
-.apple_phones div .all_website_btn ul li {
-  list-style: none;
-  text-decoration: none;
-  position: relative;
-  top: 50px;
-  left: 1vw;
-  width: 20vw;
-  margin-bottom: 5px;
-}
-.apple_phones div .all_website_btn ul li button {
-  height: 7vh;
-  width: 19vw;
-  border-radius: 2px;
-  border: 1px solid black;
-  margin: 2px;
-  background-color: red;
-  font-size: 1.5vw;
-  font-family: sans-serif;
-  color: white;
-  font-weight: 700;
-  border: 1px solid red;
 }
 .apple_phones div a:hover {
   color: dodgerblue;
