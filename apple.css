@@ -148,28 +148,28 @@
   width: 50vw;
   height: 300px;
   position: absolute;
-  top: 2100px;
+  top: 2000px;
   left: 0vw;
 }
 .apple_phones .iphone_14_pro_max_512gb_gold {
   width: 50vw;
   height: 300px;
   position: absolute;
-  top: 2100px;
+  top: 2000px;
   left: 48vw;
 }
 .apple_phones .iphone_14_pro_max_256gb_gold {
   width: 50vw;
   height: 300px;
   position: absolute;
-  top: 2400px;
+  top: 2300px;
   left: 0vw;
 }
 .apple_phones .iphone_14_pro_max_128gb_gold {
   width: 50vw;
   height: 300px;
   position: absolute;
-  top: 2400px;
+  top: 2300px;
   left: 48vw;
 }
 @media only screen and (min-width: 250px) and (max-width: 500px) {
@@ -276,57 +276,57 @@
     left: 0vw;
   }
   .apple_phones .iphone_14_pro_max_1tb_purple {
-    width: 50vw;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     position: absolute;
     top: 2520px;
     left: 0vw;
   }
   .apple_phones .iphone_14_pro_max_512gb_purple {
-    width: 50vw;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     position: absolute;
     top: 2820px;
     left: 0vw;
   }
   .apple_phones .iphone_14_pro_max_256gb_purple {
-    width: 50vw;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     position: absolute;
     top: 3120px;
     left: 0vw;
   }
   .apple_phones .iphone_14_pro_max_128gb_purple {
-    width: 50vw;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     position: absolute;
     top: 3420px;
     left: 0vw;
   }
   .apple_phones .iphone_14_pro_max_1tb_gold {
-    width: 50vw;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     position: absolute;
     top: 3720px;
     left: 0vw;
   }
   .apple_phones .iphone_14_pro_max_512gb_gold {
-    width: 50vw;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     position: absolute;
     top: 4020px;
     left: 0vw;
   }
   .apple_phones .iphone_14_pro_max_256gb_gold {
-    width: 50vw;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     position: absolute;
     top: 4320px;
     left: 0vw;
   }
   .apple_phones .iphone_14_pro_max_128gb_gold {
-    width: 50vw;
-    height: 300px;
+    width: 100%;
+    height: 350px;
     position: absolute;
     top: 4620px;
     left: 0vw;
