@@ -39,9 +39,8 @@
 .apple_phones{
     .section_style(100%, 2000vh, absolute, 15vh, 0px);
     & div{
-        .section_style(100%, 500px, absolute, 200px, 0px); 
-        border-top:1px solid rgb(67, 63, 63) ;
-        border-bottom: 1px solid rgb(66, 63, 63);
+        .section_style(50vw, 300px, absolute, 200px, 0px); 
+        //border-bottom: 1px solid rgb(66, 63, 63);
         cursor: pointer;
         & h2{
             text-align: center;
@@ -55,34 +54,37 @@
             width:100%;
         }
         & a{
-            .font_css(2vw);
-            .position_css(absolute, 140px, 31vw);
+            .font_css(1.5vw);
+            .position_css(absolute, 30px, 20vw);
             text-decoration: none;
             font-weight: 600;
             color:black;
         }
         & img{
-            .img_style(20vw, auto, absolute, 20vh, 5vw);
+            .img_style(15vw, auto, absolute, 25px, 2vw);
         }
         & ul{
             & li{
-                .position_css(relative, 200px, 32vw);
-                width:44vw;
+                display: flex;
+                width:fit-content;
+                list-style: none;
+                .position_css(relative, 80px, 20vw);
                 margin-bottom: 15px;
-                & h3{
-                    column-gap: 2vh;
-                    .font_css(2vw);
-                    font-weight: 500;
+                border:1px solid black;
+                & span{
+                    //column-gap: 2vh;
+                    .font_css(1.2vw);
+                    font-weight: 300;
                 }
             }
         }
         #see_full_details{
-            .button(50px, 20vw, 0px, red, 5px);
+            .button(50px, 15vw, 0px, red, 5px);
             .font_css(1.5vw);
             color: white;
             font-weight: 700;
             border:1px solid red;
-            .position_css(absolute, 400px, 40vw)
+            .position_css(absolute, 220px, 20vw)
         }
         .all_website_btn{
             border-bottom: 0px;
@@ -92,9 +94,9 @@
                 & li{
                     list-style: none;
                     text-decoration: none;
-                    .position_css(relative, 1vh, 1vw);
+                    .position_css(relative, 50px, 1vw);
                     width:20vw;
-                    margin-bottom: 15px;
+                    margin-bottom: 5px;
                     & button{
                         .button(7vh, 19vw, 2px, red, 2px);
                         .font_css(1.5vw);
@@ -112,13 +114,13 @@
         } 
      }
     .iphone_14_pro_max_512gb{
-        .section_style(100%, 500px, absolute, 800px, 0vw);
+        .section_style(50vw, 300px, absolute, 200px, 48vw);
     }
     .iphone_14_pro_max_256gb{
-        .section_style(100%, 500px, absolute, 1400px, 0vw);
+        .section_style(50vw, 300px, absolute, 500px, 0vw);
     }
     .iphone_14_pro_max_128gb{
-        .section_style(100%, 500px, absolute, 2000px, 0vw);
+        .section_style(50vw, 300px, absolute, 500px, 48vw);
     }
 }
 //apple phone css for phone
@@ -126,7 +128,7 @@
     .apple_phones{
         .section_style(100%, 2000vh, absolute, 15vh, 0px);
         & div{
-            .section_style(100%, 1050px, absolute, 200px, 0px);
+            .section_style(100%, 350px, absolute, 200px, 0px);
             & h2{
                 font-size: 7vw;
                 height: 50px;
@@ -136,13 +138,13 @@
                 .position_css(absolute, 70px, 6vw);
             }
             & img{
-                .img_style(60vw, auto, absolute, 120px, 20vw);
+                .img_style(25vw, auto, absolute, 120px, 5vw);
             }
             & ul{
                 & li{
-                    width:70vw;
-                    .position_css(relative, 520px, 10vw);
-                    & h3{
+                    width:fit-content;
+                    .position_css(relative, 120px, 35vw);
+                    & span{
                         .font_css(3vw)
                     }
                 }
@@ -151,7 +153,7 @@
                 .button(50px, 40vw, 0px, red, 5px);
                 .font_css(4vw);
                 border: 1px solid red;
-                .position_css(absolute, 695px, 30vw)
+                .position_css(absolute, 285px, 30vw)
             }
             .all_website_btn{
                 border-bottom: 0px;
@@ -174,13 +176,13 @@
             }
         }
         .iphone_14_pro_max_512gb{
-            .section_style(100%, 10500px, absolute,1251px, 0vw);
+            .section_style(100%, 350px, absolute,550px, 0vw);
         }
         .iphone_14_pro_max_256gb{
-            .section_style(100%, 10500px, absolute, 2300px, 0vw);
+            .section_style(100%, 350px, absolute, 890px, 0vw);
         }
         .iphone_14_pro_max_128gb{
-            .section_style(100%, 10500px, absolute, 3350px, 0vw);
+            .section_style(100%, 350px, absolute, 1250px, 0vw);
         }
     }
 }
