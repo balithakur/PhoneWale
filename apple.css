@@ -88,6 +88,90 @@
   top: 500px;
   left: 48vw;
 }
+.apple_phones .iphone_14_pro_max_1tb_black {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 800px;
+  left: 0vw;
+}
+.apple_phones .iphone_14_pro_max_512gb_black {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 800px;
+  left: 48vw;
+}
+.apple_phones .iphone_14_pro_max_256gb_black {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 1100px;
+  left: 0vw;
+}
+.apple_phones .iphone_14_pro_max_128gb_black {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 1100px;
+  left: 48vw;
+}
+.apple_phones .iphone_14_pro_max_1tb_purple {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 1400px;
+  left: 0vw;
+}
+.apple_phones .iphone_14_pro_max_512gb_purple {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 1400px;
+  left: 48vw;
+}
+.apple_phones .iphone_14_pro_max_256gb_purple {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 1700px;
+  left: 0vw;
+}
+.apple_phones .iphone_14_pro_max_128gb_purple {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 1700px;
+  left: 48vw;
+}
+.apple_phones .iphone_14_pro_max_1tb_gold {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 2100px;
+  left: 0vw;
+}
+.apple_phones .iphone_14_pro_max_512gb_gold {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 2100px;
+  left: 48vw;
+}
+.apple_phones .iphone_14_pro_max_256gb_gold {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 2400px;
+  left: 0vw;
+}
+.apple_phones .iphone_14_pro_max_128gb_gold {
+  width: 50vw;
+  height: 300px;
+  position: absolute;
+  top: 2400px;
+  left: 48vw;
+}
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .apple_phones {
     width: 100%;
@@ -104,11 +188,12 @@
     left: 0px;
   }
   .apple_phones div a {
+    width: 97vw;
     font-size: 4.5vw;
     font-family: sans-serif;
     position: absolute;
     top: 40px;
-    left: 6vw;
+    left: 2vw;
   }
   .apple_phones div img {
     width: 25vw;
@@ -188,6 +273,62 @@
     height: 350px;
     position: absolute;
     top: 2220px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_1tb_purple {
+    width: 50vw;
+    height: 300px;
+    position: absolute;
+    top: 2520px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_512gb_purple {
+    width: 50vw;
+    height: 300px;
+    position: absolute;
+    top: 2820px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_256gb_purple {
+    width: 50vw;
+    height: 300px;
+    position: absolute;
+    top: 3120px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_128gb_purple {
+    width: 50vw;
+    height: 300px;
+    position: absolute;
+    top: 3420px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_1tb_gold {
+    width: 50vw;
+    height: 300px;
+    position: absolute;
+    top: 3720px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_512gb_gold {
+    width: 50vw;
+    height: 300px;
+    position: absolute;
+    top: 4020px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_256gb_gold {
+    width: 50vw;
+    height: 300px;
+    position: absolute;
+    top: 4320px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_128gb_gold {
+    width: 50vw;
+    height: 300px;
+    position: absolute;
+    top: 4620px;
     left: 0vw;
   }
 }
