@@ -17,20 +17,6 @@
   left: 0px;
   cursor: pointer;
 }
-.apple_phones div h2 {
-  text-align: center;
-  font-size: 4vw;
-  font-family: sans-serif;
-  background: linear-gradient(90deg, #833ab4 20%, #fd1d1d 50%, #fcb045 90%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  position: absolute;
-  top: 10px;
-  left: 0vw;
-  height: 12vh;
-  width: 100%;
-}
 .apple_phones div a {
   font-size: 1.5vw;
   font-family: sans-serif;
@@ -117,10 +103,6 @@
     top: 200px;
     left: 0px;
   }
-  .apple_phones div h2 {
-    font-size: 7vw;
-    height: 50px;
-  }
   .apple_phones div a {
     font-size: 4.5vw;
     font-family: sans-serif;
@@ -159,35 +141,6 @@
     top: 220px;
     left: 38vw;
   }
-  .apple_phones div .all_website_btn {
-    border-bottom: 0px;
-    width: 20vw;
-    height: 200px;
-    position: absolute;
-    top: 800px;
-    left: 25vw;
-    border-top: 0px;
-  }
-  .apple_phones div .all_website_btn ul li {
-    list-style: none;
-    text-decoration: none;
-    position: relative;
-    top: 1vh;
-    left: -5vw;
-    width: 20vw;
-    margin-bottom: 15px;
-  }
-  .apple_phones div .all_website_btn ul li button {
-    height: 50px;
-    width: 60vw;
-    border-radius: 2px;
-    border: 1px solid black;
-    margin: 2px;
-    background-color: red;
-    font-size: 4.5vw;
-    font-family: sans-serif;
-    border: 1px solid red;
-  }
   .apple_phones .iphone_14_pro_max_512gb {
     width: 100%;
     height: 350px;
@@ -207,6 +160,34 @@
     height: 350px;
     position: absolute;
     top: 1020px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_1tb_black {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 1320px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_512gb_black {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 1620px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_256gb_black {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 1920px;
+    left: 0vw;
+  }
+  .apple_phones .iphone_14_pro_max_128gb_black {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 2220px;
     left: 0vw;
   }
 }
