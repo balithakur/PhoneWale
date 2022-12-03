@@ -6,39 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="a.css">
+    <!--swipper css-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
 </head>
 <body>
-    <section class="apple">
-        <div class="choose_color">
-            <div class="space_black" id="space_black"></div>
-            <div class="silver" id="silver"></div>
-            <div class="gold" id="gold"></div>
-            <div class="deep_purple" id="deep_purple"></div>
+    <section class="a">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="apple_phone_images/deep_purple_iphone_14promax.webp" alt="image">
+          </div>
+          <div class="swiper-slide">
+            <img src="apple_phone_images/deep_purple_iphone_14promax.webp" alt="image">
+          </div>
+          <div class="swiper-slide">
+            <img src="apple_phone_images/deep_purple_iphone_14promax.webp" alt="image">
+          </div>
         </div>
-        <div class="color" id="color">
-
-        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
     </section>
+    <script src="swiper-bundle.min.js"></script>
     <script>
-        let spaceblack = document.getElementById("space_black")
-        let silver = document.getElementById("silver")
-        let gold = document.getElementById("gold")
-        let purple = document.getElementById("deep_purple")
-        let color = document.getElementById("color")
-
-        spaceblack.onclick = ()=>{
-            color.style.backgroundColor = "black"
-        }
-        silver.onclick = ()=>{
-            color.style.backgroundColor = "silver"
-        }
-        gold.onclick = ()=>{
-            color.style.backgroundColor = "gold"
-        }
-        purple.onclick = ()=>{
-            color.style.backgroundColor = "purple"
-        }
-
-    </script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 </body>
 </html>
