@@ -124,7 +124,7 @@
   margin-bottom: 77px;
 }
 .apple_phones .choose_rom {
-  width: 0%;
+  width: 100%;
   height: 510px;
   position: fixed;
   top: 100px;
@@ -323,6 +323,52 @@
     position: absolute;
     top: 220px;
     left: 38vw;
+  }
+  .apple_phones .choose_colour {
+    height: 100%;
+  }
+  .apple_phones .choose_colour h1 {
+    font-size: 5vw;
+    font-family: sans-serif;
+    left: 5vw;
+    text-align: center;
+  }
+  .apple_phones .choose_colour img {
+    width: 10vw;
+    top: 560px;
+    left: 45.5vw;
+  }
+  .apple_phones .choose_colour ul li {
+    left: 15vw;
+  }
+  .apple_phones .choose_colour ul li button {
+    width: 30vw;
+  }
+  .apple_phones .choose_colour h3 {
+    top: -270px;
+    font-size: 5vw;
+    font-family: sans-serif;
+  }
+  .apple_phones .choose_rom {
+    height: 100%;
+  }
+  .apple_phones .choose_rom h1 {
+    font-size: 6vw;
+    font-family: sans-serif;
+    left: 5vw;
+    text-align: center;
+  }
+  .apple_phones .choose_rom img {
+    width: 10vw;
+    top: 500px;
+    left: 45.5vw;
+  }
+  .apple_phones .choose_rom ul li {
+    top: 150px;
+    left: 35vw;
+  }
+  .apple_phones .choose_rom ul li button {
+    width: 30vw;
   }
   .apple_phones .iphone_14_pro_max_512gb {
     width: 100%;

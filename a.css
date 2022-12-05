@@ -4,7 +4,7 @@
 }
 .black_1tb_fulldetails {
   width: 100%;
-  height: 900px;
+  height: 1200px;
   position: absolute;
   top: 100px;
   left: 0px;
@@ -20,8 +20,8 @@
 .black_1tb_fulldetails .image_div {
   width: 50vw;
   height: 500px;
-  position: fixed;
-  top: 100px;
+  position: absolute;
+  top: 0px;
   left: 0vw;
   background-color: white;
 }
@@ -56,7 +56,7 @@
   width: 25vw;
   height: content-fit;
   position: absolute;
-  top: 150px;
+  top: 700px;
   left: 60vw;
 }
 .black_1tb_fulldetails .price_div button {
@@ -77,7 +77,7 @@
   width: 40vw;
   height: content-fit;
   position: absolute;
-  top: 450px;
+  top: 250px;
   left: 55vw;
 }
 .black_1tb_fulldetails .highlights h2 {
