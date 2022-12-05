@@ -34,3 +34,72 @@
     background-color: @background;
 }
 
+.black_1tb_fulldetails{
+    & h1{
+        .font_css(2vw);
+        width:45vw;
+        .position_css(absolute, 50px, 50vw)
+    }
+    .section_style(100%, 900px, absolute, 100px, 0px);
+    .image_div{
+        .section_style(50vw, 500px, fixed, 100px, 0vw);
+        background-color:white;
+        & div{
+            & img{
+                .img_style(30vw, auto, absolute, 0px, 10vw)
+            }
+            .second{
+                width:80vw;
+                top:-250px;
+                left:-16vw;
+            }
+            .third{
+                width:40vw;
+                top:100px;
+            }
+            .fourth{
+                width:80vw;
+                top:-150px;
+                left:-16vw;
+            }
+        }
+        .swiper-button-next{
+            font-weight: 700;
+        }
+        .swiper-button-prev{
+            font-weight: 700;
+        }
+    }
+    .price_div{
+        .section_style(25vw, content-fit, absolute, 150px, 60vw);
+        //background-color: aqua;
+        & button{
+            .button(40px, 20vw, 0px , red , 5px);
+            border:1px solid red;
+            .font_css(1.5vw);
+            font-weight: 600;
+            color:white;
+            margin-bottom:10px;
+        }
+    }
+    .highlights{
+        .section_style(40vw, content-fit, absolute, 450px, 55vw);
+        & h2{
+            .font_css(2vw);
+            text-align: center;
+            width:45vw;
+            height: 40px;
+            border-bottom: 1px solid black;
+            .position_css(absolute, -80px, -2vw)
+        }
+        & ul{
+            & li{
+                & h4{
+                    .font_css(1.6vw);
+                    font-weight: 300;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

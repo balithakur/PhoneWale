@@ -28,7 +28,31 @@
             </div>-->
             <button id="see_full_details">See Full Details</button>
         </div>
-        <div class="iphone_14_pro_max_512gb">
+        <div class="choose_colour" id="choose_colour">
+            <h1>Choose Your's Apple Iphone 14 Pro Max Colour</h1>
+            <img  id="close_div" src="close (1).webp" alt="close image">
+            <ul>
+                <li><button class="black" id="black"></button></li>
+                <li><button class="silver" id="silver"></button></li>
+                <li><button class="gold" id="gold"></button></li>
+                <li><button class="purple" id="purple"></button></li>
+            </ul>
+            <h3>Space Black</h3>
+            <h3>Silver</h3>
+            <h3>Gold</h3>
+            <h3>Deep Purple</h3>
+        </div>
+        <div class="choose_rom" id="black_rom">
+            <h1>Choose Rom For Your Apple Iphone 14 Pro max</h1>
+            <img  id="close_blackrom_div" src="close (1).webp" alt="close image">
+            <ul>
+                <li><button id="1tb_rom_black">1 TB ROM</button></li>
+                <li><button>526 GB ROM</button></li>
+                <li><button>256 GB ROM</button></li>
+                <li><button>128 GB ROM</button></li>
+            </ul>
+        </div>
+        <!--<div class="iphone_14_pro_max_512gb">
             <a href="#">APPLE iPhone 14 Pro Max (Silver, 512 GB)</a>
             <img src="apple_phone_images/white_iphone_14_pro_max.webp" alt="apple iphone 14 pro max silver colour image">
             <ul>
@@ -192,8 +216,40 @@
                 <li><span>A 16 Bionic Chip, 6 Core Processor</span></li>
             </ul>
             <button id="see_full_details">See Full Details</button>
-        </div>
+        </div>-->
 
     </section>
+    <script>
+        // choose colour div javascript
+        let fulldetails = document.getElementById("see_full_details")
+        let choosecolour = document.getElementById("choose_colour")
+        let closee =document.getElementById("close_div")
+        fulldetails.onclick = () =>{
+            choosecolour.style.transition = "width 2s"
+            choosecolour.style.width = "100%"
+            //choosecolour.style.visibility = "visible"
+        }
+        closee.onclick = () =>{
+            choosecolour.style.transition = "width 2s"
+            choosecolour.style.width = "0%"
+            //choosecolour.style.visibility = "hidden"
+        }
+        let black = document.getElementById("black")
+        let blackrom = document.getElementById("black_rom")
+        let close_blackrom_div = document.getElementById("close_blackrom_div")
+        black.onclick = () =>{
+            choosecolour.style.visibility = "hidden"
+            blackrom.style.transition = "width 2s"
+            blackrom.style.width = "100%"
+        }
+        close_blackrom_div.onclick = () =>{
+            blackrom.style.transition = "width 2s"
+            blackrom.style.width = "0%"
+        }
+        let black_rom_1tb = document.getElementById("1tb_rom_black")
+        black_rom_1tb.onclick = () =>{
+            location.href="a.html"
+        }
+    </script>
 </body>
 </html>

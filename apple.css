@@ -35,7 +35,6 @@
   left: 2vw;
 }
 .apple_phones div ul li {
-  display: flex;
   width: fit-content;
   list-style: none;
   position: relative;
@@ -66,6 +65,105 @@
 }
 .apple_phones div a:hover {
   color: dodgerblue;
+}
+.apple_phones .choose_colour {
+  width: 0%;
+  height: 510px;
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  background-color: white;
+  overflow: hidden;
+}
+.apple_phones .choose_colour h1 {
+  font-size: 2vw;
+  font-family: sans-serif;
+  position: absolute;
+  top: 20px;
+  left: 29vw;
+}
+.apple_phones .choose_colour img {
+  width: 5vw;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 90vw;
+}
+.apple_phones .choose_colour ul li {
+  position: relative;
+  top: 110px;
+  left: 39vw;
+}
+.apple_phones .choose_colour ul li button {
+  height: 80px;
+  width: 10vw;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 0px;
+  background-color: black;
+}
+.apple_phones .choose_colour ul li .black {
+  background-color: black;
+}
+.apple_phones .choose_colour ul li .silver {
+  background-color: silver;
+}
+.apple_phones .choose_colour ul li .gold {
+  background-color: gold;
+}
+.apple_phones .choose_colour ul li .purple {
+  background-color: purple;
+}
+.apple_phones .choose_colour h3 {
+  width: fit-content;
+  position: relative;
+  top: -249px;
+  left: 55vw;
+  font-size: 1.6vw;
+  font-family: sans-serif;
+  margin-bottom: 77px;
+}
+.apple_phones .choose_rom {
+  width: 0%;
+  height: 510px;
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  background-color: white;
+  overflow: hidden;
+}
+.apple_phones .choose_rom h1 {
+  font-size: 2vw;
+  font-family: sans-serif;
+  position: absolute;
+  top: 20px;
+  left: 29vw;
+}
+.apple_phones .choose_rom img {
+  width: 5vw;
+  height: auto;
+  position: absolute;
+  top: 10px;
+  left: 90vw;
+}
+.apple_phones .choose_rom ul li {
+  position: relative;
+  top: 110px;
+  left: 40vw;
+  border-bottom: 40px;
+}
+.apple_phones .choose_rom ul li button {
+  height: 50px;
+  width: 20vw;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 0px;
+  background-color: red;
+  border: 1px solid red;
+  font-size: 1.6vw;
+  font-family: sans-serif;
+  color: azure;
+  font-weight: 600;
 }
 .apple_phones .iphone_14_pro_max_512gb {
   width: 50vw;
