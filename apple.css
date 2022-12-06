@@ -424,6 +424,8 @@ p {
   }
   .apple_phones .choose_rom ul li button {
     width: 30vw;
+    font-size: 5vw;
+    font-family: sans-serif;
   }
   .apple_phones .iphone_14_pro_max_512gb {
     width: 100%;
