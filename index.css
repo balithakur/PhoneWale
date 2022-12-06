@@ -390,7 +390,7 @@ body {
     width: 100%;
     height: 700px;
     position: absolute;
-    top: 880px;
+    top: 780px;
     left: 0px;
   }
   .browse_phones h1 {
@@ -447,6 +447,8 @@ body {
     position: absolute;
     top: 350px;
     left: 28vw;
+    border: 1px solid red;
+    border-radius: 5px;
   }
   .browse_phones .view_more_brand_div {
     width: 92vw;
@@ -475,6 +477,8 @@ body {
     position: absolute;
     top: 375px;
     left: 30.5vw;
+    border: 1px solid red;
+    border-radius: 5px;
   }
   .browse_phones .budget_div ul li button {
     height: 50px;
@@ -488,6 +492,8 @@ body {
     left: -4.7vw;
     font-size: 3vw;
     font-family: sans-serif;
+    border: 1px solid red;
+    border-radius: 5px;
   }
   .browse_phones .ram_div ul li button {
     height: 50px;
@@ -501,6 +507,8 @@ body {
     left: -4.7vw;
     font-size: 3vw;
     font-family: sans-serif;
+    border: 1px solid red;
+    border-radius: 5px;
   }
 }
 .browse_phones_byfeature {
@@ -618,7 +626,7 @@ body {
     width: 100%;
     height: 2400px;
     position: absolute;
-    top: 1580px;
+    top: 1480px;
     left: 0px;
   }
   .browse_phones_byfeature h1 {
