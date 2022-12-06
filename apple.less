@@ -105,15 +105,16 @@ p{
         } 
      }
     .choose_colour{
-        .section_style(0%, 510px, fixed, 100px, 0px);
+        .section_style(100%, 100%, fixed, 0px, 0px);
+        z-index: 99999;
         background-color: white;
         overflow:hidden;
         & h1{
             .font_css(2vw);
-            .position_css(absolute, 20px, 29vw)
+            .position_css(absolute, 20px, 0vw)
         }
         & img{
-            .img_style(5vw, auto, absolute, 10px, 90vw);
+            .img_style(2.5vw, auto, absolute, 20px, 90vw);
         }
         & ul{
             & li{
@@ -144,19 +145,20 @@ p{
         }
     }
     .choose_rom{
-        .section_style(0%, 510px, fixed, 100px, 0px);
+        z-index: 999;
+        .section_style(0%, 100%, fixed, 00px, 0px);
         background-color: white;
         overflow:hidden;
         & h1{
             .font_css(2vw);
-            .position_css(absolute, 20px, 29vw)
+            .position_css(absolute, 100px, 0vw)
         }
         & img{
-            .img_style(5vw, auto, absolute, 10px, 90vw);
+            .img_style(2.5vw, auto, absolute, 100px, 90vw);
         }
         & ul{
             & li{
-                .position_css(relative, 110px, 40vw);
+                .position_css(relative, 210px, 40vw);
                 border-bottom: 40px;
                 & button{
                     .button(50px, 20vw, 0px, red, 5px);
