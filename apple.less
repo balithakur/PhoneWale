@@ -35,34 +35,57 @@
 }
 
 // apple section css
-
+h1{
+    width:100%;
+    .position_css(absolute, 150px, 0px);
+    text-align: center;
+    .font_css(2.5vw);
+}
+h2{
+    width:100%;
+    text-align: center;
+    .position_css(fixed, 100px, 0vw);
+    .font_css(1vw);
+    border-bottom: 1px solid red;
+    background-color: red;
+    z-index: 999;
+    color: white;
+    font-weight: 700;
+}
+p{
+    width: 90vw;
+    .position_css(absolute, 220px, 5vw);
+    .font_css(1.5vw);
+    font-weight: 400;
+    
+}
 .apple_phones{
     .section_style(100%, 2000vh, absolute, 15vh, 0px);
     & div{
-        .section_style(50vw, 300px, absolute, 200px, 0px); 
+        .section_style(100%, 300px, absolute, 300px, 0px); 
         //border-bottom: 1px solid rgb(66, 63, 63);
         cursor: pointer;
         & a{
-            .font_css(1.5vw);
-            .position_css(absolute, 30px, 20vw);
+            .font_css(2vw);
+            .position_css(absolute, 30px, 30vw);
             text-decoration: none;
             font-weight: 600;
             color:black;
         }
         & img{
-            .img_style(15vw, auto, absolute, 25px, 2vw);
+            .img_style(16vw, auto, absolute, 25px, 10vw);
         }
         & ul{
             & li{
                 //display: flex;
                 width:fit-content;
                 list-style: none;
-                .position_css(relative, 80px, 20vw);
+                .position_css(relative, 90px, 30vw);
                 margin-bottom: 15px;
                 //border:1px solid black;
                 & span{
                     //column-gap: 2vh;
-                    .font_css(1.2vw);
+                    .font_css(1.7vw);
                     font-weight: 400;
                 }
             }
@@ -73,7 +96,7 @@
             color: white;
             font-weight: 700;
             border:1px solid red;
-            .position_css(absolute, 220px, 20vw)
+            .position_css(absolute, 120px, 75vw)
         }
     }
     & div{
@@ -193,10 +216,23 @@
 }
 //apple phone css for phone
 @media only screen and(min-width:250px) and(max-width:500px){
+    h1{
+        .font_css(6vw);
+    }
+    h2{
+        .font_css(3vw);
+    }
+    p{
+        width: 90vw;
+        .position_css(absolute, 220px, 5vw);
+        .font_css(3vw);
+        font-weight: 400;
+        
+    }
     .apple_phones{
         .section_style(100%, 2000vh, absolute, 15vh, 0px);
         & div{
-            .section_style(100%, 280px, absolute, 200px, 0px);
+            .section_style(100%, 280px, absolute, 250px, 0px);
             & a{
                 width: 94vw;
                 .font_css(4.5vw);

@@ -2,6 +2,38 @@
   margin: 0px;
   padding: 0px;
 }
+h1 {
+  width: 100%;
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: sans-serif;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 100px;
+  left: 0vw;
+  font-size: 1vw;
+  font-family: sans-serif;
+  border-bottom: 1px solid red;
+  background-color: red;
+  z-index: 999;
+  color: white;
+  font-weight: 700;
+}
+p {
+  width: 90vw;
+  position: absolute;
+  top: 220px;
+  left: 5vw;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  font-weight: 400;
+}
 .apple_phones {
   width: 100%;
   height: 2000vh;
@@ -10,40 +42,40 @@
   left: 0px;
 }
 .apple_phones div {
-  width: 50vw;
+  width: 100%;
   height: 300px;
   position: absolute;
-  top: 200px;
+  top: 300px;
   left: 0px;
   cursor: pointer;
 }
 .apple_phones div a {
-  font-size: 1.5vw;
+  font-size: 2vw;
   font-family: sans-serif;
   position: absolute;
   top: 30px;
-  left: 20vw;
+  left: 30vw;
   text-decoration: none;
   font-weight: 600;
   color: black;
 }
 .apple_phones div img {
-  width: 15vw;
+  width: 16vw;
   height: auto;
   position: absolute;
   top: 25px;
-  left: 2vw;
+  left: 10vw;
 }
 .apple_phones div ul li {
   width: fit-content;
   list-style: none;
   position: relative;
-  top: 80px;
-  left: 20vw;
+  top: 90px;
+  left: 30vw;
   margin-bottom: 15px;
 }
 .apple_phones div ul li span {
-  font-size: 1.2vw;
+  font-size: 1.7vw;
   font-family: sans-serif;
   font-weight: 400;
 }
@@ -60,8 +92,8 @@
   font-weight: 700;
   border: 1px solid red;
   position: absolute;
-  top: 220px;
-  left: 20vw;
+  top: 120px;
+  left: 75vw;
 }
 .apple_phones div a:hover {
   color: dodgerblue;
@@ -271,6 +303,23 @@
   left: 48vw;
 }
 @media only screen and (min-width: 250px) and (max-width: 500px) {
+  h1 {
+    font-size: 6vw;
+    font-family: sans-serif;
+  }
+  h2 {
+    font-size: 3vw;
+    font-family: sans-serif;
+  }
+  p {
+    width: 90vw;
+    position: absolute;
+    top: 220px;
+    left: 5vw;
+    font-size: 3vw;
+    font-family: sans-serif;
+    font-weight: 400;
+  }
   .apple_phones {
     width: 100%;
     height: 2000vh;
@@ -282,7 +331,7 @@
     width: 100%;
     height: 280px;
     position: absolute;
-    top: 200px;
+    top: 250px;
     left: 0px;
   }
   .apple_phones div a {
