@@ -231,7 +231,6 @@
         let choosecolour = document.getElementById("choose_colour")
         let closee =document.getElementById("close_div")
         fulldetails.onclick = () =>{
-            choosecolour.style.visibility = "visible"
             choosecolour.style.transition = "width 0.5s"
             choosecolour.style.width = "100%"
             //choosecolour.style.visibility = "visible"
@@ -245,7 +244,8 @@
         let blackrom = document.getElementById("black_rom")
         let close_blackrom_div = document.getElementById("close_blackrom_div")
         black.onclick = () =>{
-            choosecolour.style.visibility = "hidden"
+            choosecolour.style.transition = "width 0s"
+            choosecolour.style.width = "0%"
             blackrom.style.transition = "width 0.5s"
             blackrom.style.width = "100%"
         }

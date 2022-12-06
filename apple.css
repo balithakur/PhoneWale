@@ -379,6 +379,8 @@ p {
     height: 100%;
   }
   .apple_phones .choose_colour h1 {
+    top: 100px;
+    width: 90vw;
     font-size: 5vw;
     font-family: sans-serif;
     left: 5vw;
@@ -386,17 +388,18 @@ p {
   }
   .apple_phones .choose_colour img {
     width: 10vw;
-    top: 560px;
+    top: 650px;
     left: 45.5vw;
   }
   .apple_phones .choose_colour ul li {
+    top: 220px;
     left: 15vw;
   }
   .apple_phones .choose_colour ul li button {
     width: 30vw;
   }
   .apple_phones .choose_colour h3 {
-    top: -270px;
+    top: -160px;
     font-size: 5vw;
     font-family: sans-serif;
   }
@@ -404,6 +407,7 @@ p {
     height: 100%;
   }
   .apple_phones .choose_rom h1 {
+    width: 90vw;
     font-size: 6vw;
     font-family: sans-serif;
     left: 5vw;
@@ -411,11 +415,11 @@ p {
   }
   .apple_phones .choose_rom img {
     width: 10vw;
-    top: 500px;
+    top: 550px;
     left: 45.5vw;
   }
   .apple_phones .choose_rom ul li {
-    top: 150px;
+    top: 250px;
     left: 35vw;
   }
   .apple_phones .choose_rom ul li button {
