@@ -318,7 +318,7 @@ p {
   p {
     width: 90vw;
     position: absolute;
-    top: 220px;
+    top: 200px;
     left: 5vw;
     font-size: 4vw;
     font-family: sans-serif;
@@ -328,7 +328,7 @@ p {
     width: 100%;
     height: 2000vh;
     position: absolute;
-    top: 15vh;
+    top: 150px;
     left: 0px;
   }
   .apple_phones div {
