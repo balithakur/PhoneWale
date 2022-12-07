@@ -23,7 +23,7 @@
 }
 .font_css(@font){
     font-size: @font;
-    font-family: sans-serif;
+    font-family:sans-serif;
 }
 .button(@height, @width, @margin, @background, @radius,){
     height:@height;
@@ -53,6 +53,7 @@ h2{
     font-weight: 700;
 }
 p{
+    text-align: center;
     width: 90vw;
     .position_css(absolute, 220px, 5vw);
     .font_css(1.5vw);
@@ -62,25 +63,26 @@ p{
 .apple_phones{
     .section_style(100%, 2000vh, absolute, 15vh, 0px);
     & div{
-        .section_style(100%, 300px, absolute, 300px, 0px); 
+        .section_style(100%, 300px, absolute, 200px, 0px); 
         //border-bottom: 1px solid rgb(66, 63, 63);
         cursor: pointer;
         & a{
             .font_css(2vw);
-            .position_css(absolute, 30px, 30vw);
+            .position_css(absolute, 50px, 30vw);
             text-decoration: none;
             font-weight: 600;
             color:black;
+            text-align: center;
         }
         & img{
-            .img_style(16vw, auto, absolute, 25px, 10vw);
+            .img_style(14vw, auto, absolute, 25px, 10vw);
         }
         & ul{
             & li{
                 //display: flex;
                 width:fit-content;
                 list-style: none;
-                .position_css(relative, 90px, 30vw);
+                .position_css(relative, 100px, 30vw);
                 margin-bottom: 15px;
                 //border:1px solid black;
                 & span{
@@ -96,7 +98,7 @@ p{
             color: white;
             font-weight: 700;
             border:1px solid red;
-            .position_css(absolute, 120px, 75vw)
+            .position_css(absolute, 110px, 75vw)
         }
     }
     & div{
@@ -227,14 +229,14 @@ p{
     p{
         width: 90vw;
         .position_css(absolute, 220px, 5vw);
-        .font_css(3vw);
+        .font_css(4vw);
         font-weight: 400;
         
     }
     .apple_phones{
         .section_style(100%, 2000vh, absolute, 15vh, 0px);
         & div{
-            .section_style(100%, 280px, absolute, 250px, 0px);
+            .section_style(100%, 280px, absolute, 150px, 0px);
             & a{
                 width: 94vw;
                 .font_css(4.5vw);
@@ -256,7 +258,7 @@ p{
                 .button(40px, 30vw, 0px, red, 5px);
                 .font_css(3.5vw);
                 border: 1px solid red;
-                .position_css(absolute, 220px, 38vw)
+                .position_css(absolute, 200px, 38vw)
             }
         }
         .choose_colour{
@@ -303,9 +305,9 @@ p{
             & ul{
                 & li{
                     top:250px;
-                    left:35vw;
+                    left:29vw;
                     & button{
-                        width:30vw; 
+                        width:40vw; 
                         .font_css(5vw)           
                     }
                 }
