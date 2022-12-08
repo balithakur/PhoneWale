@@ -43,9 +43,14 @@
         <div class="swiper-pagination"></div>
       </div>
       <div class="price_div">
-        <button>Check Price On Amazon</button>
-        <button>Check Price On Flipkart</button>
-        <button>Check Price On TataCliq</button>
+        <button id="check_price_btn">Check Price</button>
+        <div class="price" id="price">
+          <h1>Check price of Apple Iphone 14 Pro max on different website</h1>
+          <img src="close (1).webp" alt="close image" id="close_price">
+          <button class="price_btn">Check Price On Amazon</button>
+          <button class="price_btn">Check Price On Flipkart</button>
+          <button class="price_btn">Check Price On TataCliq</button>
+        </div>
       </div>
       <div class="highlights">
         <h2>Highlights</h2>
@@ -56,6 +61,18 @@
           <li><h4>A16 Bionic Chip, 6 Core Processor Processor</h4></li>
         </ul>
       </div>
+    </section>
+    <section class="display_feature">
+      <img src="apple_phone_images/space_black_14promax/iphone 14 pro max display.png" alt="iphone 14 promax display image">
+      <h1>Display Features</h1>
+      <div class="line"></div>
+      <div class="display_feature">
+        <h2>Display Feature : </h2>
+        <p>Dynamic Island, Always-On Display, Pro Motion Technology with Adaptive Refresh Rates Upto <strong>120 Hz, HDR Display</strong>, True Tone, Wide Colour (P3), Haptic Touch, Contrast Ratio: 20,00,000:1, Max Brightness: 1,000 nits, Peak Brightness: 1,600 nits, Peak Brightness (Outdoor): 2,000 nits</p>
+        <h3>Display Type : Super Retina XDR Display</h3>
+        <h4>GPU : 5core</h4>
+      </div>
+
     </section>
     <script src="swiper-bundle.min.js"></script>
     <script>
@@ -73,5 +90,18 @@
           },
         });
       </script>
+    <script>
+      let check_price_btn = document.getElementById("check_price_btn")
+      let price = document.getElementById("price")
+      let close_price = document.getElementById("close_price")
+      check_price_btn.onclick = () =>{
+        price.style.transition = "width .5s"
+        price.style.width = "100%"
+      }
+      close_price.onclick = () => {
+        price.style.transition = "width .5s"
+        price.style.width = "0%"
+      }
+    </script>
 </body>
 </html>

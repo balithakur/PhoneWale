@@ -68,12 +68,12 @@
   width: 25vw;
   height: content-fit;
   position: absolute;
-  top: 700px;
-  left: 60vw;
+  top: 410px;
+  left: 70vw;
 }
 .black_1tb_fulldetails .price_div button {
   height: 40px;
-  width: 20vw;
+  width: 13vw;
   border-radius: 5px;
   border: 1px solid black;
   margin: 0px;
@@ -85,11 +85,53 @@
   color: white;
   margin-bottom: 10px;
 }
+.black_1tb_fulldetails .price_div .price {
+  width: 0%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  background-color: white;
+  overflow: hidden;
+}
+.black_1tb_fulldetails .price_div .price h1 {
+  position: absolute;
+  top: 100px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+}
+.black_1tb_fulldetails .price_div .price img {
+  width: 22px;
+  height: auto;
+  position: absolute;
+  top: 100px;
+  left: 90vw;
+}
+.black_1tb_fulldetails .price_div .price .price_btn {
+  display: block;
+  position: relative;
+  top: 200px;
+  left: 41vw;
+  height: 45px;
+  width: 20vw;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 0px;
+  background-color: red;
+  border: 1px solid red;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 25px;
+}
 .black_1tb_fulldetails .highlights {
   width: 40vw;
   height: content-fit;
   position: absolute;
-  top: 250px;
+  top: 230px;
   left: 55vw;
 }
 .black_1tb_fulldetails .highlights h2 {
@@ -108,4 +150,74 @@
   font-family: sans-serif;
   font-weight: 300;
   margin-bottom: 15px;
+}
+.display_feature {
+  width: 100%;
+  height: 900px;
+  position: absolute;
+  top: 650px;
+  left: 0px;
+}
+.display_feature img {
+  width: 90%;
+  height: auto;
+  position: absolute;
+  top: 500px;
+  left: 5%;
+}
+.display_feature h1 {
+  text-align: center;
+  font-size: 6vw;
+  font-family: sans-serif;
+  background: linear-gradient(90deg, #fa3200 0%, rgba(251, 218, 95, 0.57980278) 56%, #cd00ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.display_feature .line {
+  width: 0.5vw;
+  height: 480px;
+  position: absolute;
+  top: 130px;
+  left: 15vw;
+  transform: rotateZ('90deg');
+  background-color: red;
+  border-radius: 10px;
+}
+.display_feature .display_feature {
+  width: 80vw;
+  height: auto;
+  position: absolute;
+  top: 130px;
+  left: 15vw;
+}
+.display_feature .display_feature h2 {
+  position: absolute;
+  top: 0px;
+  left: 1vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+}
+.display_feature .display_feature p {
+  font-size: 1.6vw;
+  font-family: sans-serif;
+  position: absolute;
+  top: 5px;
+  left: 18vw;
+  color: gray;
+}
+.display_feature .display_feature h3 {
+  position: absolute;
+  top: 120px;
+  left: 1vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+  color: gray;
+}
+.display_feature .display_feature h4 {
+  position: absolute;
+  top: 220px;
+  left: 1vw;
+  font-size: 2vw;
+  font-family: sans-serif;
+  color: gray;
 }
