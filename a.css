@@ -16,7 +16,7 @@
 }
 .black_1tb_fulldetails {
   width: 100%;
-  height: 1200px;
+  height: 7200px;
   position: absolute;
   top: 100px;
   left: 0px;
@@ -30,10 +30,10 @@
   left: 50vw;
 }
 .black_1tb_fulldetails .image_div {
-  width: 50vw;
-  height: 500px;
-  position: absolute;
-  top: 0px;
+  width: 45vw;
+  height: 100%;
+  position: fixed;
+  top: 100px;
   left: 0vw;
   background-color: white;
 }
@@ -42,7 +42,7 @@
   height: auto;
   position: absolute;
   top: 50px;
-  left: 12vw;
+  left: 10vw;
 }
 .black_1tb_fulldetails .image_div div .second {
   width: 80vw;
@@ -151,73 +151,235 @@
   font-weight: 300;
   margin-bottom: 15px;
 }
-.display_feature {
-  width: 100%;
-  height: 900px;
-  position: absolute;
-  top: 650px;
-  left: 0px;
-}
-.display_feature img {
-  width: 90%;
-  height: auto;
+.black_1tb_fulldetails .general {
+  width: 52%;
+  height: 530px;
   position: absolute;
   top: 500px;
-  left: 5%;
+  left: 48%;
+  border-bottom: 1px solid grey;
 }
-.display_feature h1 {
+.black_1tb_fulldetails .general h1 {
   text-align: center;
-  font-size: 6vw;
+  font-size: 3.5vw;
   font-family: sans-serif;
-  background: linear-gradient(90deg, #fa3200 0%, rgba(251, 218, 95, 0.57980278) 56%, #cd00ff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.display_feature .line {
-  width: 0.5vw;
-  height: 480px;
-  position: absolute;
-  top: 130px;
-  left: 15vw;
-  transform: rotateZ('90deg');
-  background-color: red;
-  border-radius: 10px;
-}
-.display_feature .display_feature {
-  width: 80vw;
-  height: auto;
-  position: absolute;
-  top: 130px;
-  left: 15vw;
-}
-.display_feature .display_feature h2 {
+  width: 100%;
   position: absolute;
   top: 0px;
-  left: 1vw;
-  font-size: 2vw;
-  font-family: sans-serif;
+  left: 0%;
 }
-.display_feature .display_feature p {
-  font-size: 1.6vw;
-  font-family: sans-serif;
-  position: absolute;
-  top: 5px;
-  left: 18vw;
-  color: gray;
-}
-.display_feature .display_feature h3 {
-  position: absolute;
+.black_1tb_fulldetails .general h3 {
+  position: relative;
   top: 120px;
-  left: 1vw;
-  font-size: 2vw;
+  left: 2.5vw;
+  font-size: 20px;
   font-family: sans-serif;
-  color: gray;
+  width: fit-content;
+  margin-bottom: 15px;
 }
-.display_feature .display_feature h4 {
-  position: absolute;
-  top: 220px;
-  left: 1vw;
-  font-size: 2vw;
+.black_1tb_fulldetails .general p {
+  font-size: 16px;
   font-family: sans-serif;
-  color: gray;
+  position: relative;
+  top: 79px;
+  left: 25vw;
+  width: 22vw;
+  overflow: hidden;
+}
+.black_1tb_fulldetails .display_features {
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  top: 1050px;
+  left: 0%;
+  border-bottom: 1px solid gray;
+}
+.black_1tb_fulldetails .display_features h1 {
+  text-align: center;
+  font-size: 3.5vw;
+  font-family: sans-serif;
+}
+.black_1tb_fulldetails .display_features .display_feature {
+  width: 50vw;
+  height: auto;
+  position: absolute;
+  top: 160px;
+  left: 35vw;
+}
+.black_1tb_fulldetails .display_features .display_feature h2 {
+  position: relative;
+  top: 0px;
+  left: 15vw;
+  font-size: 20px;
+  font-family: sans-serif;
+  width: fit-content;
+  margin-bottom: 16px;
+}
+.black_1tb_fulldetails .display_features .display_feature p {
+  font-size: 16px;
+  font-family: sans-serif;
+  position: relative;
+  top: -42px;
+  left: 33vw;
+  width: 30vw;
+  overflow: hidden;
+}
+.black_1tb_fulldetails .display_features .display_feature .hdr {
+  width: 20vw;
+  left: 35vw;
+}
+.black_1tb_fulldetails .ram_feature {
+  width: 52%;
+  height: 280px;
+  position: absolute;
+  top: 1000px;
+  left: 48%;
+  border-bottom: 1px solid grey;
+}
+.black_1tb_fulldetails .ram_feature h1 {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  text-align: center;
+  font-size: 42px;
+  font-family: sans-serif;
+}
+.black_1tb_fulldetails .ram_feature h4 {
+  position: relative;
+  top: 150px;
+  left: 3vw;
+  font-size: 20px;
+  font-family: sans-serif;
+  width: fit-content;
+  margin-bottom: 16px;
+}
+.black_1tb_fulldetails .ram_feature p {
+  font-size: 16px;
+  font-family: sans-serif;
+  position: relative;
+  top: 98px;
+  left: 21vw;
+  width: 30vw;
+  overflow: hidden;
+}
+.black_1tb_fulldetails .os_processor {
+  width: 52%;
+  height: 820px;
+  position: absolute;
+  top: 1300px;
+  left: 48%;
+  border-bottom: 1px solid grey;
+}
+.black_1tb_fulldetails .os_processor h1 {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  text-align: center;
+  font-size: 42px;
+  font-family: sans-serif;
+}
+.black_1tb_fulldetails .os_processor h5 {
+  position: relative;
+  top: 150px;
+  left: 3vw;
+  font-size: 20px;
+  font-family: sans-serif;
+  width: fit-content;
+  margin-bottom: 16px;
+}
+.black_1tb_fulldetails .os_processor p {
+  font-size: 16px;
+  font-family: sans-serif;
+  position: relative;
+  top: 112px;
+  left: 21vw;
+  width: 30vw;
+  overflow: hidden;
+}
+.black_1tb_fulldetails .os_processor button {
+  height: 40px;
+  width: 19vw;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 0px;
+  background-color: red;
+  border: 1px solid red;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 730px;
+  left: 16vw;
+}
+.black_1tb_fulldetails .memory_feature {
+  width: 52%;
+  height: 300px;
+  position: absolute;
+  top: 2120px;
+  left: 48%;
+  border-bottom: 1px solid grey;
+}
+.black_1tb_fulldetails .memory_feature h1 {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  text-align: center;
+  font-size: 42px;
+  font-family: sans-serif;
+}
+.black_1tb_fulldetails .memory_feature h2 {
+  position: relative;
+  top: 200px;
+  left: 3vw;
+  font-size: 20px;
+  font-family: sans-serif;
+  width: fit-content;
+  margin-bottom: 16px;
+}
+.black_1tb_fulldetails .memory_feature p {
+  font-size: 16px;
+  font-family: sans-serif;
+  position: relative;
+  top: 162px;
+  left: 21vw;
+  width: 30vw;
+  overflow: hidden;
+}
+.black_1tb_fulldetails .camera_feature {
+  width: 52%;
+  height: 2120px;
+  position: absolute;
+  top: 2420px;
+  left: 48%;
+  border-bottom: 1px solid grey;
+}
+.black_1tb_fulldetails .camera_feature h1 {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  text-align: center;
+  font-size: 42px;
+  font-family: sans-serif;
+}
+.black_1tb_fulldetails .camera_feature h6 {
+  position: relative;
+  top: 150px;
+  left: 0vw;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: left;
+  width: 19vw;
+  margin-bottom: 16px;
+}
+.black_1tb_fulldetails .camera_feature p {
+  font-size: 16px;
+  font-family: sans-serif;
+  position: relative;
+  top: 106px;
+  left: 19vw;
+  width: 30vw;
+  overflow: hidden;
+  padding-bottom: 3px;
 }

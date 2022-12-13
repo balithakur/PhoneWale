@@ -49,13 +49,13 @@
         width:45vw;
         .position_css(absolute, 50px, 50vw);
     }
-    .section_style(100%, 1200px, absolute, 100px, 0px);
+    .section_style(100%, 7200px, absolute, 100px, 0px);
     .image_div{
-        .section_style(50vw, 500px, absolute, 00px, 0vw);
+        .section_style(45vw, 100%, fixed, 100px, 0vw);
         background-color:white;
         & div{
             & img{
-                .img_style(25vw, auto, absolute, 50px, 12vw)
+                .img_style(25vw, auto, absolute, 50px, 10vw)
             }
             .second{
                 width:80vw;
@@ -135,45 +135,161 @@
             }
         }
     }
-}
-.display_feature{
-    .section_style(100%, 900px, absolute, 650px, 0px);
-    & img{
-        .img_style(90%, auto, absolute, 500px, 5%)
-    }
-    & h1{
-        text-align: center;
-        .font_css(6vw);
-        background: linear-gradient(90deg, rgba(250,50,0,1) 0%, rgba(251,218,95,0.5798027829295781) 56%, rgba(205,0,255,1) 100%);;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    .line{
-        .section_style(.5vw, 480px, absolute, 130px, 15vw);
-        transform: rotateZ('90deg');
-        background-color: red;
-        border-radius: 10px;
-    }
-    .display_feature{
-        .section_style(80vw, auto, absolute, 130px, 15vw);
-        & h2{
-            .position_css(absolute, 0px, 1vw);
-            .font_css(2vw)
-        }
-        & p{
-            .font_css(1.6vw);
-            .position_css(absolute, 5px , 18vw);
-            color:gray;
+    .general{
+        .section_style(52%, 530px, absolute, 500px, 48%);
+        border-bottom: 1px solid grey;
+        & h1{
+            text-align: center;
+            .font_css(3.5vw);
+            width:100%;
+            .position_css(absolute, 0px, 0%);
+            
         }
         & h3{
-            .position_css(absolute, 120px, 1vw);
-            .font_css(2vw);
-            color:gray;
+            .position_css(relative, 120px, 2.5vw);
+            .font_css(20px);
+            width: fit-content;
+            margin-bottom:15px;
         }
-        & h4{
-            .position_css(absolute, 220px, 1vw);
-            .font_css(2vw);
-            color:gray;
+        & p{
+            .font_css(16px);
+                .position_css(relative, 79px , 25vw);
+                width: 22vw;
+                overflow: hidden;
         }
     }
+    .display_features{
+        .section_style(100%, 1000px, absolute, 1050px, 0%);
+        border-bottom: 1px solid gray;
+        & h1{
+            text-align: center;
+            .font_css(3.5vw);
+            //background: linear-gradient(90deg, rgba(250,50,0,1) 0%, rgba(251,218,95,0.5798027829295781) 56%, rgba(205,0,255,1) 100%);;
+            //-webkit-background-clip: text;
+            //-webkit-text-fill-color: transparent;
+        }
+        .display_feature{
+            .section_style(50vw, auto, absolute, 160px, 35vw);
+            & h2{
+                .position_css(relative, 0px, 15vw);
+                .font_css(20px);
+                width: fit-content;
+                margin-bottom:16px;
+            }
+            & p{
+                .font_css(16px);
+                .position_css(relative, -42px , 33vw);
+                width: 30vw;
+                overflow: hidden;
+                
+            }
+            .hdr{
+                width:20vw;
+                left:35vw;
+            }
+        }
+    }
+    .ram_feature{
+        .section_style(52%, 280px, absolute, 1000px, 48%);
+        border-bottom: 1px solid grey;
+        & h1{
+            .position_css(absolute, 50px, 0px);
+            text-align: center;
+            .font_css(42px);
+        }
+        & h4{
+            .position_css(relative, 150px, 3vw);
+            .font_css(20px);
+            width: fit-content;
+            margin-bottom:16px;
+        }
+        & p{
+            .font_css(16px);
+            .position_css(relative, 98px , 21vw);
+            width: 30vw;
+            overflow: hidden;
+            
+        }
+    }
+    .os_processor{
+        .section_style(52%, 820px, absolute, 1300px, 48%);
+        border-bottom: 1px solid grey;
+        & h1{
+            .position_css(absolute, 50px, 0px);
+            text-align: center;
+            .font_css(42px);
+        }
+        & h5{
+            .position_css(relative, 150px, 3vw);
+            .font_css(20px);
+            width: fit-content;
+            margin-bottom:16px;
+        }
+        & p{
+            .font_css(16px);
+            .position_css(relative, 112px , 21vw);
+            width: 30vw;
+            overflow: hidden;  
+        }
+        & button{
+            .button(40px, 19vw, 0px , red , 5px);
+            border:1px solid red;
+            .font_css(1.5vw);
+            font-weight: 600;
+            color:white;
+            margin-bottom:10px;
+            .position_css(absolute, 730px, 16vw)
+        }
+    }
+    .memory_feature{
+        .section_style(52%, 300px, absolute, 2120px, 48%);
+        border-bottom: 1px solid grey;
+        & h1{
+            .position_css(absolute, 50px, 0px);
+            text-align: center;
+            .font_css(42px);
+        }
+        & h2{
+            .position_css(relative, 200px, 3vw);
+            .font_css(20px);
+            width: fit-content;
+            margin-bottom:16px;
+        }
+        & p{
+            .font_css(16px);
+            .position_css(relative, 162px , 21vw);
+            width: 30vw;
+            overflow: hidden;  
+        }
+    }
+    .camera_feature{
+        .section_style(52%, 2120px, absolute, 2420px, 48%);
+        border-bottom: 1px solid grey;
+        & h1{
+            .position_css(absolute, 50px, 0px);
+            text-align: center;
+            .font_css(42px);
+        }
+        & h6{
+            .position_css(relative, 150px, 0vw);
+            .font_css(20px);
+            text-align: left;
+            width: 19vw;
+            margin-bottom:16px;
+        }
+        & p{
+            .font_css(16px);
+            .position_css(relative, 106px , 19vw);
+            width: 30vw;
+            overflow: hidden;  
+            padding-bottom: 3px;
+        }
+    }
+}
+
+
+
+
+@media only screen and (min-width:250px) and (max-width:500px){
+    
 }
