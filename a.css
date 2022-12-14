@@ -494,6 +494,13 @@
   .american {
     font-size: 2.5vw;
   }
+  .black_1tb_fulldetails {
+    width: 100%;
+    height: 15300px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+  }
   .black_1tb_fulldetails h1 {
     font-size: 6vw;
     width: 90vw;
@@ -571,11 +578,272 @@
     left: 5vw;
   }
   .black_1tb_fulldetails .highlights h2 {
-    font-size: 6vw;
+    font-size: 7vw;
     width: 90vw;
+  }
+  .black_1tb_fulldetails .highlights ul li {
+    position: relative;
+    top: 0px;
+    left: 5vw;
   }
   .black_1tb_fulldetails .highlights ul li h4 {
     width: 90vw;
-    font-size: 16px;
+    font-size: 4.5vw;
+  }
+  .black_1tb_fulldetails .general {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    top: 1120px;
+    left: 0px;
+    border-bottom: 1px solid grey;
+  }
+  .black_1tb_fulldetails .general h1 {
+    font-size: 7vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .general h3 {
+    position: relative;
+    top: 100px;
+    left: 5vw;
+    width: 35vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .general p {
+    position: relative;
+    top: 65px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .display_features {
+    width: 100%;
+    height: 1410px;
+    position: absolute;
+    top: 1860px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .display_features h1 {
+    font-size: 7vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .display_features .display_feature {
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 20px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .display_features .display_feature h2 {
+    position: relative;
+    top: 100px;
+    left: 5vw;
+    width: 33vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .display_features .display_feature p {
+    position: relative;
+    top: 65px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .ram_feature {
+    width: 100%;
+    height: 330px;
+    position: absolute;
+    top: 1430px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .ram_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .ram_feature h4 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 35vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .ram_feature p {
+    position: relative;
+    top: 105px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .os_processor {
+    width: 100%;
+    height: 1390px;
+    position: absolute;
+    top: 1770px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .os_processor h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .os_processor h5 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 33vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .os_processor p {
+    position: relative;
+    top: 105px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .os_processor button {
+    width: 50vw;
+    position: absolute;
+    top: 1250px;
+    left: 25vw;
+    font-size: 4vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .memory_feature {
+    width: 100%;
+    height: 270px;
+    position: absolute;
+    top: 3170px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .memory_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .memory_feature h2 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 43vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .memory_feature p {
+    position: relative;
+    top: 112px;
+    left: 50vw;
+    width: 40vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .camera_feature {
+    width: 100%;
+    height: 3810px;
+    position: absolute;
+    top: 3470px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .camera_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .camera_feature h6 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 33.5vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .camera_feature p {
+    position: relative;
+    top: 105px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .camera_feature button {
+    width: 50vw;
+    position: absolute;
+    top: 3690px;
+    left: 25vw;
+    font-size: 4vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .call_feature {
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    top: 7300px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .call_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .call_feature h5 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 37vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .call_feature p {
+    position: relative;
+    top: 105px;
+    left: 44vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .connectivity_feature {
+    width: 100%;
+    height: 1010px;
+    position: absolute;
+    top: 7700px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .connectivity_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .connectivity_feature h4 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 37vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .multimedia_feature {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 8740px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .multimedia_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .other_details {
+    width: 100%;
+    height: 1250px;
+    position: absolute;
+    top: 9180px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .other_details h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .design {
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 10460px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .design h1 {
+    width: 100%;
   }
 }
