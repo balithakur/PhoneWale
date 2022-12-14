@@ -34,6 +34,14 @@
     background-color: @background;
 }
 
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: red;
+    border-radius: 5px;
+    width:1vw;
+}
 .american{
     z-index: 999;
     width:100%;
@@ -49,9 +57,9 @@
         width:45vw;
         .position_css(absolute, 50px, 50vw);
     }
-    .section_style(100%, 7200px, absolute, 100px, 0px);
+    .section_style(100%, 8300px, absolute, 100px, 0px);
     .image_div{
-        .section_style(45vw, 100%, fixed, 100px, 0vw);
+        .section_style(45vw, 83%, fixed, 100px, 0vw);
         background-color:white;
         & div{
             & img{
@@ -263,7 +271,7 @@
         }
     }
     .camera_feature{
-        .section_style(52%, 2120px, absolute, 2420px, 48%);
+        .section_style(52%, 2050px, absolute, 2420px, 48%);
         border-bottom: 1px solid grey;
         & h1{
             .position_css(absolute, 50px, 0px);
@@ -284,12 +292,108 @@
             overflow: hidden;  
             padding-bottom: 3px;
         }
+        & button{
+            .button(40px, 19vw, 0px , red , 5px);
+            border:1px solid red;
+            .font_css(1.5vw);
+            font-weight: 600;
+            color:white;
+            margin-bottom:10px;
+            .position_css(absolute, 1950px, 16vw)
+        }
     }
+    .call_feature{
+        .section_style(52%, 300px, absolute, 4480px, 48%);
+        border-bottom: 1px solid grey;
+        & h1{
+            .position_css(absolute, 50px, 0px);
+            text-align: center;
+            .font_css(42px);
+        }
+        & h5{
+            .position_css(relative, 150px, 0vw);
+            .font_css(20px);
+            text-align: left;
+            width: 19vw;
+            margin-bottom:16px;
+        }
+        & p{
+            .font_css(16px);
+            .position_css(relative, 112px , 19vw);
+            width: 30vw;
+            overflow: hidden;  
+            padding-bottom: 3px;
+        }
+    }
+    .connectivity_feature{
+        .section_style(52%, 785px, absolute, 4780px, 48%);
+        & h4{
+            .position_css(relative, 150px, 0vw);
+            .font_css(20px);
+            text-align: left;
+            width: 19vw;
+            margin-bottom:16px;
+        }
+    }
+    
+    .multimedia_feature{
+        .section_style(52%, 325px, absolute, 5580px, 48%);
+    }
+    .other_details{
+        .section_style(52%, 735px, absolute, 5900px, 48%);
+    }
+    .design{
+        .section_style(52%, 565px, absolute, 6650px, 48%);
+    }
+}
+.a{
+    .section_style(100%, 1000px, absolute, 8210px, 0px);
+    background-color: aqua;
 }
 
 
 
 
 @media only screen and (min-width:250px) and (max-width:500px){
+    .black_1tb_fulldetails{
+        & h1{
+            font-size: 6.9vw;
+            width:90vw;
+            height: auto;
+            .position_css(absolute, 50px, 5vw);
+        }
+        .image_div{
+            .section_style(100%, 550px, absolute, 160px, 0vw);
+            background-color:white;
+            & div{
+                & img{
+                    .img_style(80vw, auto, absolute, 50px, 7.5vw)
+                }
+                .second{
+                    width:190vw;
+                    top:-150px;
+                    left:-50vw;
+                }
+                .third{
+                    width:120vw;
+                    top:150px;
+                    left:0vw;
+                }
+                .fourth{
+                    width:160vw;
+                    top:50px;
+                    left:-30vw;
+                }
+            }
+            .swiper-button-next{
+                font-weight: 700;
+                visibility: hidden;
+            }
+            .swiper-button-prev{
+                font-weight: 700;
+                visibility: hidden;
+            }
+        }
+    }
     
 }

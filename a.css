@@ -2,6 +2,14 @@
   margin: 0px;
   padding: 0px;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 5px;
+  width: 1vw;
+}
 .american {
   z-index: 999;
   width: 100%;
@@ -16,7 +24,7 @@
 }
 .black_1tb_fulldetails {
   width: 100%;
-  height: 7200px;
+  height: 8300px;
   position: absolute;
   top: 100px;
   left: 0px;
@@ -31,7 +39,7 @@
 }
 .black_1tb_fulldetails .image_div {
   width: 45vw;
-  height: 100%;
+  height: 83%;
   position: fixed;
   top: 100px;
   left: 0vw;
@@ -349,7 +357,7 @@
 }
 .black_1tb_fulldetails .camera_feature {
   width: 52%;
-  height: 2120px;
+  height: 2050px;
   position: absolute;
   top: 2420px;
   left: 48%;
@@ -382,4 +390,151 @@
   width: 30vw;
   overflow: hidden;
   padding-bottom: 3px;
+}
+.black_1tb_fulldetails .camera_feature button {
+  height: 40px;
+  width: 19vw;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 0px;
+  background-color: red;
+  border: 1px solid red;
+  font-size: 1.5vw;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 1950px;
+  left: 16vw;
+}
+.black_1tb_fulldetails .call_feature {
+  width: 52%;
+  height: 300px;
+  position: absolute;
+  top: 4480px;
+  left: 48%;
+  border-bottom: 1px solid grey;
+}
+.black_1tb_fulldetails .call_feature h1 {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  text-align: center;
+  font-size: 42px;
+  font-family: sans-serif;
+}
+.black_1tb_fulldetails .call_feature h5 {
+  position: relative;
+  top: 150px;
+  left: 0vw;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: left;
+  width: 19vw;
+  margin-bottom: 16px;
+}
+.black_1tb_fulldetails .call_feature p {
+  font-size: 16px;
+  font-family: sans-serif;
+  position: relative;
+  top: 112px;
+  left: 19vw;
+  width: 30vw;
+  overflow: hidden;
+  padding-bottom: 3px;
+}
+.black_1tb_fulldetails .connectivity_feature {
+  width: 52%;
+  height: 785px;
+  position: absolute;
+  top: 4780px;
+  left: 48%;
+}
+.black_1tb_fulldetails .connectivity_feature h4 {
+  position: relative;
+  top: 150px;
+  left: 0vw;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: left;
+  width: 19vw;
+  margin-bottom: 16px;
+}
+.black_1tb_fulldetails .multimedia_feature {
+  width: 52%;
+  height: 325px;
+  position: absolute;
+  top: 5580px;
+  left: 48%;
+}
+.black_1tb_fulldetails .other_details {
+  width: 52%;
+  height: 735px;
+  position: absolute;
+  top: 5900px;
+  left: 48%;
+}
+.black_1tb_fulldetails .design {
+  width: 52%;
+  height: 565px;
+  position: absolute;
+  top: 6650px;
+  left: 48%;
+}
+.a {
+  width: 100%;
+  height: 1000px;
+  position: absolute;
+  top: 8210px;
+  left: 0px;
+  background-color: aqua;
+}
+@media only screen and (min-width: 250px) and (max-width: 500px) {
+  .black_1tb_fulldetails h1 {
+    font-size: 6.9vw;
+    width: 90vw;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 5vw;
+  }
+  .black_1tb_fulldetails .image_div {
+    width: 100%;
+    height: 550px;
+    position: absolute;
+    top: 160px;
+    left: 0vw;
+    background-color: white;
+  }
+  .black_1tb_fulldetails .image_div div img {
+    width: 80vw;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 7.5vw;
+  }
+  .black_1tb_fulldetails .image_div div .second {
+    width: 190vw;
+    top: -150px;
+    left: -50vw;
+  }
+  .black_1tb_fulldetails .image_div div .third {
+    width: 120vw;
+    top: 150px;
+    left: 0vw;
+  }
+  .black_1tb_fulldetails .image_div div .fourth {
+    width: 160vw;
+    top: 50px;
+    left: -30vw;
+  }
+  .black_1tb_fulldetails .image_div .swiper-button-next {
+    font-weight: 700;
+    visibility: hidden;
+  }
+  .black_1tb_fulldetails .image_div .swiper-button-prev {
+    font-weight: 700;
+    visibility: hidden;
+  }
 }
