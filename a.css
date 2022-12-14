@@ -564,4 +564,17 @@
     left: 18vw;
     top: 300px;
   }
+  .black_1tb_fulldetails .highlights {
+    position: absolute;
+    top: 820px;
+    left: 5vw;
+  }
+  .black_1tb_fulldetails .highlights h2 {
+    font-size: 6vw;
+    width: 90vw;
+  }
+  .black_1tb_fulldetails .highlights ul li h4 {
+    width: 90vw;
+    font-size: 16px;
+  }
 }
