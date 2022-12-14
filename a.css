@@ -491,28 +491,31 @@
   background-color: aqua;
 }
 @media only screen and (min-width: 250px) and (max-width: 500px) {
+  .american {
+    font-size: 2.5vw;
+  }
   .black_1tb_fulldetails h1 {
     font-size: 6.9vw;
     width: 90vw;
     height: auto;
     position: absolute;
-    top: 50px;
+    top: 25px;
     left: 5vw;
   }
   .black_1tb_fulldetails .image_div {
     width: 100%;
-    height: 550px;
+    height: 480px;
     position: absolute;
-    top: 160px;
+    top: 100px;
     left: 0vw;
     background-color: white;
   }
   .black_1tb_fulldetails .image_div div img {
-    width: 80vw;
+    width: 70vw;
     height: auto;
     position: absolute;
     top: 50px;
-    left: 7.5vw;
+    left: 15vw;
   }
   .black_1tb_fulldetails .image_div div .second {
     width: 190vw;
