@@ -33,7 +33,9 @@
     margin:@margin;
     background-color: @background;
 }
-
+.hidden{
+    visibility: hidden;
+}
 ::-webkit-scrollbar{
     width:5px;
 }
@@ -354,7 +356,7 @@
 
 
 
-@media only screen and (min-width:250px) and (max-width:500px){
+@media only screen and (min-width:250px) and (max-width:300px){
     .american{
         font-size: 10px;
     }
@@ -422,7 +424,7 @@
         .highlights{
             .position_css(absolute, 820px, 5vw);
             & h2{
-                font-size: 32px;
+                font-size: 6.9vw;
                 width:90vw;
             }
             & ul{
@@ -430,49 +432,534 @@
                     .position_css(relative, 0px , 5vw);
                     & h4{
                         width:90vw;
-                        font-size: 16px;
+                        font-size: 3.9vw;
                     }
                 }
             }
         }
         .general{
-            .section_style(100%, 600px, absolute, 990px, 0px);
+            .section_style(100%, auto, absolute, 990px, 0px);
             border-bottom: 1px solid grey;
             & h1{
-                .font_css(32px)
+                .font_css(6.9vw)
             }
             & h3{
                 .position_css(relative, 100px, 5vw);
                 width:35vw;
-                .font_css(20px);
+                .font_css(4vw);
             }
             & p{
                 .position_css(relative, 65px, 40vw);
                 width:55vw;
-                .font_css(18px)
+                .font_css(3.8vw)
             }
         }
         .display_features{
-            .section_style(100%, 1220px, absolute, 1610px, 0px);
+            .section_style(100%, auto, absolute, 1380px, 0px);
+            border-bottom: 0px;
             & h1{
-                .font_css(32px)
+                .font_css(6.9vw)
             }
             .display_feature{
-                .section_style(100%, 900px, absolute, 20px, 0px);
+                .section_style(100%, auto, absolute, -25px, 0px);
+                border-bottom: 1px solid grey;
                 & h2{
                     .position_css(relative, 100px, 5vw);
                     width:33vw;
-                    .font_css(20px)
+                    .font_css(4vw)
                 }
                 & p{
                     .position_css(relative, 65px, 40vw);
                     width:55vw;
-                    .font_css(18px)
+                    .font_css(3.8vw)
                 }
             }
         }
         .ram_feature{
-            .section_style(100%, 330px, absolute, 1220px, 0px);
+            .section_style(100%, auto, absolute, 1220px, 0px);
+            & h1{
+                width:100%;
+            }
+            & h4{
+                .position_css(relative, 150px, 5vw);
+                width:35vw;
+                .font_css(4.5vw)
+            }
+            & p{
+                .position_css(relative, 105px, 40vw);
+                width:55vw;
+                .font_css(4.5vw)
+            }
+        }
+        .os_processor{
+            .section_style(100%, 1390px, absolute, 1770px, 0px);
+            & h1{
+                width:100%;
+            }
+            & h5{
+                .position_css(relative, 150px, 5vw);
+                width:33vw;
+                .font_css(4.5vw)
+            }
+            & p{
+                .position_css(relative, 105px, 40vw);
+                width:55vw;
+                .font_css(4.5vw)
+            }
+            & button{
+                width:50vw;
+                .position_css(absolute, 1250px, 25vw);
+                .font_css(4vw)
+            }
+        }
+        .memory_feature{
+            .section_style(100%, 270px, absolute, 3170px, 0px);
+            & h1{
+                width:100%;
+            }
+            & h2{
+                .position_css(relative, 150px, 5vw);
+                width:43vw;
+                .font_css(4.5vw)
+            }
+            & p{
+                .position_css(relative, 112px, 50vw);
+                width:40vw;
+                .font_css(4.5vw)
+            }
+        }
+        .camera_feature{
+            .section_style(100%, 3810px, absolute, 3470px, 0px);
+            & h1{
+                width: 100%;
+            }
+            & h6{
+                .position_css(relative, 150px, 5vw);
+                width:33.5vw;
+                .font_css(4.5vw)
+            }
+            & p{
+                .position_css(relative, 105px, 40vw);
+                width:55vw;
+                .font_css(4.5vw)
+            }
+            & button{
+                width:50vw;
+                .position_css(absolute, 3690px, 25vw);
+                .font_css(4vw)
+            }
+        }
+        .call_feature{
+            .section_style(100%, 360px, absolute, 7300px, 0px);
+            & h1{
+                width:100%;
+            }
+            & h5{
+                .position_css(relative, 150px, 5vw);
+                width:37vw;
+                .font_css(4.5vw)
+            }
+            & p{
+                .position_css(relative, 105px, 44vw);
+                width:55vw;
+                .font_css(4.5vw)
+            }
+        }
+        .connectivity_feature{
+            .section_style(100%, 1010px, absolute, 7700px, 0px);
+            & h1{
+                width:100%;
+            }
+            & h4{
+                .position_css(relative, 150px, 5vw);
+                width:37vw;
+                .font_css(4.5vw)
+            }
+        }
+        .multimedia_feature{
+            .section_style(100%, 400px, absolute, 8740px, 0px);
+            & h1{
+                width:100%;
+            }
+        }
+        .other_details{
+            .section_style(100%, 1250px, absolute, 9180px, 0px);
+            & h1{
+                width:100%;
+            }
+        }
+        .design{
+            .section_style(100%, 650px, absolute, 10460px, 0px);
+            & h1{
+                width:100%;
+            }
+        }
+    }
+    
+}
+
+@media only screen and (min-width:300px) and (max-width:350px){
+    .american{
+        font-size: 10px;
+    }
+    .black_1tb_fulldetails{
+        & h1{
+            font-size: 28px;
+            width:90vw;
+            height: auto;
+            text-align: center;
+            .position_css(absolute, 25px, 5vw);
+        }
+        .section_style(100%, 15300px, absolute, 100px, 0px);
+        .image_div{
+            .section_style(100%, 480px, absolute, 120px, 0vw);
+            background-color:white;
+            & div{
+                & img{
+                    .img_style(70vw, auto, absolute, 50px, 15vw)
+                }
+                .second{
+                    width:190vw;
+                    top:-150px;
+                    left:-50vw;
+                }
+                .third{
+                    width:120vw;
+                    top:150px;
+                    left:0vw;
+                }
+                .fourth{
+                    width:160vw;
+                    top:50px;
+                    left:-30vw;
+                }
+            }
+            .swiper-button-next{
+                font-weight: 700;
+                visibility: hidden;
+            }
+            .swiper-button-prev{
+                font-weight: 700;
+                visibility: hidden;
+            }
+        }
+        .price_div{
+            .position_css(absolute, 620px, 25vw);
+            & button{
+                width:50vw;
+                font-size: 24px;
+                height:60px;
+            }
+            .price{
+                & img{
+                    .img_style(10vw, auto, absolute, 650px, 45vw)
+                }
+                .price_btn{
+                    width:64vw;
+                    font-size: 5vw;
+                    height:60px;
+                    left:18vw;
+                    top:300px;
+                }
+            }
+        }
+        .highlights{
+            .position_css(absolute, 820px, 5vw);
+            & h2{
+                font-size: 6.9vw;
+                width:90vw;
+            }
+            & ul{
+                & li{
+                    .position_css(relative, 0px , 5vw);
+                    & h4{
+                        width:90vw;
+                        font-size: 3.9vw;
+                    }
+                }
+            }
+        }
+        .general{
+            .section_style(100%, auto, absolute, 990px, 0px);
+            border-bottom: 1px solid grey;
+            & h1{
+                .font_css(6.9vw)
+            }
+            & h3{
+                .position_css(relative, 100px, 5vw);
+                width:35vw;
+                .font_css(4vw);
+            }
+            & p{
+                .position_css(relative, 65px, 40vw);
+                width:55vw;
+                .font_css(3.8vw)
+            }
+        }
+        .display_features{
+            .section_style(100%, auto, absolute, 1425px, 0px);
+            border-bottom: 0px;
+            & h1{
+                .font_css(6.9vw)
+            }
+            .display_feature{
+                .section_style(100%, auto, absolute, -25px, 0px);
+                border-bottom: 1px solid grey;
+                & h2{
+                    .position_css(relative, 100px, 5vw);
+                    width:33vw;
+                    .font_css(4vw)
+                }
+                & p{
+                    .position_css(relative, 65px, 40vw);
+                    width:55vw;
+                    .font_css(3.8vw)
+                }
+            }
+        }
+        .ram_feature{
+            .section_style(100%, auto, absolute, 1220px, 0px);
+            & h1{
+                width:100%;
+            }
+            & h4{
+                .position_css(relative, 150px, 5vw);
+                width:35vw;
+                .font_css(4.5vw)
+            }
+            & p{
+                .position_css(relative, 105px, 40vw);
+                width:55vw;
+                .font_css(4.5vw)
+            }
+        }
+        .os_processor{
+            .section_style(100%, 1390px, absolute, 1770px, 0px);
+            & h1{
+                width:100%;
+            }
+            & h5{
+                .position_css(relative, 150px, 5vw);
+                width:33vw;
+                .font_css(4.5vw)
+            }
+            & p{
+                .position_css(relative, 105px, 40vw);
+                width:55vw;
+                .font_css(4.5vw)
+            }
+            & button{
+                width:50vw;
+                .position_css(absolute, 1250px, 25vw);
+                .font_css(4vw)
+            }
+        }
+        .memory_feature{
+            .section_style(100%, 270px, absolute, 3170px, 0px);
+            & h1{
+                width:100%;
+            }
+            & h2{
+                .position_css(relative, 150px, 5vw);
+                width:43vw;
+                .font_css(4.5vw)
+            }
+            & p{
+                .position_css(relative, 112px, 50vw);
+                width:40vw;
+                .font_css(4.5vw)
+            }
+        }
+        .camera_feature{
+            .section_style(100%, 3810px, absolute, 3470px, 0px);
+            & h1{
+                width: 100%;
+            }
+            & h6{
+                .position_css(relative, 150px, 5vw);
+                width:33.5vw;
+                .font_css(4.5vw)
+            }
+            & p{
+                .position_css(relative, 105px, 40vw);
+                width:55vw;
+                .font_css(4.5vw)
+            }
+            & button{
+                width:50vw;
+                .position_css(absolute, 3690px, 25vw);
+                .font_css(4vw)
+            }
+        }
+        .call_feature{
+            .section_style(100%, 360px, absolute, 7300px, 0px);
+            & h1{
+                width:100%;
+            }
+            & h5{
+                .position_css(relative, 150px, 5vw);
+                width:37vw;
+                .font_css(4.5vw)
+            }
+            & p{
+                .position_css(relative, 105px, 44vw);
+                width:55vw;
+                .font_css(4.5vw)
+            }
+        }
+        .connectivity_feature{
+            .section_style(100%, 1010px, absolute, 7700px, 0px);
+            & h1{
+                width:100%;
+            }
+            & h4{
+                .position_css(relative, 150px, 5vw);
+                width:37vw;
+                .font_css(4.5vw)
+            }
+        }
+        .multimedia_feature{
+            .section_style(100%, 400px, absolute, 8740px, 0px);
+            & h1{
+                width:100%;
+            }
+        }
+        .other_details{
+            .section_style(100%, 1250px, absolute, 9180px, 0px);
+            & h1{
+                width:100%;
+            }
+        }
+        .design{
+            .section_style(100%, 650px, absolute, 10460px, 0px);
+            & h1{
+                width:100%;
+            }
+        }
+    }
+    
+}
+@media only screen and (min-width:350px) and (max-width:400px){
+    .american{
+        font-size: 10px;
+    }
+    .black_1tb_fulldetails{
+        & h1{
+            font-size: 28px;
+            width:90vw;
+            height: auto;
+            text-align: center;
+            .position_css(absolute, 25px, 5vw);
+        }
+        .section_style(100%, 15300px, absolute, 100px, 0px);
+        .image_div{
+            .section_style(100%, 480px, absolute, 120px, 0vw);
+            background-color:white;
+            & div{
+                & img{
+                    .img_style(70vw, auto, absolute, 50px, 15vw)
+                }
+                .second{
+                    width:190vw;
+                    top:-150px;
+                    left:-50vw;
+                }
+                .third{
+                    width:120vw;
+                    top:150px;
+                    left:0vw;
+                }
+                .fourth{
+                    width:160vw;
+                    top:50px;
+                    left:-30vw;
+                }
+            }
+            .swiper-button-next{
+                font-weight: 700;
+                visibility: hidden;
+            }
+            .swiper-button-prev{
+                font-weight: 700;
+                visibility: hidden;
+            }
+        }
+        .price_div{
+            .position_css(absolute, 620px, 25vw);
+            & button{
+                width:50vw;
+                font-size: 24px;
+                height:60px;
+            }
+            .price{
+                & img{
+                    .img_style(10vw, auto, absolute, 650px, 45vw)
+                }
+                .price_btn{
+                    width:64vw;
+                    font-size: 5vw;
+                    height:60px;
+                    left:18vw;
+                    top:300px;
+                }
+            }
+        }
+        .highlights{
+            .position_css(absolute, 820px, 5vw);
+            & h2{
+                font-size: 6.9vw;
+                width:90vw;
+            }
+            & ul{
+                & li{
+                    .position_css(relative, 0px , 5vw);
+                    & h4{
+                        width:90vw;
+                        font-size: 3.9vw;
+                    }
+                }
+            }
+        }
+        .general{
+            .section_style(100%, auto, absolute, 990px, 0px);
+            border-bottom: 1px solid grey;
+            & h1{
+                .font_css(6.9vw)
+            }
+            & h3{
+                .position_css(relative, 100px, 5vw);
+                width:35vw;
+                .font_css(4vw);
+            }
+            & p{
+                .position_css(relative, 65px, 40vw);
+                width:55vw;
+                .font_css(3.8vw)
+            }
+        }
+        .display_features{
+            .section_style(100%, auto, absolute, 1465px, 0px);
+            border-bottom: 0px;
+            & h1{
+                .font_css(6.9vw)
+            }
+            .display_feature{
+                .section_style(100%, auto, absolute, -25px, 0px);
+                border-bottom: 1px solid grey;
+                & h2{
+                    .position_css(relative, 100px, 5vw);
+                    width:33vw;
+                    .font_css(4vw)
+                }
+                & p{
+                    .position_css(relative, 65px, 40vw);
+                    width:55vw;
+                    .font_css(3.8vw)
+                }
+            }
+        }
+        .ram_feature{
+            .section_style(100%, auto, absolute, 1220px, 0px);
             & h1{
                 width:100%;
             }

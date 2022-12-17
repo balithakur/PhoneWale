@@ -2,6 +2,9 @@
   margin: 0px;
   padding: 0px;
 }
+.hidden {
+  visibility: hidden;
+}
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -490,7 +493,7 @@
   left: 0px;
   background-color: aqua;
 }
-@media only screen and (min-width: 250px) and (max-width: 500px) {
+@media only screen and (min-width: 250px) and (max-width: 300px) {
   .american {
     font-size: 10px;
   }
@@ -578,7 +581,7 @@
     left: 5vw;
   }
   .black_1tb_fulldetails .highlights h2 {
-    font-size: 32px;
+    font-size: 6.9vw;
     width: 90vw;
   }
   .black_1tb_fulldetails .highlights ul li {
@@ -588,18 +591,18 @@
   }
   .black_1tb_fulldetails .highlights ul li h4 {
     width: 90vw;
-    font-size: 16px;
+    font-size: 3.9vw;
   }
   .black_1tb_fulldetails .general {
     width: 100%;
-    height: 600px;
+    height: auto;
     position: absolute;
     top: 990px;
     left: 0px;
     border-bottom: 1px solid grey;
   }
   .black_1tb_fulldetails .general h1 {
-    font-size: 32px;
+    font-size: 6.9vw;
     font-family: sans-serif;
   }
   .black_1tb_fulldetails .general h3 {
@@ -607,7 +610,7 @@
     top: 100px;
     left: 5vw;
     width: 35vw;
-    font-size: 20px;
+    font-size: 4vw;
     font-family: sans-serif;
   }
   .black_1tb_fulldetails .general p {
@@ -615,33 +618,35 @@
     top: 65px;
     left: 40vw;
     width: 55vw;
-    font-size: 18px;
+    font-size: 3.8vw;
     font-family: sans-serif;
   }
   .black_1tb_fulldetails .display_features {
     width: 100%;
-    height: 1220px;
+    height: auto;
     position: absolute;
-    top: 1610px;
+    top: 1380px;
     left: 0px;
+    border-bottom: 0px;
   }
   .black_1tb_fulldetails .display_features h1 {
-    font-size: 32px;
+    font-size: 6.9vw;
     font-family: sans-serif;
   }
   .black_1tb_fulldetails .display_features .display_feature {
     width: 100%;
-    height: 900px;
+    height: auto;
     position: absolute;
-    top: 20px;
+    top: -25px;
     left: 0px;
+    border-bottom: 1px solid grey;
   }
   .black_1tb_fulldetails .display_features .display_feature h2 {
     position: relative;
     top: 100px;
     left: 5vw;
     width: 33vw;
-    font-size: 20px;
+    font-size: 4vw;
     font-family: sans-serif;
   }
   .black_1tb_fulldetails .display_features .display_feature p {
@@ -649,12 +654,730 @@
     top: 65px;
     left: 40vw;
     width: 55vw;
-    font-size: 18px;
+    font-size: 3.8vw;
     font-family: sans-serif;
   }
   .black_1tb_fulldetails .ram_feature {
     width: 100%;
-    height: 330px;
+    height: auto;
+    position: absolute;
+    top: 1220px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .ram_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .ram_feature h4 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 35vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .ram_feature p {
+    position: relative;
+    top: 105px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .os_processor {
+    width: 100%;
+    height: 1390px;
+    position: absolute;
+    top: 1770px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .os_processor h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .os_processor h5 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 33vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .os_processor p {
+    position: relative;
+    top: 105px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .os_processor button {
+    width: 50vw;
+    position: absolute;
+    top: 1250px;
+    left: 25vw;
+    font-size: 4vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .memory_feature {
+    width: 100%;
+    height: 270px;
+    position: absolute;
+    top: 3170px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .memory_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .memory_feature h2 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 43vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .memory_feature p {
+    position: relative;
+    top: 112px;
+    left: 50vw;
+    width: 40vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .camera_feature {
+    width: 100%;
+    height: 3810px;
+    position: absolute;
+    top: 3470px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .camera_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .camera_feature h6 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 33.5vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .camera_feature p {
+    position: relative;
+    top: 105px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .camera_feature button {
+    width: 50vw;
+    position: absolute;
+    top: 3690px;
+    left: 25vw;
+    font-size: 4vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .call_feature {
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    top: 7300px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .call_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .call_feature h5 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 37vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .call_feature p {
+    position: relative;
+    top: 105px;
+    left: 44vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .connectivity_feature {
+    width: 100%;
+    height: 1010px;
+    position: absolute;
+    top: 7700px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .connectivity_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .connectivity_feature h4 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 37vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .multimedia_feature {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 8740px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .multimedia_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .other_details {
+    width: 100%;
+    height: 1250px;
+    position: absolute;
+    top: 9180px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .other_details h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .design {
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 10460px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .design h1 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 350px) {
+  .american {
+    font-size: 10px;
+  }
+  .black_1tb_fulldetails {
+    width: 100%;
+    height: 15300px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails h1 {
+    font-size: 28px;
+    width: 90vw;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    left: 5vw;
+  }
+  .black_1tb_fulldetails .image_div {
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    top: 120px;
+    left: 0vw;
+    background-color: white;
+  }
+  .black_1tb_fulldetails .image_div div img {
+    width: 70vw;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 15vw;
+  }
+  .black_1tb_fulldetails .image_div div .second {
+    width: 190vw;
+    top: -150px;
+    left: -50vw;
+  }
+  .black_1tb_fulldetails .image_div div .third {
+    width: 120vw;
+    top: 150px;
+    left: 0vw;
+  }
+  .black_1tb_fulldetails .image_div div .fourth {
+    width: 160vw;
+    top: 50px;
+    left: -30vw;
+  }
+  .black_1tb_fulldetails .image_div .swiper-button-next {
+    font-weight: 700;
+    visibility: hidden;
+  }
+  .black_1tb_fulldetails .image_div .swiper-button-prev {
+    font-weight: 700;
+    visibility: hidden;
+  }
+  .black_1tb_fulldetails .price_div {
+    position: absolute;
+    top: 620px;
+    left: 25vw;
+  }
+  .black_1tb_fulldetails .price_div button {
+    width: 50vw;
+    font-size: 24px;
+    height: 60px;
+  }
+  .black_1tb_fulldetails .price_div .price img {
+    width: 10vw;
+    height: auto;
+    position: absolute;
+    top: 650px;
+    left: 45vw;
+  }
+  .black_1tb_fulldetails .price_div .price .price_btn {
+    width: 64vw;
+    font-size: 5vw;
+    height: 60px;
+    left: 18vw;
+    top: 300px;
+  }
+  .black_1tb_fulldetails .highlights {
+    position: absolute;
+    top: 820px;
+    left: 5vw;
+  }
+  .black_1tb_fulldetails .highlights h2 {
+    font-size: 6.9vw;
+    width: 90vw;
+  }
+  .black_1tb_fulldetails .highlights ul li {
+    position: relative;
+    top: 0px;
+    left: 5vw;
+  }
+  .black_1tb_fulldetails .highlights ul li h4 {
+    width: 90vw;
+    font-size: 3.9vw;
+  }
+  .black_1tb_fulldetails .general {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 990px;
+    left: 0px;
+    border-bottom: 1px solid grey;
+  }
+  .black_1tb_fulldetails .general h1 {
+    font-size: 6.9vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .general h3 {
+    position: relative;
+    top: 100px;
+    left: 5vw;
+    width: 35vw;
+    font-size: 4vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .general p {
+    position: relative;
+    top: 65px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 3.8vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .display_features {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 1425px;
+    left: 0px;
+    border-bottom: 0px;
+  }
+  .black_1tb_fulldetails .display_features h1 {
+    font-size: 6.9vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .display_features .display_feature {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -25px;
+    left: 0px;
+    border-bottom: 1px solid grey;
+  }
+  .black_1tb_fulldetails .display_features .display_feature h2 {
+    position: relative;
+    top: 100px;
+    left: 5vw;
+    width: 33vw;
+    font-size: 4vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .display_features .display_feature p {
+    position: relative;
+    top: 65px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 3.8vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .ram_feature {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 1220px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .ram_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .ram_feature h4 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 35vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .ram_feature p {
+    position: relative;
+    top: 105px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .os_processor {
+    width: 100%;
+    height: 1390px;
+    position: absolute;
+    top: 1770px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .os_processor h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .os_processor h5 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 33vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .os_processor p {
+    position: relative;
+    top: 105px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .os_processor button {
+    width: 50vw;
+    position: absolute;
+    top: 1250px;
+    left: 25vw;
+    font-size: 4vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .memory_feature {
+    width: 100%;
+    height: 270px;
+    position: absolute;
+    top: 3170px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .memory_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .memory_feature h2 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 43vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .memory_feature p {
+    position: relative;
+    top: 112px;
+    left: 50vw;
+    width: 40vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .camera_feature {
+    width: 100%;
+    height: 3810px;
+    position: absolute;
+    top: 3470px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .camera_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .camera_feature h6 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 33.5vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .camera_feature p {
+    position: relative;
+    top: 105px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .camera_feature button {
+    width: 50vw;
+    position: absolute;
+    top: 3690px;
+    left: 25vw;
+    font-size: 4vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .call_feature {
+    width: 100%;
+    height: 360px;
+    position: absolute;
+    top: 7300px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .call_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .call_feature h5 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 37vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .call_feature p {
+    position: relative;
+    top: 105px;
+    left: 44vw;
+    width: 55vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .connectivity_feature {
+    width: 100%;
+    height: 1010px;
+    position: absolute;
+    top: 7700px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .connectivity_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .connectivity_feature h4 {
+    position: relative;
+    top: 150px;
+    left: 5vw;
+    width: 37vw;
+    font-size: 4.5vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .multimedia_feature {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 8740px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .multimedia_feature h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .other_details {
+    width: 100%;
+    height: 1250px;
+    position: absolute;
+    top: 9180px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .other_details h1 {
+    width: 100%;
+  }
+  .black_1tb_fulldetails .design {
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 10460px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails .design h1 {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 350px) and (max-width: 400px) {
+  .american {
+    font-size: 10px;
+  }
+  .black_1tb_fulldetails {
+    width: 100%;
+    height: 15300px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+  }
+  .black_1tb_fulldetails h1 {
+    font-size: 28px;
+    width: 90vw;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    left: 5vw;
+  }
+  .black_1tb_fulldetails .image_div {
+    width: 100%;
+    height: 480px;
+    position: absolute;
+    top: 120px;
+    left: 0vw;
+    background-color: white;
+  }
+  .black_1tb_fulldetails .image_div div img {
+    width: 70vw;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 15vw;
+  }
+  .black_1tb_fulldetails .image_div div .second {
+    width: 190vw;
+    top: -150px;
+    left: -50vw;
+  }
+  .black_1tb_fulldetails .image_div div .third {
+    width: 120vw;
+    top: 150px;
+    left: 0vw;
+  }
+  .black_1tb_fulldetails .image_div div .fourth {
+    width: 160vw;
+    top: 50px;
+    left: -30vw;
+  }
+  .black_1tb_fulldetails .image_div .swiper-button-next {
+    font-weight: 700;
+    visibility: hidden;
+  }
+  .black_1tb_fulldetails .image_div .swiper-button-prev {
+    font-weight: 700;
+    visibility: hidden;
+  }
+  .black_1tb_fulldetails .price_div {
+    position: absolute;
+    top: 620px;
+    left: 25vw;
+  }
+  .black_1tb_fulldetails .price_div button {
+    width: 50vw;
+    font-size: 24px;
+    height: 60px;
+  }
+  .black_1tb_fulldetails .price_div .price img {
+    width: 10vw;
+    height: auto;
+    position: absolute;
+    top: 650px;
+    left: 45vw;
+  }
+  .black_1tb_fulldetails .price_div .price .price_btn {
+    width: 64vw;
+    font-size: 5vw;
+    height: 60px;
+    left: 18vw;
+    top: 300px;
+  }
+  .black_1tb_fulldetails .highlights {
+    position: absolute;
+    top: 820px;
+    left: 5vw;
+  }
+  .black_1tb_fulldetails .highlights h2 {
+    font-size: 6.9vw;
+    width: 90vw;
+  }
+  .black_1tb_fulldetails .highlights ul li {
+    position: relative;
+    top: 0px;
+    left: 5vw;
+  }
+  .black_1tb_fulldetails .highlights ul li h4 {
+    width: 90vw;
+    font-size: 3.9vw;
+  }
+  .black_1tb_fulldetails .general {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 990px;
+    left: 0px;
+    border-bottom: 1px solid grey;
+  }
+  .black_1tb_fulldetails .general h1 {
+    font-size: 6.9vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .general h3 {
+    position: relative;
+    top: 100px;
+    left: 5vw;
+    width: 35vw;
+    font-size: 4vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .general p {
+    position: relative;
+    top: 65px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 3.8vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .display_features {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 1465px;
+    left: 0px;
+    border-bottom: 0px;
+  }
+  .black_1tb_fulldetails .display_features h1 {
+    font-size: 6.9vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .display_features .display_feature {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: -25px;
+    left: 0px;
+    border-bottom: 1px solid grey;
+  }
+  .black_1tb_fulldetails .display_features .display_feature h2 {
+    position: relative;
+    top: 100px;
+    left: 5vw;
+    width: 33vw;
+    font-size: 4vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .display_features .display_feature p {
+    position: relative;
+    top: 65px;
+    left: 40vw;
+    width: 55vw;
+    font-size: 3.8vw;
+    font-family: sans-serif;
+  }
+  .black_1tb_fulldetails .ram_feature {
+    width: 100%;
+    height: auto;
     position: absolute;
     top: 1220px;
     left: 0px;
