@@ -493,6 +493,46 @@
   left: 0px;
   background-color: aqua;
 }
+.benchmark_div {
+  width: 0%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  z-index: 999;
+  background-color: white;
+}
+.benchmark_div img {
+  width: 2.5vw;
+  height: auto;
+  position: absolute;
+  top: 5%;
+  left: 90vw;
+}
+.benchmark_div h1 {
+  font-size: 2.5vw;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  left: 0%;
+  top: 2.5%;
+}
+.benchmark_div .image_div {
+  width: 60%;
+  height: 500px;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  z-index: 999;
+}
+.benchmark_div .image_div div img {
+  width: 25vw;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  left: 17.5vw;
+}
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .american {
     font-size: 10px;
@@ -863,5 +903,45 @@
   }
   .black_1tb_fulldetails .design h1 {
     width: 100%;
+  }
+  .benchmark_div {
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    z-index: 999;
+    background-color: white;
+  }
+  .benchmark_div img {
+    width: 5vw;
+    height: auto;
+    position: relative;
+    top: 80%;
+    left: 47vw;
+  }
+  .benchmark_div h1 {
+    font-size: 5vw;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    left: 0%;
+    top: 2.5%;
+  }
+  .benchmark_div .image_div {
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 999;
+  }
+  .benchmark_div .image_div div img {
+    width: 45vw;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 5vw;
   }
 }

@@ -15,7 +15,7 @@
     <img src="PhoneWale-removebg-preview.png" alt="PhoneWlae website logo">
   </section>
   <h1 class="american">American Company Phone</h1>
-    <section class="black_1tb_fulldetails" id="de">
+    <section class="black_1tb_fulldetails" id="dde">
       <h1>Apple Iphone 14 Pro Max (Space Black , 1TB ROM)</h1>
       <div class="image_div swiper mySwiper" id="image_div">
         <div class="swiper-wrapper">
@@ -141,7 +141,7 @@
           <p>6 nm</p>
           <h5>Graphics :</h5>
           <p>Apple GPU (Five-core graphics)</p>
-          <button class="benchmark_score_btn">View Benchmark Score</button>
+          <button class="benchmark_score_btn" id="benchmark_score_btn">View Benchmark Score</button>
           <h5 class="hidden">abttbr</h5>
           <h5 class="hidden">abttbr</h5>
           <h5 class="hidden">abttbr</h5>
@@ -273,6 +273,22 @@
           <h5 class="hidden">abttbr</h5>
         </div>
       </section>
+      <div class="benchmark_div" id="benchmark_div">
+        <h1>Benchmark Score of iphone 14 pro max</h1>
+        <img src="close (1).webp" alt="close image" id="close_benchmark_div">
+        <div class="image_div swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="apple_phone_images/benchmar_score_iphone_14pro_max/benchmark_score_iphone 14 pro max.webp" alt="benchmark score image">
+            </div>
+            <div class="swiper-slide">
+              <img src="apple_phone_images/benchmar_score_iphone_14pro_max/geekbench_score iphone 14 pro max.webp" alt="benchmark score image">
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+      </div>
     </section>
     <script src="swiper-bundle.min.js"></script>
     <script>
@@ -304,6 +320,18 @@
       }
     </script>
     <script>
+      let benchscore_btn = document.getElementById("benchmark_score_btn")
+      let benchmark_div = document.getElementById("benchmark_div")
+      let close_benchmark = document.getElementById("close_benchmark_div")
+
+      benchscore_btn.onclick = () => {
+        benchmark_div.style.transition = "width .3s";
+        benchmark_div.style.width = "100%"
+      }
+      close_benchmark.onclick = () => {
+        benchmark_div.style.transition = "width 0.3s";
+        benchmark_div.style.width = "0%"
+      }
     </script>
 </body>
 </html>
