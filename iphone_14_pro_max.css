@@ -533,6 +533,46 @@
   top: 0px;
   left: 17.5vw;
 }
+.camera_sample_div {
+  width: 0%;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  z-index: 999;
+  background-color: white;
+}
+.camera_sample_div img {
+  width: 2.5vw;
+  height: auto;
+  position: absolute;
+  top: 5%;
+  left: 90vw;
+}
+.camera_sample_div h1 {
+  font-size: 2.5vw;
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+  left: 0%;
+  top: 2.5%;
+}
+.camera_sample_div .image_div {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  z-index: 999;
+}
+.camera_sample_div .image_div div img {
+  width: 60%;
+  height: 85%;
+  position: absolute;
+  top: 5%;
+  left: 20vw;
+}
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   .american {
     font-size: 10px;
@@ -915,11 +955,11 @@
     background-color: white;
   }
   .benchmark_div img {
-    width: 5vw;
+    width: 7%;
     height: auto;
     position: relative;
-    top: 80%;
-    left: 47vw;
+    top: 85%;
+    left: 47%;
   }
   .benchmark_div h1 {
     font-size: 5vw;
@@ -927,21 +967,61 @@
     text-align: center;
     width: 100%;
     left: 0%;
-    top: 2.5%;
+    top: 8%;
   }
   .benchmark_div .image_div {
-    width: 60%;
-    height: 50%;
+    width: 100%;
+    height: 60%;
     position: absolute;
     top: 20%;
-    left: 20%;
+    left: 0%;
     z-index: 999;
   }
   .benchmark_div .image_div div img {
-    width: 45vw;
-    height: auto;
+    width: 45%;
+    height: 80%;
     position: absolute;
     top: 0px;
-    left: 5vw;
+    left: 26%;
+  }
+  .camera_sample_div {
+    width: 0%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    z-index: 999;
+    background-color: white;
+  }
+  .camera_sample_div img {
+    width: 7vw;
+    height: auto;
+    position: absolute;
+    top: 90%;
+    left: 46vw;
+  }
+  .camera_sample_div h1 {
+    font-size: 5vw;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    left: 0%;
+    top: 5%;
+  }
+  .camera_sample_div .image_div {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    z-index: 999;
+  }
+  .camera_sample_div .image_div div img {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 5%;
+    left: 0vw;
   }
 }

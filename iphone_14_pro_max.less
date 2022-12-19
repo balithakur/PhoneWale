@@ -378,6 +378,31 @@
         }
     }
 }
+.camera_sample_div{
+    .section_style(00%, 100%, fixed, 0px, 0px);
+    overflow: hidden;
+    z-index: 999;
+    background-color: white;
+    & img{
+        .img_style(2.5vw, auto, absolute, 5%, 90vw)
+    }
+    & h1{
+        .font_css(2.5vw);
+        text-align: center;
+        width: 100%;
+        left: 0%;
+        top:2.5%;
+    }
+    .image_div{
+        .section_style(100%, 90%, absolute, 10%, 0%);
+        z-index: 999;
+        & div{
+            & img{
+                .img_style(60%, 85%, absolute, 5%, 20vw)
+            }
+        }
+    }
+}
 
 
 @media only screen and (min-width:250px) and (max-width:500px){
@@ -637,21 +662,46 @@
         z-index: 999;
         background-color: white;
         & img{
-            .img_style(5vw, auto, relative, 80%, 47vw)
+            .img_style(7%, auto, relative, 85%, 47%)
         }
         & h1{
             .font_css(5vw);
             text-align: center;
             width: 100%;
             left: 0%;
-            top:2.5%;
+            top:8%;
         }
         .image_div{
-            .section_style(60%, 50%, absolute, 20%, 20%);
+            .section_style(100%, 60%, absolute, 20%, 0%);
             z-index: 999;
             & div{
                 & img{
-                    .img_style(45vw, auto, absolute, 0px, 5vw);
+                    .img_style(45%, 80%, absolute, 0px, 26%);
+                }
+            }
+        }
+    }
+    .camera_sample_div{
+        .section_style(0%, 100%, fixed, 0px, 0px);
+        overflow: hidden;
+        z-index: 999;
+        background-color: white;
+        & img{
+            .img_style(7vw, auto, absolute, 90%, 46vw)
+        }
+        & h1{
+            .font_css(5vw);
+            text-align: center;
+            width: 100%;
+            left: 0%;
+            top:5%;
+        }
+        .image_div{
+            .section_style(100%, 70%, absolute, 15%, 0%);
+            z-index: 999;
+            & div{
+                & img{
+                    .img_style(100%, 80%, absolute, 5%, 0vw)
                 }
             }
         }

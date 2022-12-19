@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="a.css">
+    <link rel="stylesheet" href="iphone_14_pro_max.css">
     <link rel="stylesheet" href="index.css">
     <!--swipper css-->
     <link rel="stylesheet" href="swipper_css.css">
@@ -188,7 +188,7 @@
           <p>15X</p>
           <h6>Dual Camera Lens :</h6>
           <p>Primary Camera</p>
-          <button class="view_camera_sample_btn">
+          <button class="view_camera_sample_btn" id="view_camera_sample_btn">
             View Camera Sample
           </button>
           <h6 class="hidden">abttbr</h6>
@@ -289,6 +289,40 @@
           <div class="swiper-button-prev"></div>
           <div class="swiper-pagination"></div>
       </div>
+      <div class="camera_sample_div" id="camera_sample_div">
+        <h1>Camera Sample of iphone 14 pro max</h1>
+        <img src="close (1).webp" alt="close image" id="close_camera_sample_div">
+        <div class="image_div swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="apple_phone_images/camera sample of iphone 14 pro max/click photo of iphone 14 pro max.webp" alt="camera sample image">
+            </div>
+            <div class="swiper-slide">
+              <img src="apple_phone_images/camera sample of iphone 14 pro max/flower detail photo of iphone 14 pro max.webp" alt="camera sample image">
+            </div>
+            <div class="swiper-slide">
+              <img src="apple_phone_images/camera sample of iphone 14 pro max/flower photo of iphone 14 pro max.webp" alt="camera sample image">
+            </div>
+            <div class="swiper-slide">
+              <img src="apple_phone_images/camera sample of iphone 14 pro max/fruit photo of iphone 14 pro max.webp" alt="camera sample image">
+            </div>
+            <div class="swiper-slide">
+              <img src="apple_phone_images/camera sample of iphone 14 pro max/ground image hdr on.webp" alt="benchmark score image">
+            </div>
+            <div class="swiper-slide">
+              <img src="apple_phone_images/camera sample of iphone 14 pro max/ground image of iphone 14 pro max.webp" alt="benchmark score image">
+            </div>
+            <div class="swiper-slide">
+              <img src="apple_phone_images/camera sample of iphone 14 pro max/night photo of iphone 14 pro max.webp" alt="camera sample image">
+            </div>
+            <div class="swiper-slide">
+              <img src="apple_phone_images/camera sample of iphone 14 pro max/wide angel of iphone 14 pro max.webp" alt="camera sample image">
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+      </div>
     </section>
     <script src="swiper-bundle.min.js"></script>
     <script>
@@ -331,6 +365,19 @@
       close_benchmark.onclick = () => {
         benchmark_div.style.transition = "width 0.3s";
         benchmark_div.style.width = "0%"
+      }
+
+      let camera_sample_btn = document.getElementById("view_camera_sample_btn")
+      let camera_sample_div = document.getElementById("camera_sample_div")
+      let close_camera_sample_div = document.getElementById("close_camera_sample_div")
+
+      camera_sample_btn.onclick = () => {
+        camera_sample_div.style.transition = "width .3s";
+        camera_sample_div.style.width = "100%"
+      }
+      close_camera_sample_div.onclick = () => {
+        camera_sample_div.style.transition = "width .3s";
+        camera_sample_div.style.width = "0%"
       }
     </script>
 </body>
