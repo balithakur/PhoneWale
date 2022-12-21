@@ -202,16 +202,6 @@ p {
   color: azure;
   font-weight: 600;
 }
-.apple_phones .choose_rom ul li button a {
-  font-size: 1.6vw;
-  font-family: sans-serif;
-  color: azure;
-  font-weight: 600;
-  text-align: center;
-  position: relative;
-  top: 0px;
-  left: 0vw;
-}
 .apple_phones .iphone_14_pro_max_512gb {
   width: 50vw;
   height: 300px;

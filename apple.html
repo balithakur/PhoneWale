@@ -64,7 +64,7 @@
                 <li><button id="1tb_rom_silver">1 TB ROM</button></li>
                 <li><button id="512gb_rom_silver">512 GB ROM</button></li>
                 <li><button id="256gb_rom_silver">256 GB ROM</button></li>
-                <li><button id="128gb_rom_silver"><a href="iphone_14promax_silver1tb.html" >128 GB ROM</a></button></li>
+                <li><button id="128gb_rom_silver">128 GB ROM</button></li>
             </ul>
         </div>
         <div class="choose_rom" id="gold_rom">
@@ -127,6 +127,7 @@
             blackrom.style.transition = "width 0.5s"
             blackrom.style.width = "0%"
         }
+        
         let black_rom_1tb = document.getElementById("1tb_rom_black")
         black_rom_1tb.onclick = () =>{
             location.href="iphone_14_pro_max_black_1tb.html"
@@ -156,6 +157,27 @@
         close_silverrom_div.onclick = () =>{
             silver_rom.style.transition = "width 0.5s"
             silver_rom.style.width = "0%"
+        }
+
+        let silverrom_1tb = document.getElementById("1tb_rom_silver")
+        silverrom_1tb.onclick = () =>{
+            location.href="iphone_14promax_silver1tb.html"
+            silverrom.style.width = "0%"
+        }
+        let silverrom_512gb = document.getElementById("512gb_rom_silver")
+        silverrom_512gb.onclick = () =>{
+            location.href="iphone_14promax_silver512gb.html"
+            silverrom.style.width = "0%"
+        }
+        let silverrom_256gb = document.getElementById("256gb_rom_silver")
+        silverrom_256gb.onclick = () =>{
+            location.href="iphone_14promax_silver_256gb.html"
+            silverrom.style.width = "0%"
+        }
+        let silverrom_128gb = document.getElementById("128gb_rom_silver")
+        silverrom_128gb.onclick = () =>{
+            location.href="iphone_14promax_silver128gb.html"
+            silverrom.style.width = "0%"
         }
         gold.onclick = () => {
             choosecolour.style.transition = "width 0s"

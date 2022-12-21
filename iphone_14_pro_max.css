@@ -637,6 +637,30 @@
     top: -150px;
     left: -50vw;
   }
+  .black_1tb_fulldetails .image_div div .silver_pic {
+    width: 30vw;
+    position: absolute;
+    top: 20px;
+    left: 35vw;
+  }
+  .black_1tb_fulldetails .image_div div .silver_front_pic {
+    width: 40vw;
+    position: absolute;
+    top: 40px;
+    left: 30vw;
+  }
+  .black_1tb_fulldetails .image_div div .silver_camera_pic {
+    width: 94vw;
+    position: absolute;
+    top: 10px;
+    left: 2.5vw;
+  }
+  .black_1tb_fulldetails .image_div div .silver_upper_pic {
+    width: 94vw;
+    position: absolute;
+    top: 10px;
+    left: 2.5vw;
+  }
   .black_1tb_fulldetails .image_div div .third {
     width: 120vw;
     top: 150px;
