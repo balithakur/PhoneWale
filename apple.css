@@ -351,17 +351,18 @@ p {
     left: 5vw;
   }
   .apple_phones div img {
-    width: 30vw;
+    width: 80vw;
     height: auto;
-    position: absolute;
-    top: 59px;
-    left: 2vw;
+    position: relative;
+    top: 25px;
+    left: 10vw;
   }
   .apple_phones div ul li {
     width: fit-content;
     position: relative;
-    top: 90px;
-    left: 35vw;
+    top: 0px;
+    left: 15vw;
+    margin-bottom: 10px;
   }
   .apple_phones div ul li span {
     font-size: 3vw;
@@ -377,9 +378,9 @@ p {
     font-size: 3.5vw;
     font-family: sans-serif;
     border: 1px solid red;
-    position: absolute;
-    top: 200px;
-    left: 38vw;
+    position: relative;
+    top: 15px;
+    left: 36vw;
   }
   .apple_phones .choose_colour {
     height: 100%;
