@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple Phones</title>
     <link rel="stylesheet" href="apple.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css"> 
 </head>
 <body>
-    <section class="navbar_section">
+    <section class="navbar_section" >
         <img src="PhoneWale-removebg-preview.png" alt="PhoneWlae website logo">
     </section>
     <h1>Apple Phones </h1>
     <h2>American Company</h2>
     <p>Apple Inc. is an American multinational technology company headquartered in Cupertino, California, United States. </p>
-    <section class="apple_phones">
+    <section class="apple_phones" id="a">
         <div class="iphone_14_pro_max">
             <a href="#">APPLE iPhone 14 Pro Max </a>
-            <img src="apple_phone_images/white_iphone_14_pro_max.webp" alt="apple iphone 14 pro max silver colour image">
+            <img src="apple_phone_images/all_colour_iphone-removebg-preview.webp" alt="apple iphone 14 pro max silver colour image">
             <ul>
                 <li><span>17.02 cm (6.7 inch) Super Retina XDR Display</span></li>
                 <li><span>48MP +12MP +12MP || 12MP Front Camera</span></li>
@@ -161,23 +161,23 @@
 
         let silverrom_1tb = document.getElementById("1tb_rom_silver")
         silverrom_1tb.onclick = () =>{
-            location.href="iphone_14promax_silver1tb.html"
-            silverrom.style.width = "0%"
+            location.href="iphone_14promax_gold1tb.html"
+            goldrom.style.width = "0%"
         }
         let silverrom_512gb = document.getElementById("512gb_rom_silver")
         silverrom_512gb.onclick = () =>{
-            location.href="iphone_14promax_silver512gb.html"
-            silverrom.style.width = "0%"
+            location.href="iphone_14promax_gold512gb.html"
+            goldrom.style.width = "0%"
         }
         let silverrom_256gb = document.getElementById("256gb_rom_silver")
         silverrom_256gb.onclick = () =>{
-            location.href="iphone_14promax_silver_256gb.html"
-            silverrom.style.width = "0%"
+            location.href="iphone_14promax_gold256gb.html"
+            goldrom.style.width = "0%"
         }
         let silverrom_128gb = document.getElementById("128gb_rom_silver")
         silverrom_128gb.onclick = () =>{
-            location.href="iphone_14promax_silver128gb.html"
-            silverrom.style.width = "0%"
+            location.href="iphone_14promax_gold128gb.html"
+            goldrom.style.width = "0%"
         }
         gold.onclick = () => {
             choosecolour.style.transition = "width 0s"
@@ -188,6 +188,26 @@
         close_goldrom_div.onclick = () =>{
             goldrom.style.transition = "width 0.5s"
             goldrom.style.width = "0%"
+        }
+        let goldrom_1tb = document.getElementById("1tb_rom_gold")
+        goldrom_1tb.onclick = () =>{
+            location.href="iphone_14promax_gold1tb.html"
+            silver_rom.style.width = "0%"
+        }
+        let goldrom_512gb = document.getElementById("512gb_rom_gold")
+        goldrom_512gb.onclick = () =>{
+            location.href="iphone_14promax_gold512gb.html"
+            silver_rom.style.width = "0%"
+        }
+        let goldrom_256gb = document.getElementById("256gb_rom_gold")
+        goldrom_256gb.onclick = () =>{
+            location.href="iphone_14promax_gold_256gb.html"
+            silver_rom.style.width = "0%"
+        }
+        let goldrom_128gb = document.getElementById("128gb_rom_gold")
+        goldrom_128gb.onclick = () =>{
+            location.href="iphone_14promax_gold128gb.html"
+            silver_rom.style.width = "0%"
         }
         purple.onclick = () => {
             choosecolour.style.transition = "width 0s"

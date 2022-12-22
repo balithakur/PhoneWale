@@ -55,25 +55,25 @@ p {
   font-family: sans-serif;
   position: absolute;
   top: 50px;
-  left: 30vw;
+  left: 39vw;
   text-decoration: none;
   font-weight: 600;
   color: black;
   text-align: center;
 }
 .apple_phones div img {
-  width: 14vw;
+  width: 30vw;
   height: auto;
   position: absolute;
-  top: 25px;
-  left: 10vw;
+  top: -50px;
+  left: 5vw;
 }
 .apple_phones div ul li {
   width: fit-content;
   list-style: none;
   position: relative;
   top: 100px;
-  left: 30vw;
+  left: 37vw;
   margin-bottom: 15px;
 }
 .apple_phones div ul li span {
@@ -95,7 +95,7 @@ p {
   border: 1px solid red;
   position: absolute;
   top: 110px;
-  left: 75vw;
+  left: 77vw;
 }
 .apple_phones div a:hover {
   color: dodgerblue;
@@ -307,6 +307,9 @@ p {
   top: 2300px;
   left: 48vw;
 }
+.price_div {
+  visibility: hidden;
+}
 @media only screen and (min-width: 250px) and (max-width: 500px) {
   h1 {
     font-size: 6vw;
@@ -348,11 +351,11 @@ p {
     left: 5vw;
   }
   .apple_phones div img {
-    width: 25vw;
+    width: 30vw;
     height: auto;
     position: absolute;
-    top: 90px;
-    left: 5vw;
+    top: 59px;
+    left: 2vw;
   }
   .apple_phones div ul li {
     width: fit-content;

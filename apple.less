@@ -68,21 +68,21 @@ p{
         cursor: pointer;
         & a{
             .font_css(2vw);
-            .position_css(absolute, 50px, 30vw);
+            .position_css(absolute, 50px, 39vw);
             text-decoration: none;
             font-weight: 600;
             color:black;
             text-align: center;
         }
         & img{
-            .img_style(14vw, auto, absolute, 25px, 10vw);
+            .img_style(30vw, auto, absolute, -50px, 5vw);
         }
         & ul{
             & li{
                 //display: flex;
                 width:fit-content;
                 list-style: none;
-                .position_css(relative, 100px, 30vw);
+                .position_css(relative, 100px, 37vw);
                 margin-bottom: 15px;
                 //border:1px solid black;
                 & span{
@@ -98,7 +98,7 @@ p{
             color: white;
             font-weight: 700;
             border:1px solid red;
-            .position_css(absolute, 110px, 75vw)
+            .position_css(absolute, 110px, 77vw)
         }
     }
     & div{
@@ -219,6 +219,9 @@ p{
         .section_style(50vw, 300px, absolute, 2300px, 48vw);
     }
 }
+.price_div{
+    visibility: hidden;
+}
 //apple phone css for phone
 @media only screen and(min-width:250px) and(max-width:500px){
     h1{
@@ -244,7 +247,7 @@ p{
                 .position_css(absolute, 40px, 5vw);
             }
             & img{
-                .img_style(25vw, auto, absolute, 90px, 5vw);
+                .img_style(30vw, auto, absolute, 59px, 2vw);
             }
             & ul{
                 & li{
