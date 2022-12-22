@@ -344,11 +344,11 @@ p {
   }
   .apple_phones div a {
     width: 94vw;
-    font-size: 4.5vw;
+    font-size: 5.5vw;
     font-family: sans-serif;
     position: absolute;
     top: 40px;
-    left: 5vw;
+    left: 2.4vw;
   }
   .apple_phones div img {
     width: 80vw;
@@ -365,7 +365,7 @@ p {
     margin-bottom: 10px;
   }
   .apple_phones div ul li span {
-    font-size: 3vw;
+    font-size: 4vw;
     font-family: sans-serif;
   }
   .apple_phones div #see_full_details {
