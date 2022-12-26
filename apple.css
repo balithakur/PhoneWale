@@ -253,7 +253,7 @@ p {
   .apple_phones div ul li {
     width: 63vw;
     position: relative;
-    top: -75px;
+    top: -70px;
     left: 35vw;
     margin-bottom: 12px;
   }
@@ -309,14 +309,14 @@ p {
   }
   .apple_phones .choose_colour ul li {
     top: 30vh;
-    left: 15vw;
+    left: -15vw;
   }
   .apple_phones .choose_colour ul li button {
     width: 25vw;
     height: 12vh;
   }
   .apple_phones .choose_colour h3 {
-    top: -160px;
+    top: -210px;
     font-size: 5vw;
     font-family: sans-serif;
     margin-bottom: 11vh;
