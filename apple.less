@@ -193,22 +193,24 @@ p{
     .apple_phones{
         .section_style(100%, 2000vh, absolute, 150px, 0px);
         & div{
-            .section_style(100%, 280px, absolute, 150px, 0px);
+            .section_style(100%, auto, relative, 150px, 0px);
+            border-bottom: 1px solid grey;
             & a{
                 width: 94vw;
                 .font_css(5.5vw);
-                .position_css(absolute, 40px, 2.4vw);
+                .position_css(relative, 23px, 15vw);
             }
             & img{
-                .img_style(80vw, auto, relative, 25px, 10vw);
+                .img_style(35vw, auto, relative, 37px, 0vw);
             }
             & ul{
                 & li{
-                    width:fit-content;
-                    .position_css(relative, 0px, 15vw);
-                    margin-bottom: 15px;
+                    width:63vw;
+                    //list-style: disc;
+                    .position_css(relative, -75px, 35vw);
+                    margin-bottom: 12px;
                     & span{
-                        .font_css(4vw)
+                        .font_css(3vw)
                     }
                 }
             }
@@ -216,13 +218,21 @@ p{
                 .button(40px, 30vw, 0px, red, 5px);
                 .font_css(3.5vw);
                 border: 1px solid red;
-                .position_css(relative, 15px, 36vw)
+                .position_css(relative, -40px, 36vw)
+            }
+            & button{
+                .button(40px, 30vw, 0px, red, 5px);
+                .font_css(3.5vw);
+                border: 1px solid red;
+                .position_css(relative, -40px, 36vw);
+                color:white;
+                font-weight: 700;
             }
         }
         .choose_colour{
             height: 100%;
             & h1{
-                top:100px;
+                top:10vh;
                 width: 90vw;
                 .font_css(5vw);
                 left:5vw;
@@ -230,26 +240,29 @@ p{
             }
             & img{
                 width:10vw;
-                top:650px;
+                top:90vh;
                 left:45.5vw;
             }
             & ul{
                 & li{
-                    top:220px;
+                    top:30vh;
                     left:15vw;
                     & button{
-                        width:30vw;            
+                        width:25vw; 
+                        height: 12vh;           
                     }
                 }
             }
             & h3{
                 top:-160px;
-                .font_css(5vw)
+                .font_css(5vw);
+                margin-bottom: 11vh;
             }
         }
         .choose_rom{
             height: 100%;
             & h1{
+                top:10vh;
                 width: 90vw;
                 .font_css(6vw);
                 left:5vw;
@@ -257,14 +270,15 @@ p{
             }
             & img{
                 width:10vw;
-                top:550px;
+                top:85vh;
                 left:45.5vw;
             }
             & ul{
                 & li{
-                    top:250px;
+                    top:30vh;
                     left:29vw;
                     & button{
+                        height: 8vh;
                         width:40vw; 
                         .font_css(5vw)           
                     }

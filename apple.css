@@ -229,35 +229,36 @@ p {
   }
   .apple_phones div {
     width: 100%;
-    height: 280px;
-    position: absolute;
+    height: auto;
+    position: relative;
     top: 150px;
     left: 0px;
+    border-bottom: 1px solid grey;
   }
   .apple_phones div a {
     width: 94vw;
     font-size: 5.5vw;
     font-family: sans-serif;
-    position: absolute;
-    top: 40px;
-    left: 2.4vw;
+    position: relative;
+    top: 23px;
+    left: 15vw;
   }
   .apple_phones div img {
-    width: 80vw;
+    width: 35vw;
     height: auto;
     position: relative;
-    top: 25px;
-    left: 10vw;
+    top: 37px;
+    left: 0vw;
   }
   .apple_phones div ul li {
-    width: fit-content;
+    width: 63vw;
     position: relative;
-    top: 0px;
-    left: 15vw;
-    margin-bottom: 15px;
+    top: -75px;
+    left: 35vw;
+    margin-bottom: 12px;
   }
   .apple_phones div ul li span {
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: sans-serif;
   }
   .apple_phones div #see_full_details {
@@ -271,14 +272,30 @@ p {
     font-family: sans-serif;
     border: 1px solid red;
     position: relative;
-    top: 15px;
+    top: -40px;
     left: 36vw;
+  }
+  .apple_phones div button {
+    height: 40px;
+    width: 30vw;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 0px;
+    background-color: red;
+    font-size: 3.5vw;
+    font-family: sans-serif;
+    border: 1px solid red;
+    position: relative;
+    top: -40px;
+    left: 36vw;
+    color: white;
+    font-weight: 700;
   }
   .apple_phones .choose_colour {
     height: 100%;
   }
   .apple_phones .choose_colour h1 {
-    top: 100px;
+    top: 10vh;
     width: 90vw;
     font-size: 5vw;
     font-family: sans-serif;
@@ -287,25 +304,28 @@ p {
   }
   .apple_phones .choose_colour img {
     width: 10vw;
-    top: 650px;
+    top: 90vh;
     left: 45.5vw;
   }
   .apple_phones .choose_colour ul li {
-    top: 220px;
+    top: 30vh;
     left: 15vw;
   }
   .apple_phones .choose_colour ul li button {
-    width: 30vw;
+    width: 25vw;
+    height: 12vh;
   }
   .apple_phones .choose_colour h3 {
     top: -160px;
     font-size: 5vw;
     font-family: sans-serif;
+    margin-bottom: 11vh;
   }
   .apple_phones .choose_rom {
     height: 100%;
   }
   .apple_phones .choose_rom h1 {
+    top: 10vh;
     width: 90vw;
     font-size: 6vw;
     font-family: sans-serif;
@@ -314,14 +334,15 @@ p {
   }
   .apple_phones .choose_rom img {
     width: 10vw;
-    top: 550px;
+    top: 85vh;
     left: 45.5vw;
   }
   .apple_phones .choose_rom ul li {
-    top: 250px;
+    top: 30vh;
     left: 29vw;
   }
   .apple_phones .choose_rom ul li button {
+    height: 8vh;
     width: 40vw;
     font-size: 5vw;
     font-family: sans-serif;
