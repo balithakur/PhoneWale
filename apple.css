@@ -101,7 +101,7 @@ p {
   color: dodgerblue;
 }
 .apple_phones .choose_colour {
-  width: 100%;
+  width: 0%;
   height: 100%;
   position: fixed;
   top: 0px;
@@ -302,7 +302,7 @@ p {
     left: 45.5vw;
   }
   .apple_phones .choose_colour ul li {
-    top: 35vh;
+    top: 33vh;
     left: -10vw;
   }
   .apple_phones .choose_colour ul li button {
@@ -330,7 +330,7 @@ p {
   }
   .apple_phones .choose_rom img {
     width: 10vw;
-    top: 85vh;
+    top: 80vh;
     left: 45.5vw;
   }
   .apple_phones .choose_rom ul li {
