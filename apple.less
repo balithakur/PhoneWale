@@ -107,35 +107,29 @@ p{
         } 
      }
     .choose_colour{
-        .section_style(00%, 100%, fixed, 0px, 0px);
+        .section_style(100%, 100%, fixed, 0px, 0px);
         z-index: 99999;
         background-color: white;
         overflow:hidden;
         & h1{
             .font_css(2vw);
-            .position_css(absolute, 20px, 0vw)
+            .position_css(absolute, 100px, 0vw)
         }
         & img{
-            .img_style(2.5vw, auto, absolute, 20px, 90vw);
+            .img_style(2.5vw, auto, absolute, 100px, 90vw);
         }
         & ul{
             & li{
                 //display: inline-block;
-                .position_css(relative, 110px, 39vw);
+                .position_css(relative, 210px, 39vw);
                 & button{
-                    .button(80px, 10vw, 0px, black, 5px)
-                }
-                .black{
-                    background-color: black;
-                }
-                .silver{
-                    background-color: silver;
-                }
-                .gold{
-                    background-color: gold;
-                }
-                .purple{
-                    background-color: purple;
+                    .button(50px, 20vw, 0px, black, 5px);
+                    border-radius: 5px;
+                    background-color: red;
+                    border:1px solid red;
+                    font-weight: 700;
+                    .font_css(1.6vw);
+                    color:white;
                 }
             }
         }
@@ -240,16 +234,17 @@ p{
             }
             & img{
                 width:10vw;
-                top:90vh;
+                top:80vh;
                 left:45.5vw;
             }
             & ul{
                 & li{
-                    top:30vh;
-                    left:-15vw;
+                    top:35vh;
+                    left:-10vw;
                     & button{
-                        width:25vw; 
-                        height: 12vh;           
+                        width:50vw; 
+                        height: 8vh;  
+                        .font_css(5vw)
                     }
                 }
             }
@@ -276,7 +271,7 @@ p{
             & ul{
                 & li{
                     top:30vh;
-                    left:29vw;
+                    left:-5.5vw;
                     & button{
                         height: 8vh;
                         width:40vw; 
